@@ -1,0 +1,78 @@
+body {
+                margin: 0px;
+                font-family:Georgia,Palatino,Times,TimesNewRoman;
+                background-repeat: repeat;
+        }
+.mainbody
+	{
+                margin-left: 20px;
+                margin-right: 20px;
+	}
+.header {
+        background-color: #eeefff;
+        font: 200%;
+        font-weight: 900;
+        border-bottom: 5px solid #dddaaa; /* #aa5555;*/
+        padding-top : 20px;
+        padding-bottom : 20px;
+  /*     background-image: url(http://www.cs.gmu.edu/~carlotta/paper.gif);*/
+        }
+
+.headertext     {
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: left; /* center; */
+        font-size: 200%;
+        font-family: Helvetica,Arial,Sans-Serif;
+        font-weight: 900;
+        }
+        
+.smallheadertext        {
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: left; /* center; */
+        font-size: 120%;
+        font-family: Helvetica,Arial,Sans-Serif;
+        font-weight: 900;
+        }
+        
+H1
+        {
+        font-size: 180%;
+        font-family: Helvetica,Arial,Sans-Serif;
+        font-weight: 900;
+        }
+H2
+        {
+        padding-top: 1em;
+        font-size: 150%;
+        font-family: Helvetica,Arial,Sans-Serif;
+        font-weight: 900;
+        }
+H3
+        {
+        padding-top: 1em;
+        font-size: 100%;
+        font-family: Helvetica,Arial,Sans-Serif;
+        font-weight: 900;
+        }
+
+DT
+    {
+    margin-top: 0.5em;
+    }
+
+DL
+    {
+    margin-bottom: 3em;
+    }
+    
+OL
+    {
+    margin-bottom: 3em;
+    }
+
+SPAN.note
+	{
+	
+	}
