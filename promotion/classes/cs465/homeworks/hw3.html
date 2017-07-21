@@ -1,0 +1,104 @@
+<script type="text/javascript" src="http://www.cs.gmu.edu/~hrangwal/misc/collapse.js"></script>
+ <script type="text/javascript" src="http://www.cs.gmu.edu/~hrangwal/misc/textarea.js"></script>
+
+ <h1> HW 3 [15%].</h1>
+ <hr>
+
+
+ <b> Instructions: </b>
+ <ul>
+ <li> This is an <b> individual assignment </b>. One submission per person. </li>
+ <li> State clearly your ID as comments in source codes and each page of submitted report.</li>
+ <li> Points 100 (Grade 15%). </li>
+ <li> There are 2 parts to this assignment. </li>
+ <li>  Due Date: 11.05.2013</li>
+ <li>  How to submit: A Hard Copy  in class and PDF  of the report along with  ".asm" file should be  sent  to anaik3@gmu.edu and rangwala@cs.gmu.edu with the subject "[CS 465] HW3". 
+ </li>
+ <li> <b>Plagiarism is not permitted in any form. I enforce the university policy and honor code. </b>
+ </li>
+ <li> Have Fun. Discuss on Piazza but don't give away answers. </li>
+ </ul>
+ <hr>
+
+ <div><fieldset class="collapsible collapsed">
+ <legend>MIPS Programming (Part 1 - 50 points) </legend>
+ <table border="0" bordercolor="black" valign="middle"><tr><td>
+
+ <table><tr><td>
+ <img src ="http://upload.wikimedia.org/wikipedia/commons/c/ca/Knights-Tour-Animation.gif" width=200 height=200>
+ </td>
+ <td>
+ <img src ="http://upload.wikimedia.org/wikipedia/commons/d/da/Knight%27s_tour_anim_2.gif" width=200 height=200>
+
+ </td>
+ <b> Maximal Knight's Tour Problem: </b> In HW2 you implemented a knight's move. This assignment takes 
+ it a step further and tests your understanding of recursive MIPS programming.
+
+ A knight's tour is a sequence of moves of a knight on a n X n chessboard such that the knight visits every square
+ exactly once. For some chessboards (for example of size 4 x 4) it is impossible to find a valid knight tour.  A <b> maximal knight's tour </b> is defined as the path which has the maximum number of possible  moves. Your goal is to write  MIPS program that takes as input "n", which is the n X n size of the chessboard under consideration and  prints a valid maximal knight tour. Your implementation should have a recursive MIPS function.  For your reference we show valid knight's movement and two tours on a 5x5 and a 8x8 chessboard below
+
+ <table  style="width:50px" align="center" valign="center" border=4 bordercolor="black">
+ <caption>Knight Movement</caption>
+ <tr><td> </td><td bgcolor="F5F5DC"> X </td> <td></td><td bgcolor="F5F5DC"> X</td><td></td></tr>
+ <tr><td bgcolor="F5F5DC">X </td><td>  </td> <td></td><td> </td><td bgcolor="F5F5DC">X</td></tr>
+ <tr><td></td><td></td><td> O </td><td></td><td></td></tr>
+ <tr><td bgcolor="F5F5DC">X </td><td>  </td> <td></td><td> </td><td bgcolor="F5F5DC">X</td></tr>
+ <tr><td> </td><td bgcolor="F5F5DC"> X </td> <td></td><td bgcolor="F5F5DC"> X</td><td></td></tr>
+ </table>
+ Given the entry 0 we show the valid next possible entries as X.
+
+
+
+ As an example assume n=5 then for a chessboard of size 5x5 there exists a valid knight's tour and one of them is represented by a 5 x 5 matrix starting at the upper left corner. This is the output format that is expected from your deliverable. The program should ask the user for input "n".
+
+ <table style="width:50px" align="center" valign="center" border=4 bordercolor="black">
+ <tr>
+
+  <td>1</td><td> 20</td> <td>17 </td><td>12</td> <td> 3</td></tr>
+    <tr><td>16</td><td> 11</td><td>  2</td><td>  7</td><td> 18</td></tr>
+      <tr><td>21</td><td> 24</td><td> 19</td><td>  4</td><td> 13</td></tr>
+        <tr><td>10</td><td> 15 </td><td> 6 </td><td>23</td><td>  8</td></tr>
+          <tr><td>25</td><td> 22</td><td>  9</td><td> 14</td><td>  5</td></tr>
+          </table>
+
+
+          <b> Deliverables:</b>
+          <ol>
+          <li>Source Code: knightsProblem_XXX.asm where XXX is your "last name".
+          </li>
+          <li> Print your output for n=4. Count the number of instructions executed by the MIPS simulator and state this in the PDF of the report.  For n=4 there will be no valid knight tour so you will have to find the maximal knight tour</li>
+          <li> The programs should work for any value of n > 0 <15.
+          </ol>
+
+          </td></tr></table>
+          </div>
+
+          <div><fieldset class="collapsible collapsed">
+          <legend> Exercises (Part 2 - 50 points) </legend>
+
+          <table border="1" bordercolor="gray" valign="middle">
+          <tr><td>
+          Instructions: Show workings to get partial credit. Answers need to be SCANNED or typedin a word processor like MS Office, Notepad or latex. Final submission should be a PDF called "hw3_xxx.pdf", where xxx = last name.  
+          </td></tr>
+          <tr><td>
+          <b> Question 1. (10 points) </b> 
+
+          This problem covers 4-bit binary unsigned division. Fill in the table for the Quotient, Divisor and Dividend for each step. You need to provide the DESCRIPTION of the step being performed (shift left, shift right, sub). The value of Divisor is 4 (0100, with additional 0000 bits shown for right shift), Dividend is 11 (initially loaded into the Remainder).
+
+          <table border=2 bordercolor="blue">
+          <th> Quotient </th><th>Divisor </th><th> Remainder </th> <th> Description</th><th> Step</th>
+          <tr> <td> 0000  </td><td> 0100 0000 </td> <td> 0000 1011 </td><td>Initial Values </td><td> Step 0 </td></tr>
+          <tr><td>...</td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>...</td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>...</td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>...</td><td></td><td></td><td></td><td></td></tr>
+          </table>
+          </td></tr>
+
+          <tr><td> Question 4.7 from textbook  (Only Part a) [20 points]
+          </td></tr>
+
+          <tr><td> Question 4.12 from textbook (Only Part a) [20 points]
+
+          </td></tr>
+          </table>

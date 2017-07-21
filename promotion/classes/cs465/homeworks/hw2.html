@@ -1,0 +1,140 @@
+<script type="text/javascript" src="http://www.cs.gmu.edu/~hrangwal/misc/collapse.js"></script>
+ <script type="text/javascript" src="http://www.cs.gmu.edu/~hrangwal/misc/textarea.js"></script>
+
+ <h1> HW 2 [10%].</h1>
+ <hr>
+
+
+ <b> Instructions: </b>
+ <ul>
+ <li> Team Allowed. Maximum 2 per Team. </li>
+ <li> State Clearly team members name and IDs as comments in source codes and each page of submitted report.</li>
+ <li> Points 100 (Grade 10%). </li>
+ <li> There are 2 parts to this assignment. </li>
+ <li>  Due Date: 10.10.2013, 10:29:59 am EST (Before Class Begins) </li>
+ <li>  How to submit: A pdf of the report along with modified ".asm" file should be  sent  to anaik3@gmu.edu and rangwala@cs.gmu.edu with the subject "[CS 465] HW2". 
+ </li>
+ <li> <b>Plagiarism is not permitted in any form. I enforce the university policy and honor code. </b>
+ </li>
+ <li> Have Fun. Discuss on Piazza but don't give away answers. </li>
+ </ul>
+ <hr>
+
+ <div><fieldset class="collapsible collapsed">
+ <legend>MIPS Programming (Part 1 - 50 points) </legend>
+ <table border="0" bordercolor="black" valign="middle"><tr><td>
+
+ <font color="navy">
+ <b><u> Phone Numbers </b> </u>: The goal of this program is to write a set of functions that computes the number of unique possible phone numbers based on the constraints below. Your code should be as efficient as possible and should use only the MIPS basic instructions.   
+
+ <b> Constraints: </b>
+ <ul>
+
+ <li> Each valid phone number is only 7 in length. Only digits are allowed. </li>
+ <li> A valid number does not begin with a 0 or 1. </li>
+ <li> A valid number is one that can be traced by a sequence of knight movements on a phone keyboard (shown below)
+ <table td style="width:30px"  align="center" valign="center" border=4 bordercolor="black" bgcolor="grey">
+ <caption>Phone Layout</caption>
+
+ <tr><td> 1 </td> <td> 2</td> <td> 3</td>  </tr>
+ <tr><td> 4 </td> <td>5</td><td>6 </td></tr>
+ <tr><td>7</td><td>8</td><td>9</td></tr>
+ <tr><td>*</td><td>0</td><td>#</td></tr>
+ </table>
+
+
+ <table  style="width:50px" align="center" valign="center" border=4 bordercolor="black">
+ <caption>Knight Movement</caption>
+ <tr><td> </td><td bgcolor="F5F5DC"> X </td> <td></td><td bgcolor="F5F5DC"> X</td><td></td></tr>
+ <tr><td bgcolor="F5F5DC">X </td><td>  </td> <td></td><td> </td><td bgcolor="F5F5DC">X</td></tr>
+ <tr><td></td><td></td><td> O </td><td></td><td></td></tr>
+ <tr><td bgcolor="F5F5DC">X </td><td>  </td> <td></td><td> </td><td bgcolor="F5F5DC">X</td></tr>
+ <tr><td> </td><td bgcolor="F5F5DC"> X </td> <td></td><td bgcolor="F5F5DC"> X</td><td></td></tr>
+ </table>
+ Given the entry 0 we show the valid next possible entries as X. As an example, given the digit 8 the next possible digits can be 1 or 3 only.
+ </ul>
+
+
+
+ <b> Program Parameters: </b>
+ <ol>
+ <li>There is no input to this program </li>
+
+ <li> Only the Final Numerical Result should be returned.</li>
+
+ <li> Feel free to use the skeleton file from HW1. </li>
+
+
+
+ </ol>
+
+ <hr>
+
+ <b> Deliverables:</b>
+ <ol>
+ <li>Source Code: phone_XXX.asm where XXX is your "last names combined".
+ </li>
+ <li> Description of your algorithm or logic as a PDF along with Part 2 </li>
+ <li> How many total instructions were executed ? How many of these were R-type, I-type, J-type ? </li>
+
+ </ol>
+
+ </td></tr></table>
+ </div>
+
+ <div><fieldset class="collapsible collapsed">
+ <legend> Exercises (Part 2 - 50 points) </legend>
+
+
+ <table border="1" bordercolor="gray" valign="middle">
+ <tr><td>
+ Instructions: Show workings to get partial credit. Answers need to be SCANNED or typedin a word processor like MS Office, Notepad or latex. Final submission should be a PDF called "hw2_xxx.pdf", where xxx = last names combined.  
+ </td></tr>
+ <tr><td>
+ <b> Question 1. (15 points) </b> 
+
+ Consider the following hypothetical MIPS instructions. 
+ <ul> <li> A. <code> abs $t2, $t3    # R[rd] = | R[rs] | </code> </li>
+ <li> B. <code> sgt $t1, $t2, $t3    # R[rd] = (R[rs] > R[rt]) ? 1.0 </li>
+ </ul>
+
+ Answer for each  of the two instructions.
+ <ul>
+ <li> 1.i)   Why are these instructions not included in the MIPS instructions set ?</li>
+
+ <li> 1.ii)  Write the shortest sequence of MIPS instruction instruction to perform these operations.</li>
+
+ <li> 1.iii) If these instructions, were implemented in MIPS which instruction format would you use and why  ? </li>
+ </ul>
+   </tr>
+   <tr><td>
+   <b> Question 2. (10 points) </b> 
+
+   Consider the following MIPS Code: 
+   <table><tr><td>LOOP: </td><td> slt $t2, 0, $t1</td></tr>
+             <tr><td></td><td>beq $t2, 0, DONE </td></tr>
+                       <tr><td></td><td>subi $t1, $t1, 1 </td></tr>
+                                 <tr><td></td><td>addi $s2, $s2, 2</td></tr>
+                                           <tr><td></td><td>j LOOP</td></tr>
+                                           <tr><td>DONE: </td><td></td></tr>
+                                           </table>
+
+                                           Answer the following questions:
+                                           <ul>
+                                           <li> 2.i) Assuming that $t1 = 10 and $s2 = 0 initially. What is the final value of $s2? </li>
+                                           <li> 2.ii) Write the C code for the MIPS code assuming that registers $s2, $t1 and $t2 are x, y and z, respectively. </li>
+                                           <li> 2.iii)For the MIPS Assembly code, assuming that $t1 is initialized to <b> N </b>. How many MIPS instructions will be executed ? </li>
+
+                                           </td></tr>
+
+                                           <tr><td>
+                                           <b> Question 3 (25 points). </b>
+                                           <ul>
+                                           <li>3.i)  If the PC is at address <b> 0x 0000 0000 </b>. How many branch (no jumps allowed) do you need to get to the address <b> 0x0002 0000 </b>
+                                           <li>3.ii)  If the PC is at address <b> 0x 0000 0000 </b>. How many jump instructions (no jump registers or branches allowed) do you need to get to the address <b> 0x0002 0000 </b>
+                                           <li> 3.iii) If the PC is at address <b> 0x 00000000 </b>. How many jump (no jump registers allowed) do you need to get to the address <b> FFFF FF00 </b>
+                                           <li> 3.iv) MIPS Architecture designers have decided to modify the immediate field of I-type instructions from 16 bits to 8 bits. In that scenario, if the PC is at address <b> 0x 0000 0000 </b>, how many branch instructions are needed to get to the address <b> 0x0002 0000 </b>.
+                                           <li> 3.v) MIPS Architecture designers have decided to modify the immediate field of I-type instructions from 16 bits to 8 bits. In that scenario, if the PC is at address <b> 0x 0000 0000 </b>, how many jump instructions are needed to get to the address <b> 0x0002 0000 </b>. 
+                                           <li>3.vi)  What are the five different types of addressing that are implemented in MIPS ? Give one example  of each. </li>
+                                           </td></tr></table>
+                                           </div>

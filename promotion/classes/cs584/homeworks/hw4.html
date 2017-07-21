@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)http://miner.vsnet.gmu.edu/fileuploader/viewAssignmentsDetail/d814d010-bc41-4f4c-937e-df1787a95e47/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Data Mining Grader</title>
+
+    <link rel="stylesheet" type="text/css" href="./hw4_files/gmucs.css">
+
+    <script src="./hw4_files/jquery-2.0.0.min.js"></script>
+    <script src="./hw4_files/ajax.js"></script>
+    
+    <script type="text/javascript"  src="/static/js/tiny_mce/tiny_mce.js"> </script> 
+    <script>
+   
+    tinymce.init({
+        selector: '#myTextarea',
+        theme: 'modern',
+        width: 600,
+        height: 300,
+        plugins: [
+            'advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker',
+            'searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking',
+            'save table contextmenu directionality emoticons template paste textcolor'
+            ],
+        content_css: 'css/content.css',
+        toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons'
+        });
+    
+    </script> 
+</head>
+
+
+
+<body data-feedly-mini="yes">
+<header>
+<div class="padded-row">
+    <div id="cs-logo">
+        <h1>
+            <a class="img-link" href="http://miner.vsnet.gmu.edu/">
+                <img class="img-logo" src="./hw4_files/logo.png" alt="GMU CS Department">
+            </a>
+         </h1>
+     </div>
+
+
+
+
+</div></header>
+
+
+<div id="content">
+    
+    <div id="page-content">
+        <div id="page-container" class="clear">
+        
+
+        
+            
+         <div id="related-links">
+                <ul class="url-block">
+                      
+                    <li>
+                    <a href="http://miner.vsnet.gmu.edu/admin/">Admin</a>
+                    </li>
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/createAssignment.html">Setup New Assignment</a></li>
+                    
+                    
+                    
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/viewAssignments.html">View All Assignments</a></li>
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/logout/"> Logout </a></li>
+                    
+                </ul>
+            </div>
+         
+         
+         <div id="page-article">
+            
+
+
+
+<table>
+<tbody><tr><th>
+<h1>HW4: Movie Recommender System</h1>
+</th>
+</tr><tr>
+<td>
+<b> Published Date: </b> <br> Oct. 24, 2016, 1:45 p.m.
+</td>
+</tr>
+<tr><td>
+<b> Deadline Date: </b>  <br> April 1, 2017, 2:10 a.m.
+</td>
+</tr><tr>
+<td>
+<b> Description: </b> <br> <p><strong>Description:&nbsp;</strong></p>
+<p><strong>************************************************</strong></p>
+<p><strong>This is a team &nbsp;assignment with maximum size of 2. &nbsp;Deadline is 11/14/2016 4:29 PM EST.&nbsp;</strong></p>
+<p><strong>************************************************</strong></p>
+<p><strong>Overview and Assignment Goals:</strong></p>
+<p>The objective of this assignment are the following:&nbsp;</p>
+<ul>
+<li>Develop a Recommender System that Uses the Rating Information(Matrix) and Side-Information (i.e., Additional Content).</li>
+<li>Think about using classification, clustering, or any ideas you may have</li>
+<li>The Scoring Metric will Root Mean Squared Error where the predictions are rating in the range 1-5; As such, you may want to switch to a regression setting since the output can be real-valued.</li>
+</ul>
+<hr>
+<p><strong>Detailed Description:&nbsp;</strong></p>
+<p>Recommender Systems are all pervasive. The objective of this movie recommender system is to predict the 5-star rating a movie will get for a given user. You can use content features as well as the rating matrix to make your final predictions</p>
+<p>&nbsp;</p>
+<hr>
+<p><strong> Data Description: </strong></p>
+<p>As part of the training I provide you several different files all zipped together as additional_files.tar.gz (Uploaded in the training portion of this assignment)</p>
+<p>Once you unzip this file you will find a readme.txt with a listing of the files and useful information about them (replicated below)</p>
+<p>* train.dat</p>
+<p>This file containts the rating of a user for a give movie.</p>
+<p>*test.dat</p>
+<p>This file contains user movie pairs but no rating <strong>(Your goal is to predict these ratings for user-movie pairs)</strong></p>
+<p>* movie_genres.dat<br> <br> This file contains the genres of the movies.<br> <br> * movie_directors.dat<br> <br> This file contains the directors of the movies.<br> <br> * movie_actors.dat<br> <br> This file contains the main actores and actresses of the movies.&nbsp;A ranking is given to the actors of each movie according to the order in which &nbsp;they appear on the movie IMDb cast web page.</p>
+<p>* tags.dat<br> <br> This file contains the set of tags available in the dataset.</p>
+<p>* user_taggedmovies.dat <br> <br> These files contain the tag assignments of the movies provided by each particular user.<br> <br> * movie_tags.dat<br> <br> This file contains the tags assigned to the movies, and the number of times &nbsp;the tags were assigned to each movie.</p>
+<p><strong> test.dat: </strong> Test set consistting of user-movie pairs for which you need to produce the ratings</p>
+<p>&nbsp;</p>
+<p><strong> example_entry.dat: </strong> A sample submission with 71299 entries in the range of 1-5</p>
+<p>&nbsp;</p>
+<p><strong> Rules: </strong></p>
+<ul>
+<li>This is an team assignment. Discussion of broad level strategies are allowed but any copying of prediction files and source codes will result in honor code violation.</li>
+<li>Feel free to use the programming language of your choice for this assignment.</li>
+<li>While you can use libraries and templates for dealing with this problem. However, you should be able to explain these methods and their choice in sufficient detail.</li>
+<li>You are allowed 5 submissions in a 24 hour cycle.</li>
+</ul>
+<p><strong>Deliverables:&nbsp;</strong></p>
+<ul>
+<li>Valid Submissions to the Miner.vsnet.gmu.edu website&nbsp;</li>
+<li><strong>Blackboard Submission of Source Code and Report:&nbsp;</strong></li>
+<ul>
+<li>Create a folder called HW4_LastName1_LastName2</li>
+<li>Create a subfolder called src and put all the source code there.</li>
+<li>Create a subfolder called Report and place a&nbsp;2-Page, single-spaced report describing details regarding the steps you followed for developing the recommender system. &nbsp;Be sure to include the following in the report:</li>
+</ul>
+</ul>
+<ol><ol>
+<li>Team Name(s) Registered on miner web-site.</li>
+<li>Rank &amp; RMSE score for your submission (at the time of writing the report).</li>
+<li>Your Approach&nbsp;</li>
+<li>Your methodology of choosing the approach, the content features you used if any and what worked, what did not?.</li>
+</ol>
+<ul>
+<li>Archive your parent folder (.zip or .tar.gz) and submit via Blackboard for HW4.&nbsp;</li>
+</ul>
+</ol><hr>
+<p>&nbsp;</p>
+<p><strong>Grading:</strong></p>
+<p>Grading for the Assignment will be split on your implementation (50%), report (20%) and ranking results (30%).&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Grading:</strong></p>
+<p>Grading for the Assignment will be split on your implementation (50%), report (20%) and ranking results (30%).&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<b> Files: </b> <br>
+<ul>
+<li> <i> Train Data:  </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1477331144_2620049_additional_files.tar.gz" style="text-decoration:None"> Download File </a> </li>
+<li> <i> Test Data: </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1477331144_2686203_test.dat" style="text-decoration:None"> Download File </a> </li>
+<li> <i> Format File: </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1477331144_2701535_example_entry.dat" style="text-decoration:None"> Download File </a> </li>
+
+</ul>
+</td>
+
+
+</tr>
+</tbody></table>
+
+
+
+
+
+
+<h1> Submission Log: </h1>
+<table> 
+<tbody><tr>
+<th>
+User
+</th>
+<th>
+Submission Time
+</th>
+<th>
+Status
+</th>
+<th>
+Public Score
+</th>
+<th>
+Uploaded file
+</th>
+</tr>
+
+    <tr>
+    <td> rangwala </td> 
+    <td>March 23, 2017, 1:30 p.m. </td>  
+    <td> OK </td>
+    <td> 1.52 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1490290245_8594742_example_entry.dat"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>March 23, 2017, 1:30 p.m. </td>  
+    <td> ER </td>
+    <td> -1.00 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1490290221_9197083_test-ratings-final.dat"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Nov. 13, 2016, 9:20 a.m. </td>  
+    <td> OK </td>
+    <td> 0.00 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1479046813_341664_test-true-ratings.dat"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Oct. 24, 2016, 9:08 p.m. </td>  
+    <td> OK </td>
+    <td> 1.52 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1477357693_5855384_example_entry.dat"> Uploaded File </a> </td>
+    </tr>  
+
+</tbody></table>
+
+
+
+
+
+
+
+         </div>
+         
+         
+         
+        </div>
+  </div>
+  
+</div>
+		
+
+
+<footer>
+    <div class="padded-row">
+        <div id="gmu-logo">
+            <a class="img-link" href="http://www.gmu.edu/">
+            <img src="./hw4_files/gmu_white_logo.png" alt="George Mason University Logo">
+            </a>
+        </div>
+        <div id="contact">
+            <p>
+            <a href="mailto:rangwala@cs.gmu.edu">rangwala&nbsp;at&nbsp;cs.gmu.edu</a><br>
+            </p>
+        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+    
+</footer>
+
+
+
+
+
+<div id="feedly-mini" title="feedly Mini tookit"></div></body></html>

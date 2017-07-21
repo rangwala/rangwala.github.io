@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)http://miner.vsnet.gmu.edu/fileuploader/viewAssignmentsDetail/043c0319-6d10-4a1e-adf4-cb01159dabcc/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Data Mining Grader</title>
+
+    <link rel="stylesheet" type="text/css" href="./hw1_files/gmucs.css">
+
+    <script src="./hw1_files/jquery-2.0.0.min.js"></script>
+    <script src="./hw1_files/ajax.js"></script>
+    
+    <script type="text/javascript"  src="/static/js/tiny_mce/tiny_mce.js"> </script> 
+    <script>
+   
+    tinymce.init({
+        selector: '#myTextarea',
+        theme: 'modern',
+        width: 600,
+        height: 300,
+        plugins: [
+            'advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker',
+            'searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking',
+            'save table contextmenu directionality emoticons template paste textcolor'
+            ],
+        content_css: 'css/content.css',
+        toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons'
+        });
+    
+    </script> 
+</head>
+
+
+
+<body data-feedly-mini="yes">
+<header>
+<div class="padded-row">
+    <div id="cs-logo">
+        <h1>
+            <a class="img-link" href="http://miner.vsnet.gmu.edu/">
+                <img class="img-logo" src="./hw1_files/logo.png" alt="GMU CS Department">
+            </a>
+         </h1>
+     </div>
+
+
+
+
+</div></header>
+
+
+<div id="content">
+    
+    <div id="page-content">
+        <div id="page-container" class="clear">
+        
+
+        
+            
+         <div id="related-links">
+                <ul class="url-block">
+                      
+                    <li>
+                    <a href="http://miner.vsnet.gmu.edu/admin/">Admin</a>
+                    </li>
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/createAssignment.html">Setup New Assignment</a></li>
+                    
+                    
+                    
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/viewAssignments.html">View All Assignments</a></li>
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/logout/"> Logout </a></li>
+                    
+                </ul>
+            </div>
+         
+         
+         <div id="page-article">
+            
+
+
+
+<table>
+<tbody><tr><th>
+<h1>HW1: Amazon Review Classification</h1>
+</th>
+</tr><tr>
+<td>
+<b> Published Date: </b> <br> Aug. 26, 2016, 2:49 p.m.
+</td>
+</tr>
+<tr><td>
+<b> Deadline Date: </b>  <br> Sept. 19, 2016, 4:30 p.m.
+</td>
+</tr><tr>
+<td>
+<b> Description: </b> <br> <p><strong>************************************************</strong></p>
+<p><strong>This is an individual assignment and Deadline is 09/19/2016 4:29 PM EST.&nbsp;</strong></p>
+<p><strong>************************************************</strong></p>
+<p><strong>Overview and Assignment Goals:</strong></p>
+<p>The objective of this assignment are the following:&nbsp;</p>
+<ul>
+<li>Implement the Nearest Neighbor Classification Algorithm</li>
+<li>Handle Text Data (Reviews of Amazon Baby Products)</li>
+<ul>
+<li>Design and Engineer Features from Text Data.</li>
+</ul>
+<li>Choose the Best Model i.e., Parameters of a Nearest Neighbor Selection, Features and Similarity Functions&nbsp;</li>
+</ul>
+<hr>
+<p><strong>Detailed Description:</strong></p>
+<p>A practical application in e-commerce applications is to infer sentiment (or polarity) from free form review text submitted for range of products.&nbsp;</p>
+<p>For the purposes of this assignment you have to impement a k-Nearest Neighbor Classifier to predict the sentiment for 18506 &nbsp;reviews for baby products provided in the test file (test.data). Positive sentiment is represented by a review rating and given by +1 and Negative Sentiment is represented by a review rating of -1. &nbsp;In test.dat you are only provided the reviews but no ground truth rating which will be used for comparing your predictions.&nbsp;</p>
+<p>Training data consists of 18506 reviews as well and exists in file train_file.data. Each row begins with the sentiment score followed with a text of the rating.&nbsp;</p>
+<p>For Evaluation Purposes (Leaderboard Ranking) we will use the Accuracy Metric comparing the Predictions submitted by you on the test set with the ground truth. Some things to note:</p>
+<ul>
+<li>The public leaderboard shows results for 50% of randomly chosen test instances only. This is a standard practice in data mining challenge to avoid gaming of the system. The private leaderboard will be released after the deadline evaluates all the entries in the test set.&nbsp;</li>
+<li>In &nbsp;a 24-hour cycle you are allowed to submit a prediction file 5 times only.&nbsp;</li>
+<li>The final ranking will always be based on the last submission.</li>
+</ul>
+<p>format.dat shows an example file containing 18506 rows alternating with +1 and -1. Your test.dat should be similar to format.dat with same number of rows i.e., 18506 but ofcourse the sentiment score generated by your developed model.&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>This is an individual assignment. Discussion of broad level strategies are allowed but any copying of prediction files and source codes will result in honor code violation.&nbsp;</li>
+<li>Feel free to use the programming language of your choice for this assignment.&nbsp;</li>
+<li>While you can use libraries and templates for dealing with text data you should implement your own nearest neighbor classifier.</li>
+<li></li>
+</ul>
+<hr>
+<p><strong>Deliverables:&nbsp;</strong></p>
+<ul>
+<li>Valid Submissions to the Miner.vsnet.gmu.edu website&nbsp;</li>
+<li><strong>Blackboard Submission of Source Code and Report:&nbsp;</strong></li>
+<ul>
+<li>Create a folder called HW1_LastName</li>
+<li>Create a subfolder called src and put all the source code there.</li>
+<li>Create a subfolder called Report and place a&nbsp;2-Page, single-spaced report describing details regarding the steps you followed for developing the classifier for predicting the product review sentiments. Be sure to include the following in the report:</li>
+</ul>
+</ul>
+<ol><ol><ol>
+<li>Team Name Registered on miner web-site.</li>
+<li>Rank &amp; Accuracy score for your submission (at the time of writing the report).</li>
+<li>Your Approach&nbsp;</li>
+<li>Your methodology of choosing the approach and associated parameters.</li>
+</ol></ol>
+<ul>
+<li>Archive your parent folder (.zip or .tar.gz) and submit via Blackboard for HW1.&nbsp;</li>
+</ul>
+</ol><hr>
+<p>&nbsp;</p>
+<p><strong>Grading:</strong></p>
+<p>Grading for the Assignment will be split on your implementation (50%), report (20%) and ranking results (30%).&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<b> Files: </b> <br>
+<ul>
+<li> <i> Train Data:  </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1472237399_7021325_train_file.data" style="text-decoration:None"> Download File </a> </li>
+<li> <i> Test Data: </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1472237399_726165_test.data" style="text-decoration:None"> Download File </a> </li>
+<li> <i> Format File: </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1472237399_757541_format.dat" style="text-decoration:None"> Download File </a> </li>
+
+</ul>
+</td>
+
+
+</tr>
+</tbody></table>
+
+
+
+
+
+
+<h1> Submission Log: </h1>
+<table> 
+<tbody><tr>
+<th>
+User
+</th>
+<th>
+Submission Time
+</th>
+<th>
+Status
+</th>
+<th>
+Public Score
+</th>
+<th>
+Uploaded file
+</th>
+</tr>
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 19, 2016, 2:27 p.m. </td>  
+    <td> OK </td>
+    <td> 0.60 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474309672_8846292_HW1_pred.data"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 19, 2016, 1:41 p.m. </td>  
+    <td> OK </td>
+    <td> 0.54 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474306868_4115398_1474092393_2267559_output.data"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 5, 2016, 9:15 p.m. </td>  
+    <td> OK </td>
+    <td> 1.00 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1473124545_7386425_test.labels"> Uploaded File </a> </td>
+    </tr>  
+
+</tbody></table>
+
+
+
+
+
+
+
+         </div>
+         
+         
+         
+        </div>
+  </div>
+  
+</div>
+		
+
+
+<footer>
+    <div class="padded-row">
+        <div id="gmu-logo">
+            <a class="img-link" href="http://www.gmu.edu/">
+            <img src="./hw1_files/gmu_white_logo.png" alt="George Mason University Logo">
+            </a>
+        </div>
+        <div id="contact">
+            <p>
+            <a href="mailto:rangwala@cs.gmu.edu">rangwala&nbsp;at&nbsp;cs.gmu.edu</a><br>
+            </p>
+        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+    
+</footer>
+
+
+
+
+
+<div id="feedly-mini" title="feedly Mini tookit"></div></body></html>

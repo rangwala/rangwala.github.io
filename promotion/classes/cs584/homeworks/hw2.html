@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)http://miner.vsnet.gmu.edu/fileuploader/viewAssignmentsDetail/c49261ee-2a25-43bd-8d2c-bf1061e32f8e/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Data Mining Grader</title>
+
+    <link rel="stylesheet" type="text/css" href="./hw2_files/gmucs.css">
+
+    <script src="./hw2_files/jquery-2.0.0.min.js"></script>
+    <script src="./hw2_files/ajax.js"></script>
+    
+    <script type="text/javascript"  src="/static/js/tiny_mce/tiny_mce.js"> </script> 
+    <script>
+   
+    tinymce.init({
+        selector: '#myTextarea',
+        theme: 'modern',
+        width: 600,
+        height: 300,
+        plugins: [
+            'advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker',
+            'searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking',
+            'save table contextmenu directionality emoticons template paste textcolor'
+            ],
+        content_css: 'css/content.css',
+        toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons'
+        });
+    
+    </script> 
+</head>
+
+
+
+<body data-feedly-mini="yes">
+<header>
+<div class="padded-row">
+    <div id="cs-logo">
+        <h1>
+            <a class="img-link" href="http://miner.vsnet.gmu.edu/">
+                <img class="img-logo" src="./hw2_files/logo.png" alt="GMU CS Department">
+            </a>
+         </h1>
+     </div>
+
+
+
+
+</div></header>
+
+
+<div id="content">
+    
+    <div id="page-content">
+        <div id="page-container" class="clear">
+        
+
+        
+            
+         <div id="related-links">
+                <ul class="url-block">
+                      
+                    <li>
+                    <a href="http://miner.vsnet.gmu.edu/admin/">Admin</a>
+                    </li>
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/createAssignment.html">Setup New Assignment</a></li>
+                    
+                    
+                    
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/viewAssignments.html">View All Assignments</a></li>
+                    <li><a href="http://miner.vsnet.gmu.edu/fileuploader/logout/"> Logout </a></li>
+                    
+                </ul>
+            </div>
+         
+         
+         <div id="page-article">
+            
+
+
+
+<table>
+<tbody><tr><th>
+<h1>HW2: Drug Activity Prediction</h1>
+</th>
+</tr><tr>
+<td>
+<b> Published Date: </b> <br> Sept. 18, 2016, 8:49 p.m.
+</td>
+</tr>
+<tr><td>
+<b> Deadline Date: </b>  <br> Oct. 3, 2016, 4:30 p.m.
+</td>
+</tr><tr>
+<td>
+<b> Description: </b> <br> <p><strong>Description:&nbsp;</strong></p>
+<p><strong>************************************************</strong></p>
+<p><strong>This is a team &nbsp;assignment with maximum size of 2. &nbsp;Deadline is 10/03/2016 4:29 PM EST.&nbsp;</strong></p>
+<p><strong>************************************************</strong></p>
+<p><strong>Overview and Assignment Goals:</strong></p>
+<p>The objective of this assignment are the following:&nbsp;</p>
+<ul>
+<li>Use/implement a feature selection/reduction technique.</li>
+<li>Experiment with various classification models.</li>
+<li>Think about dealing with imbalanced data.&nbsp;</li>
+<li>F1 Scoring Metric</li>
+</ul>
+<hr>
+<p><strong>Detailed Description:</strong></p>
+<p class="page-name"><span style="text-decoration: underline;"><em>Develop predictive models that can determine given a particular compound whether it is active (1) or not (0).</em></span></p>
+<p>Drugs are typically small organic molecules that achieve their desired activity by binding to a target site on a receptor. The first step in the discovery of a new drug is usually to identify and isolate the receptor to which it should bind, followed by testing many small molecules for their ability to bind to the target site. This leaves researchers with the task of determining what separates the active (binding) compounds from the inactive (non-binding) ones. Such a determination can then be used in the design of new compounds that not only bind, but also have all the other properties required for a drug (solubility, oral absorption, lack of side effects, appropriate duration of action, toxicity, etc.).&nbsp;</p>
+<p>The goal of this competition is to allow you to develop predictive models that can determine given a particular compound<strong> whether it is active (1) or not (0).</strong>&nbsp; As such, the goal would be develop the best binary classification model.</p>
+<p>A molecule can be represented by several thousands of binary features which represent their topological shapes and other characteristics important for binding.</p>
+<p>Since the dataset is imbalanced the scoring function will be the F1-score instead of Accuracy.</p>
+<p>Caveats:</p>
+<p>+ Remember not all features will be good for predicting activity. Think of feature selection, engineering, reduction (anything that works)</p>
+<p>+ The dataset has an imbalanced distribution i.e., within the training set there are only 78 actives (+1) and 722 inactives (0). No information is provided for the test set regarding the distribution.</p>
+<p>+ Use your data mining knowledge till now, wisely to optimize your results.</p>
+<hr>
+<p><strong>Data Description:</strong></p>
+<p>The training dataset consists of 800 records and the test dataset consists of 350 records. We provide you with the training class labels and the test labels are held out. The attributes are binary type and as such are presented in a sparse matrix format within train.dat and test.dat</p>
+<p>&nbsp;</p>
+<p><strong>train_drugs.data</strong>: Training set (a sparse binary matrix, patterns in lines, features in columns: the number of the non-zero features are provided with class label 1 or 0 in the first column.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>test.data:</strong>&nbsp;Testing set (a sparse binary matrix, patterns in lines, features in columns: the number of non-zero features are provided).</p>
+<p><strong>example_entry.csv:</strong>&nbsp;A sample submission with 350 entries randomly chosen to be 0 or 1.&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>This is an team assignment. Discussion of broad level strategies are allowed but any copying of prediction files and source codes will result in honor code violation.&nbsp;</li>
+<li>Feel free to use the programming language of your choice for this assignment.&nbsp;</li>
+<li>While you can use libraries and templates for dealing with this problem. However, you should be able to explain these methods and their choice in sufficient detail.</li>
+<li>You are allowed 5 submissions in a 24 hour cycle.&nbsp;</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<p><strong>Deliverables:&nbsp;</strong></p>
+<ul>
+<li>Valid Submissions to the Miner.vsnet.gmu.edu website&nbsp;</li>
+<li><strong>Blackboard Submission of Source Code and Report:&nbsp;</strong></li>
+<ul>
+<li>Create a folder called HW2_LastName1_LastName2</li>
+<li>Create a subfolder called src and put all the source code there.</li>
+<li>Create a subfolder called Report and place a&nbsp;2-Page, single-spaced report describing details regarding the steps you followed for feature selection and classifier model development. &nbsp;Be sure to include the following in the report:</li>
+</ul>
+</ul>
+<ol><ol>
+<li>Team Name(s) Registered on miner web-site.</li>
+<li>Rank &amp; F1 score for your submission (at the time of writing the report).</li>
+<li>Your Approach&nbsp;</li>
+<li>Your methodology of choosing the approach and associated parameters.</li>
+</ol>
+<ul>
+<li>Archive your parent folder (.zip or .tar.gz) and submit via Blackboard for HW1.&nbsp;</li>
+</ul>
+</ol><hr>
+<p>&nbsp;</p>
+<p><strong>Grading:</strong></p>
+<p>Grading for the Assignment will be split on your implementation (50%), report (20%) and ranking results (30%).&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td>
+<b> Files: </b> <br>
+<ul>
+<li> <i> Train Data:  </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474246156_5639381_train_drugs.data" style="text-decoration:None"> Download File </a> </li>
+<li> <i> Test Data: </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474246156_56856_test.data" style="text-decoration:None"> Download File </a> </li>
+<li> <i> Format File: </i> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474246156_5712607_example_entries.csv" style="text-decoration:None"> Download File </a> </li>
+
+</ul>
+</td>
+
+
+</tr>
+</tbody></table>
+
+
+
+
+
+
+<h1> Submission Log: </h1>
+<table> 
+<tbody><tr>
+<th>
+User
+</th>
+<th>
+Submission Time
+</th>
+<th>
+Status
+</th>
+<th>
+Public Score
+</th>
+<th>
+Uploaded file
+</th>
+</tr>
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Oct. 1, 2016, 9:51 a.m. </td>  
+    <td> OK </td>
+    <td> 0.00 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1475329908_340315_1475112319_8993034_output_1.txt"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 19, 2016, 9:21 p.m. </td>  
+    <td> OK </td>
+    <td> 1.00 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474334493_1133585_dorothea_valid.labels.txt"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 19, 2016, 9:21 p.m. </td>  
+    <td> OK </td>
+    <td> 0.00 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474334462_0012636_1474246256_0326462_dorothea_valid.labels.txt"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 19, 2016, 9:06 p.m. </td>  
+    <td> OK </td>
+    <td> 0.91 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474333570_6979232_1474246256_0326462_dorothea_valid.labels.txt"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 19, 2016, 9:05 p.m. </td>  
+    <td> OK </td>
+    <td> 0.09 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474333542_006648_1474246256_0326462_dorothea_valid.labels.txt"> Uploaded File </a> </td>
+    </tr>  
+
+    <tr>
+    <td> rangwala </td> 
+    <td>Sept. 18, 2016, 8:50 p.m. </td>  
+    <td> OK </td>
+    <td> 1.00 </td> 
+    <td> <a href="http://miner.vsnet.gmu.edu/media/uploaded_files/1474246256_0326462_dorothea_valid.labels.txt"> Uploaded File </a> </td>
+    </tr>  
+
+</tbody></table>
+
+
+
+
+
+
+
+         </div>
+         
+         
+         
+        </div>
+  </div>
+  
+</div>
+		
+
+
+<footer>
+    <div class="padded-row">
+        <div id="gmu-logo">
+            <a class="img-link" href="http://www.gmu.edu/">
+            <img src="./hw2_files/gmu_white_logo.png" alt="George Mason University Logo">
+            </a>
+        </div>
+        <div id="contact">
+            <p>
+            <a href="mailto:rangwala@cs.gmu.edu">rangwala&nbsp;at&nbsp;cs.gmu.edu</a><br>
+            </p>
+        </div>                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+    
+</footer>
+
+
+
+
+
+<div id="feedly-mini" title="feedly Mini tookit"></div></body></html>

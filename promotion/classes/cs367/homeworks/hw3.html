@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0177)https://piazza-resources.s3.amazonaws.com/ixhphfqw2u72sa/iyx48nte6k41uz/h3.html?AWSAccessKeyId=AKIAIEDNRLJ4AZKBW6HA&Expires=1500575670&Signature=y3XyGCymNTmOAfQmImjVs%2FYnN1U%3D -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CS 367 (Sec 001), Homework 3</title>
+<!-- 2017-02-02 Thu 10:08 -->
+
+<meta name="generator" content="Org-mode">
+<meta name="author" content="Huzefa-Rangwala">
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">CS 367 (Sec 001), Homework 3</h1>
+<style type="text/css">
+#content {
+  width: 750px;
+  margin: 0 auto;
+}
+</style>
+
+
+<h2 style="color: red; text-align: center;"> due Wednesday, 2/15/2017 in
+class on paper  (No Late Policy) </h2>
+
+<p>
+<i>throughout this assignment, two's complement is always to be used as
+the signed representation.</i>
+</p>
+
+<p>
+Answer the following questions on paper and pencil, and bring your
+paper submission to class on the due date.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Representation Conversions (40%)</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Fill in the following chart for representations of 8-bit integers. If
+you can't represent a value, explain why.
+</p>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+
+
+<colgroup>
+<col class="right">
+
+<col class="left">
+
+<col class="left">
+
+<col class="left">
+
+<col class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">Decimal</th>
+<th scope="col" class="left">Unsigned Binary</th>
+<th scope="col" class="left">Unsigned Hex</th>
+<th scope="col" class="left">Signed Binary</th>
+<th scope="col" class="left">Signed Hex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">81</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="right">-81</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="right">151</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="right">-151</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="right">128</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="right">-128</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="right">-1</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Fill in the following chart, interpreting the binary representation as
+if it represented an unsigned or signed 8-bit integer.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+
+<col class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Binary</th>
+<th scope="col" class="left">Decimal if Unsigned</th>
+<th scope="col" class="left">Decimal if Signed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">0110 1100</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">0100 0011</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">1000 0000</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">1111 0100</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">0111 1111</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">1100 0001</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Integer Addition (20%)</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Additions of two 8-bit numbers are given. First, calculate the correct
+8-bit answer . Remember, unsigned and signed have the same bit-level
+behavior. Next, characterize each one as one of the following:
+</p>
+
+<ul class="org-ul">
+<li>A. correct for signed and unsigned.
+</li>
+<li>B. Signed okay, unsigned incorrect.
+</li>
+<li>C. Signed incorrect, unsigned okay.
+</li>
+<li>D. signed and unsigned both incorrect.
+
+<ol class="org-ol">
+<li><pre class="example">  10101010
++ 01010101
+----------
+</pre>
+<ul class="org-ul">
+<li>style: 
+</li>
+</ul>
+</li>
+
+<li><pre class="example">  11000000
++ 10111100
+----------
+</pre>
+<ul class="org-ul">
+<li>style: 
+</li>
+</ul>
+</li>
+
+<li><pre class="example">  01100010
++ 01110100
+----------
+</pre>
+<ul class="org-ul">
+<li>style: 
+</li>
+</ul>
+</li>
+
+<li><pre class="example">  01000100
++ 00101100
+----------
+</pre>
+<ul class="org-ul">
+<li>style: 
+</li>
+</ul>
+</li>
+
+<li><pre class="example">  11101100
++ 11110011
+----------
+</pre>
+<ul class="org-ul">
+<li>style: 
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Floating Point Representation (40%)</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+We will use 12 bits to represent floating point numbers. The sign bit
+is first, the next 6 are the exponent, and the last 5 are the
+fraction. The bias is 31.
+</p>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1">Dissecting Representations (24%)</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Fill in the table below. The "kind" column's value should be one of:
+normalized, denormalized, NaN, infinity, or zero.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+
+
+<colgroup>
+<col class="left">
+
+<col class="left">
+
+<col class="right">
+
+<col class="left">
+
+<col class="left">
+
+<col class="left">
+
+<col class="left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Bit Representation</th>
+<th scope="col" class="left">exp value</th>
+<th scope="col" class="right">E value</th>
+<th scope="col" class="left">frac value</th>
+<th scope="col" class="left">M value</th>
+<th scope="col" class="left">Value (base 10)</th>
+<th scope="col" class="left">kind (see list)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">0 010011 11100</td>
+<td class="left">&nbsp;</td>
+<td class="right">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">0 101011 10001</td>
+<td class="left">&nbsp;</td>
+<td class="right">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">1 000000 01010</td>
+<td class="left">&nbsp;</td>
+<td class="right">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="right">1</td>
+<td class="left">&nbsp;</td>
+<td class="left">37/32</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="right">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">-53.0</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="right">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">9/32</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">1 111111 11001</td>
+<td class="left">&nbsp;</td>
+<td class="right">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="left">0 111111 00000</td>
+<td class="left">&nbsp;</td>
+<td class="right">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+<td class="left">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2">Specific Values of Interest (16%)</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+What is the <b>bit sequence and value</b> of:
+</p>
+
+<ul class="org-ul">
+<li>the largest possible normalized value?
+</li>
+<li>the smallest possible non-zero positive normalized value?
+</li>
+<li>the largest possible de-normalized vcalue?
+</li>
+<li>the smallest possible non-zero positive de-normalized value?
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>
