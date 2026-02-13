@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.cs.gmu.edu/~hrangwal"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>MLBio+ Laboratory - Sequence Analysis Forum</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5/0</link>
+ <description>This is for discussion related to classes, assignments, and other fun stuff.</description>
+ <language>en</language>
+<item>
+ <title>Assignment -2</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/168</link>
+ <description>&lt;p&gt;hi to all,&lt;/p&gt;
+&lt;p&gt;Can anybody tell me how to convert pairwise alignment score based on similarity into distance score for construction of UPGMA tree?&lt;/p&gt;
+&lt;p&gt;Is it 1-similarity score?&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+Sneha&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/168#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Sat, 13 Mar 2010 21:59:25 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">168 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Printing Order of Merging</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/167</link>
+ <description>&lt;p&gt;Hi&lt;br /&gt;
+Can we use Postfix notation to print the order of merging ?&lt;/p&gt;
+&lt;p&gt;e.g&lt;br /&gt;
+A B merged as I&lt;br /&gt;
+CD merged as II&lt;br /&gt;
+E II merged as III&lt;br /&gt;
+I III mergeds as IV&lt;/p&gt;
+&lt;p&gt;then A B + C D + E+ +&lt;br /&gt;
+where + operator represents merge operation &lt;/p&gt;
+&lt;p&gt;regards&lt;br /&gt;
+Faraz&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/167#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Sat, 13 Mar 2010 14:11:08 +0000</pubDate>
+ <dc:creator>smahmood</dc:creator>
+ <guid isPermaLink="false">167 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>FAQ on A2</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/166</link>
+ <description>&lt;p&gt;QUESTION: What is the score of aligning a space to a profile? Is it the weighted sum of the blosum score of aligning a space against all characters in the profile? If so, then it seems like aligning a space against a profile is always -4 for Blosum 62. Is this correct?&lt;/p&gt;
+&lt;p&gt;&lt;font color = &quot;red&quot;&gt;&lt;br /&gt;
+ANSWER: Yes, thats correct - space against profile will be -4.&lt;br /&gt;
+&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;QUESTION: If the traceback says that Pi and Pj are aligned, how do I combine the column i and column j. I think that I would need to  know how many sequences there are in each profile to weigh the frequencies, right?&lt;/p&gt;
+&lt;p&gt;ANSWER:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/166&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/166#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Thu, 11 Mar 2010 16:42:47 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">166 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Another Hint/Trick</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/165</link>
+ <description>&lt;p&gt;A trick you can use is convert each sequence into a profile i.e., nothing but a profile matrix with an individual &quot;1&quot; in each column. Then the codes you have written need to be modified for a profile-profile alignment and you are done.&lt;/p&gt;
+&lt;p&gt;Remember you can use the gsa code you have written for the n x n matrix and also for the next stage when aligning a profile-to-profile.&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+-Huzefa&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/165#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Tue, 09 Mar 2010 12:38:02 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">165 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Help on A2</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/164</link>
+ <description>&lt;p&gt;Look at my class slides.&lt;br /&gt;
+&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/files/huzefa_msa_s10.pdf&quot; title=&quot;http://www.cs.gmu.edu/~hrangwal/files/huzefa_msa_s10.pdf&quot;&gt;http://www.cs.gmu.edu/~hrangwal/files/huzefa_msa_s10.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Page 8 shows how to compute a profile matrix from a MSA. Its nothing&lt;br /&gt;
+more than the count of each amino acid in a column and normalized by&lt;br /&gt;
+the total rows.&lt;/p&gt;
+&lt;p&gt;Page 10 describes how to score a character against a profile column.&lt;/p&gt;
+&lt;p&gt;Page 11 shows how to do the DP .... this shows the sequence-profile alignment.&lt;/p&gt;
+&lt;p&gt;Remember you did the seq-seq alignment as part of A1.&lt;/p&gt;
+&lt;p&gt;To align a profile-profile all that changes is page 10 i.e., now how&lt;br /&gt;
+do you score a profile column against a profile column. All you have&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/164&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/164#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Tue, 09 Mar 2010 00:18:46 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">164 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Assignment 2 questions</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/162</link>
+ <description>&lt;p&gt;I have two questions:&lt;/p&gt;
+&lt;p&gt;First, are there any test cases available for assignment 2?&lt;/p&gt;
+&lt;p&gt;And, second, I noticed that when aligning two PSSM&#039;s, the algorithm slows down quite a bit. This seems to mainly be the result of computing the expected score of aligning two PSSM entries, which I have been doing by summing over the probabilities of each pair of amino acids (20x20 multiplications per DP table cell).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/162&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/162#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Thu, 04 Mar 2010 16:49:01 +0000</pubDate>
+ <dc:creator>sblasiak</dc:creator>
+ <guid isPermaLink="false">162 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>LSA Test Case 1</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/157</link>
+ <description>&lt;p&gt;Folks, &lt;/p&gt;
+&lt;p&gt;Here is the test case for a LSA alignment. Look at the printer-friendly version&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+-Huzefa&lt;/p&gt;
+&lt;p&gt;LSA Score = 42&lt;br /&gt;
+Run time : 10.82e-03&lt;br /&gt;
+&lt;font face = &quot;Courier&quot;&gt;KLRNAGN_EQDLGIQYKALKPEVDKLNIMAAKR_QQELK_DVGNR__DQMAAARGILQKNVPILYTASQACLQHPDVAAYKANRDLIYKQLQQA&lt;br /&gt;
+KTKELSNLIETFAEQSRVLEKECTK__I_GSKRDSKELRYKIETELIPNCTSVRDKIESNI_LIHQNGK__LS_AD___FK_NLKTKYQSLQQS&lt;br /&gt;
+&lt;/font&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/157#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Mon, 15 Feb 2010 22:43:12 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">157 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Local Sequence Alignment</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/156</link>
+ <description>&lt;p&gt;Do we need to calculate all Local Sequence Alignments present in the input sequences ? Because it can be more than one.&lt;/p&gt;
+&lt;p&gt;Thanks&lt;br /&gt;
+Zeehasham&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/156#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Sun, 14 Feb 2010 22:59:44 +0000</pubDate>
+ <dc:creator>zeehasham</dc:creator>
+ <guid isPermaLink="false">156 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Gap Penalty</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/155</link>
+ <description>&lt;p&gt;In order to fill the first row and first column of the DP Table or Scoring Matrix, Do we need to use initial gap penalty as 0 (zero) or - 4 in the Blosum62 table ?&lt;/p&gt;
+&lt;p&gt;Thanks&lt;br /&gt;
+Zeehasham&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/155#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Thu, 11 Feb 2010 21:45:35 +0000</pubDate>
+ <dc:creator>zeehasham</dc:creator>
+ <guid isPermaLink="false">155 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Test Case Provided for GSA input 1.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/154</link>
+ <description>&lt;p&gt;Hi All,&lt;/p&gt;
+&lt;p&gt;Here is how the output of my gsa program looks like. This is the only test case I will be providing.&lt;/p&gt;
+&lt;p&gt;INPUT: 25-1.fasta&lt;br /&gt;
+GSA Score = -143&lt;br /&gt;
+Run time : 6.82e-03&lt;br /&gt;
+&lt;font face = &quot;Courier&quot;&gt;ESQFLKEELVVAVEDVRKQGDLMKSAAGEFADDPCSSVKRGNMVRAARALLSAVTRLLILADMADVYKLLVQLKVVEDGILKLRNAGNEQDLGIQYKALKPEVDKLNIMAAKRQQELKDVGNRDQMAAARGILQKNVPILYTASQACLQHPDVAAYKANRDLIYKQLQQAVTGISNAAQAT&lt;br /&gt;
+TNQKTK_ELSNLIETFAEQ_S__R_VL_E__KE_CTKI__GS__K__RD__S___K_____ELR__YK__IE___TE___L_IPNCTSVRD_____K_I__E__S_NIL_I__HQ___N_G_K__L_SA_D_F_KN___LKTKYQS_LQ__Q__SY__NQ___RKSL___FP_L____K__&lt;br /&gt;
+&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/154&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/154#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/5">Sequence Analysis Forum</category>
+ <pubDate>Mon, 08 Feb 2010 15:55:19 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">154 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+</channel>
+</rss>

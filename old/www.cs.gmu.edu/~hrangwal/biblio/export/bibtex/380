@@ -1,0 +1,13 @@
+@article {springerlink:10.1007/s13278-012-0065-9,
+	title = {Improving network response times using social information},
+	journal = {Social Network Analysis and Mining},
+	year = {2012},
+	note = {10.1007/s13278-012-0065-9},
+	pages = {1-12},
+	publisher = {Springer Wien},
+	abstract = {Social networks and discussion boards have become significant outlets for people to communicate and freely express their opinions. Although the social networks themselves are usually well-provisioned, the participating users frequently point to external links in order to substantiate their discussions. Unfortunately, the heavy traffic load suddenly imposed on these externally linked websites makes them unresponsive, leading to the {\textquotedblleft}flash crowd effect.{\textquotedblright} Flash crowds present a real challenge as their intensity and occurrence times are impossible to predict. Moreover, most present-day web hosting servers and caching systems, although increasingly capable, are designed to handle a nominal load of requests before they become unresponsive due to limited bandwidth or the processing power allocated to the hosting site. In this paper, we quantify the prevalence of flash crowd events for a popular social discussion board (Digg). Using PlanetLab, we measured the response times of 1,289 unique popular websites and verified that 89 \% of the popular URLs suffered variations in their response times. In an effort to identify flash crowds in advance, we evaluated and compared traffic forecasting mechanisms. We showed that predicting network traffic using network measurements has very limited success and cannot be used for large-scale prediction. However, by analyzing the content and structure of social discussions, we were able to accurately forecast popularity for 86 \% of the websites within 5 min of a story{\textquoteright}s submission and for 95\% of the sites when more social content (5 h worth) became available. Our work indicates that we can effectively leverage social activity to forecast network events when it would otherwise be infeasible to anticipate them.},
+	issn = {1869-5450},
+	url = {http://dx.doi.org/10.1007/s13278-012-0065-9},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/SNAM_J_Sharath_2012.pdf},
+	author = {Sharath Hiremagalore and Chen Liang and Angelos Stavrou and Huzefa Rangwala}
+}

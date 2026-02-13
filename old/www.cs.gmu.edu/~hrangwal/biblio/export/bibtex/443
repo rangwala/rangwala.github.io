@@ -1,0 +1,12 @@
+@conference {443,
+	title = {A Map-Reduce Framework for Clustering Metagenomes},
+	booktitle = {Proceedings of the 12th IEEE International Workshop on High Performance Computational Biology (HiCOMB)},
+	year = {2013},
+	month = {05/2013},
+	pages = {549-558},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Boston, MA},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/HICOMB2013-06.pdf},
+	author = {Zeehasham Rasheed and Huzefa Rangwala}
+}

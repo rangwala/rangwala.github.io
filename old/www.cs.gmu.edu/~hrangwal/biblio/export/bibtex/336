@@ -1,0 +1,7 @@
+@conference {DBLP:conf/bicob/LiR11,
+	title = {An Information Theoretic Approach for the Analysis of RNA and DNA Binding Sites},
+	booktitle = {BICoB},
+	year = {2011},
+	pages = {184-189},
+	author = {Sheng Li and Huzefa Rangwala}
+}

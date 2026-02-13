@@ -1,0 +1,9 @@
+@conference {DBLP:conf/mmmacns/YavvariTRS12,
+	title = {Malware Characterization Using Behavioral Components},
+	booktitle = {MMM-ACNS},
+	year = {2012},
+	pages = {226-239},
+	address = {St. Petersburg, Russia},
+	author = {Chaitanya Yavvari and Arnur G. Tokhtabayev and Huzefa Rangwala and Angelos Stavrou},
+	editor = {Igor V. Kotenko and Victor A. Skormin}
+}

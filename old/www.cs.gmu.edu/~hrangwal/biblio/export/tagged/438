@@ -1,0 +1,15 @@
+%0 Conference Paper
+%B SIAM International Conference in Data Mining
+%D 2013
+%T MC-MinH: Metagenome Clustering using Minwise based Hashing
+%A Zeehasham Rasheed
+%A Huzefa Rangwala
+%C Austin, TX
+%I SIAM
+%K metagenome clustering
+%P 677-685
+%X Current bio-technologies allow sequencing of genomes from multiple organisms, that coexist as communities within ecological environments. This collective genomic process (called metagenomics) has spurred the development of several computational tools for the quantification of abundance, diversity and role of different species within different communities. Unsupervised clustering algorithms (also called binning algorithms) have been developed to group similar metagenome sequences.    We have developed an algorithm called MC-MinH that uses the min-wise hashing approach, along with a greedy clustering algorithm to group 16S and whole metagenomic sequences. We represent unequal length sequences using contiguous subsequences or k-mers, and then approximate the computation of pairwise similarity using independent min-wise hashing. The algorithm is written in C and is available using the GNU GPL license at the supplementary website. We evaluate the performance of our algorithm on several real and simulated metagenomic benchmarks. We demonstrate that our approach is computationally efficient and produces accurate clustering results when evaluated using external ground truth.
+%Z Acceptance Rate: 89/348 = 25.5%.
+%8 04/2013
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/277.pdf
+

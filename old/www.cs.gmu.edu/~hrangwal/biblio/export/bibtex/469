@@ -1,0 +1,8 @@
+@article {bmc2013,
+	title = {16S rRNA Metagenome Clustering and Diversity Estimation using Locality Sensitive Hashing},
+	journal = {BMC Systems Biology},
+	year = {In Press},
+	note = {IF: {2.98}},
+	publisher = {BioMed Central},
+	author = {Zeehasham Rasheed and Huzefa Rangwala and Daniel Barbara}
+}

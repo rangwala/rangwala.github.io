@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.cs.gmu.edu/~hrangwal"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>rangwala&#039;s blog</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/blog/1</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Accepted KDD 2016 Research Paper in Collaboration with DAC, Virginia Tech. University</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/542</link>
+ <description>&lt;p&gt;&lt;b&gt; &lt;font color=&quot;navy&quot;&gt; Title: &lt;/font&gt; &lt;/b&gt; Modeling Precursors for Event Forecasting via Nested Multi-Instance Learning&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; &lt;font color=&quot;navy&quot;&gt; Authors: &lt;/font&gt; &lt;/b&gt; Yue Ning, Sathappan Muthiah, Huzefa Rangwala and &lt;a href=&quot;http://people.cs.vt.edu/naren/&quot;&gt; Naren Ramakrishnan &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/542&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/542#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/nMIL-KDD16.pdf" length="2826529" type="application/pdf" />
+ <pubDate>Wed, 15 Jun 2016 14:35:37 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">542 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Anveshi Charuvaka wins the Outstanding Graduate Student Award</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/541</link>
+ <description>&lt;p&gt;Anveshi Charuvaka, Ph.D. who defended his thesis in Fall 2015 wins the CS Outstanding Graduate Student Award this Academic Year. &lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/541#comments</comments>
+ <pubDate>Tue, 12 Apr 2016 14:27:46 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">541 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Azad and Huzefa are presenting a tutorial at SIAM SDM 2016</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/540</link>
+ <description>&lt;p&gt;Azad and Huzefa are presenting a tutorial at SIAM SDM 2016 in Miami, FL titled &quot;Large Scale Hierarchical Classification: Foundations, Algorithms and Applications&quot;&lt;/p&gt;
+&lt;p&gt;The links to the tutorial page are here: &lt;a href=&quot;https://cs.gmu.edu/~mlbio/sdm2016tutorial.html&quot; title=&quot;https://cs.gmu.edu/~mlbio/sdm2016tutorial.html&quot;&gt;https://cs.gmu.edu/~mlbio/sdm2016tutorial.html&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/540#comments</comments>
+ <pubDate>Tue, 12 Apr 2016 14:19:12 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">540 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Undergraduate Ananya wins OSCAR Student Excellence Award</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/539</link>
+ <description>&lt;p&gt;Congratulations to CS undergraduate student Ananya Dhawan for winning a 2016 OSCAR Student Excellence Award. He is working on a NSF funded medical cyber-physical research project under the mentorship of Professor Sikdar (Bioengineering Department) and Professors Kosecka and Rangwala of the CS department. Celebrations are on May 4, 2016. See oscar.gmu.edu for more details.&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/539#comments</comments>
+ <pubDate>Tue, 12 Apr 2016 14:15:17 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">539 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Azad is awarded the Summer Graduate Fellowship</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/538</link>
+ <description>&lt;p&gt;Congratulations to Azad for winning the Summer Graduate Fellowship in 2016 from the Provost Office.&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/538#comments</comments>
+ <pubDate>Tue, 12 Apr 2016 14:14:37 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">538 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Paper accepted at IEEE Transactions on Biomedical Engineering as part of our CPS project!</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/537</link>
+ <description>&lt;p&gt;&lt;b&gt; Title: &lt;/b&gt; Real-time Classification of Hand Motions using Ultrasound Imaging of Forearm Muscles.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Authors: &lt;/b&gt; Akhlaghi, N., Baker, C.A. ; Lahlou, M. ; Zafar, H. ; Murthy, K.G. ; &lt;font color=&quot;blue&quot;&gt; Rangwala, H.S.&lt;/font&gt; ; Kosecka, J. ; Joiner, W.M. ; Pancrazio, J.J. ; Sikdar, S.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Journal: &lt;/b&gt; IEEE Transactions in Biomedical Engineering&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Abstract:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/537&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/537#comments</comments>
+ <pubDate>Fri, 13 Nov 2015 14:53:27 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">537 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Congratulations to Nikhil</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/536</link>
+ <description>&lt;p&gt;Congratulations to Nikhil Muralidhar for successfully defending his Masters Thesis  titled &quot;RECOMMENDING TEMPORALLY RELEVANT NEWS CONTENT USING IMPLICIT FEEDBACK DATA: A TAG-BASED APPROACH&quot; &lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/536#comments</comments>
+ <pubDate>Fri, 13 Nov 2015 14:49:55 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">536 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Undergraduate Student Kunal&#039;s project accepted for Fall 2015 Funding by OSCAR</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/535</link>
+ <description>&lt;p&gt;Kunal Sarkhel, B.S. in Computer Science and Mathematics is working on developing a topic model for analyzing career related data. &lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;http://oscar.gmu.edu&quot;&gt; OSCAR &lt;/a&gt; for supporting his project. &lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/535#comments</comments>
+ <pubDate>Fri, 09 Oct 2015 13:42:07 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">535 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Undergraduate  Student Nathan LaPierre publishes at ICDM Workshop </title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/532</link>
+ <description>&lt;p&gt;&lt;b&gt; Title:  &lt;/b&gt;  Predicting Clinical Phenotype using OTU-based Metagenome Representation&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Authors:&lt;/b&gt; Nathan LaPierre and Huzefa Rangwala&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Workshop: &lt;/b&gt; Biological Data Mining and its Applications in Healthcare of the IEEE International Conference on Data Mining (ICDM&#039;15)&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Location: &lt;/b&gt; Atlantic City, NJ&lt;/p&gt;
+&lt;p&gt;&lt;b&gt; Dates: &lt;/b&gt; November, 2015.&lt;/p&gt;
+&lt;p&gt;Paper Attached&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/532#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/paper.pdf" length="211785" type="application/pdf" />
+ <pubDate>Thu, 17 Sep 2015 14:27:18 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">532 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Congrats to Anveshi</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/530</link>
+ <description>&lt;p&gt;Congratulations to Anveshi for successfully completing his Ph.D. defense!&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/530#comments</comments>
+ <pubDate>Tue, 25 Aug 2015 19:38:25 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">530 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+</channel>
+</rss>

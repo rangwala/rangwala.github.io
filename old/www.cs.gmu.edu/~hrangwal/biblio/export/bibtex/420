@@ -1,0 +1,12 @@
+@conference {420,
+	title = {Multi-task learning for classifying proteins with dual hierarchies.},
+	booktitle = {IEEE International Conference on Data Mining (ICDM)},
+	year = {2012},
+	month = {12/2012},
+	pages = {834--839},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Brussels, Belgium},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/4905a834.pdf},
+	author = {Anveshi Charuvaka and Huzefa Rangwala}
+}

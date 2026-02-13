@@ -1,0 +1,12 @@
+@conference {419,
+	title = {Multi-label Classification using Adaptive Neighborhoods},
+	booktitle = {Eleventh International Conference on Machine Learning and Applications (ICMLA)},
+	year = {2012},
+	month = {12/2012},
+	pages = {427-432},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Boca Raton, FL},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/ICMLA_Rank.pdf},
+	author = {Tanwistha Saha and Huzefa Rangwala and Carlotta Domeniconi}
+}

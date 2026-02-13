@@ -1,0 +1,35 @@
+%0 Journal Article
+%J Bioinformatics
+%D 2005
+%T Profile-based direct kernels for remote homology detection and fold recognition.
+%A Huzefa Rangwala
+%A George Karypis
+%C Department of Computer Science and Engineering, University of Minnesota Minneapolis, MN 55455, USA.
+%K Algorithms
+%K Amino Acid Sequence
+%K Artificial Intelligence
+%K Automated
+%K Automatic Data Processing
+%K Cluster Analysis
+%K Computational Biology/*methods
+%K Computer Simulation
+%K Computing Methodologies
+%K Databases
+%K hf11
+%K Models
+%K Pattern Recognition
+%K Protein
+%K Protein Conformation
+%K Protein Folding
+%K Protein/methods
+%K Proteins
+%K Sequence Alignment
+%K Sequence Analysis
+%K Software
+%K Statistical
+%P 4239–4247
+%R 10.1093/bioinformatics/bti687
+%V 21
+%X MOTIVATION: Protein remote homology detection is a central problem in computational biology. Supervised learning algorithms based on support vector machines are currently one of the most effective methods for remote homology detection. The performance of these methods depends on how the protein sequences are modeled and on the method used to compute the kernel function between them. RESULTS: We introduce two classes of kernel functions that are constructed by combining sequence profiles with new and existing approaches for determining the similarity between pairs of protein sequences. These kernels are constructed directly from these explicit protein similarity measures and employ effective profile-to-profile scoring schemes for measuring the similarity between pairs of proteins. Experiments with remote homology detection and fold recognition problems show that these kernels are capable of producing results that are substantially better than those produced by all of the existing state-of-the-art SVM-based methods. In addition, the experiments show that these kernels, even when used in the absence of profiles, produce results that are better than those produced by existing non-profile-based schemes. AVAILABILITY: The programs for computing the various kernel functions are available on request from the authors.
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/Bioinformatics-2005-Rangwala-4239-47.pdf
+

@@ -1,0 +1,11 @@
+@conference {ecml2013b,
+	title = {Protein Function Prediction using Dependence Maximization},
+	booktitle = {Proceedings of the European Conference on Machine Learning and Principles of Knowledge Discovery and Data Mining (ECML-PKDD)},
+	year = {In Press},
+	note = {Acceptance Rate: 111/443 = 25.0\%},
+	month = {September},
+	publisher = {ECML},
+	organization = {ECML},
+	address = {Prague, CZ},
+	author = {Yu, Guoxian and Carlotta Domeniconi and Huzefa Rangwala and Guoji Zhang}
+}

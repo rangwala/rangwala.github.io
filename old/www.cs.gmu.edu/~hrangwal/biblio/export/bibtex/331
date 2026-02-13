@@ -1,0 +1,8 @@
+@conference {WisittipanitBIOKDD,
+	title = {SVM-based classification and feature selection methods for the analysis of Inflammatory Bowel disease microbiome data},
+	booktitle = {Proceedings of the 9th International Workshop on Data Mining in Bioinformatics},
+	year = {2010},
+	pages = {1-8},
+	author = {Nuttachat Wisittipanit and Huzefa Rangwala and Patrick Gillevet and Masoumeh Sikaroodi and Ece A. Mutlu and Ali Keshavarzian},
+	editor = {Jun Huan and Jake Chen and Mohammed Zaki}
+}

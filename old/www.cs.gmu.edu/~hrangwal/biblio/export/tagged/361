@@ -1,0 +1,20 @@
+%0 Journal Article
+%J Chem Biodivers
+%D 2010
+%T Network-based modeling of the human gut microbiome.
+%A Naqvi, Ammar
+%A Huzefa Rangwala
+%A Ali Keshavarzian
+%A Patrick Gillevet
+%C Microbiome Analysis Center, Manassas, VA 20110, USA.
+%K *Metagenome
+%K *Models
+%K Biological
+%K Colon/*microbiology
+%K Humans
+%K Metabolic Networks and Pathways
+%P 1040–1050
+%R 10.1002/cbdv.200900324
+%V 7
+%X In this article, we used a network-based approach to characterize the microflora abundance in colonic mucosal samples and correlate potential interactions between the identified species with respect to the healthy and diseased states. We analyzed the modelled network by computing several local and global network statistics, identified recurring patterns or motifs, fit the network models to a family of well-studied graph models. This study has demonstrated, for the first time, an approach that differentiated the gut microbiota in alcoholic subjects and healthy subjects using topological network analysis of the gut microbiome.
+

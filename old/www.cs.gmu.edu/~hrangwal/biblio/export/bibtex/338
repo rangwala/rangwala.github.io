@@ -1,0 +1,7 @@
+@conference {DBLP:conf/bibm/CharuvakaR10,
+	title = {Evaluation of short read metagenomic assembly},
+	booktitle = {BIBM},
+	year = {2010},
+	pages = {171-178},
+	author = {Anveshi Charuvaka and Huzefa Rangwala}
+}

@@ -1,0 +1,15 @@
+@inbook {rangwala:2007fk,
+	title = {Knowledge Discovery in Bioinformatics: Techniques, Methods, and Applications},
+	booktitle = {Knowledge Discovery in Bioinformatics},
+	year = {2007},
+	pages = {145{\textendash}168},
+	publisher = {John Wiley \& Sons, Inc.},
+	organization = {John Wiley \& Sons, Inc.},
+	chapter = {Protein Structure Prediction using String Kernels},
+	keywords = {protein structure prediction using string kernels, remote homology and fold prediction, secondary-structure prediction},
+	isbn = {9780470124642},
+	doi = {10.1002/9780470124642.ch8},
+	url = {http://dx.doi.org/10.1002/9780470124642.ch8},
+	author = {Huzefa Rangwala and Kevin DeRonne and George Karypis},
+	editor = {Xiaohua Hu and Yi Pan}
+}

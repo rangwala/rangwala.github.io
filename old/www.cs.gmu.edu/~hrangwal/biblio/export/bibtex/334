@@ -1,0 +1,7 @@
+@conference {DBLP:conf/bicob/WisittipanitRSKMG11,
+	title = {Profiling Microbial Communities using SSU rRNA Sequence and LH-PCR Data},
+	booktitle = {BICoB},
+	year = {2011},
+	pages = {190-195},
+	author = {Nuttachat Wisittipanit and Huzefa Rangwala and Masoumeh Sikaroodi and Ali Keshavarzian and Ece A. Mutlu and Patrick Gillevet}
+}

@@ -1,0 +1,12 @@
+@article {Rangwala:2007gf,
+	title = {fRMSDPred: predicting local RMSD between structural fragments using sequence information.},
+	journal = {Comput Syst Bioinformatics Conf},
+	volume = {6},
+	year = {2007},
+	pages = {311{\textendash}322},
+	address = {Computer Science \& Engineering, University of Minnesota, Minneapolis, MN 55455, USA. rangwala@cs.umn.edu},
+	abstract = {The effectiveness of comparative modeling approaches for protein structure prediction can be substantially improved by incorporating predicted structural information in the initial sequence-structure alignment. Motivated by the approaches used to align protein structures, this paper focuses on developing machine learning approaches for estimating the RMSD value of a pair of protein fragments. These estimated fragment-level RMSD values can be used to construct the alignment, assess the quality of an alignment, and identify high-quality alignment segments. We present algorithms to solve this fragment-level RMSD prediction problem using a supervised learning framework based on support vector regression and classification that incorporates protein profiles, predicted secondary structure, effective information encoding schemes, and novel second-order pairwise exponential kernel functions. Our comprehensive empirical study shows superior results compared to the profile-to-profile scoring schemes.},
+	keywords = {*Models, Chemical, Computer Simulation, Least-Squares Analysis, Models, Molecular, Peptide Fragments/*chemistry, Protein Conformation, Protein Folding, Protein/*methods, Proteins/*chemistry/*ultrastructure, Sequence Analysis, Statistical, Surface Properties},
+	issn = {1752-7791 (Print); 1752-7791 (Linking)},
+	author = {Huzefa Rangwala and George Karypis}
+}

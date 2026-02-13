@@ -1,0 +1,18 @@
+%0 Journal Article
+%J J Chem Inf Model
+%D 2009
+%T Multi-assay-based structure-activity relationship models: improving structure-activity relationship models by incorporating activity information from related targets.
+%A Ning, Xia
+%A Huzefa Rangwala
+%A George Karypis
+%C Department of Computer Science and Computer Engineering, University of Minnesota, 4-192 EE/CS Building, 200 Union Street SE, Minneapolis, Minnesota 55455, USA. xning@cs.umn.edu
+%K *Models
+%K Chemical
+%K hf11
+%K Structure-Activity Relationship
+%P 2444–2456
+%R 10.1021/ci900182q
+%V 49
+%X Structure-activity relationship (SAR) models are used to inform and to guide the iterative optimization of chemical leads, and they play a fundamental role in modern drug discovery. In this paper, we present a new class of methods for building SAR models, referred to as multi-assay based, that utilize activity information from different targets. These methods first identify a set of targets that are related to the target under consideration, and then they employ various machine learning techniques that utilize activity information from these targets in order to build the desired SAR model. We developed different methods for identifying the set of related targets, which take into account the primary sequence of the targets or the structure of their ligands, and we also developed different machine learning techniques that were derived by using principles of semi-supervised learning, multi-task learning, and classifier ensembles. The comprehensive evaluation of these methods shows that they lead to considerable improvements over the standard SAR models that are based only on the ligands of the target under consideration. On a set of 117 protein targets, obtained from PubChem, these multi-assay-based methods achieve a receiver-operating characteristic score that is, on the average, 7.0 -7.2% higher than that achieved by the standard SAR models. Moreover, on a set of targets belonging to six protein families, the multi-assay-based methods outperform chemogenomics-based approaches by 4.33%.
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/Ning2009.pdf
+

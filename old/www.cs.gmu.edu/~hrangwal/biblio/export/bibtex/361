@@ -1,0 +1,14 @@
+@article {Naqvi:2010vn,
+	title = {Network-based modeling of the human gut microbiome.},
+	journal = {Chem Biodivers},
+	volume = {7},
+	number = {5},
+	year = {2010},
+	pages = {1040{\textendash}1050},
+	address = {Microbiome Analysis Center, Manassas, VA 20110, USA.},
+	abstract = {In this article, we used a network-based approach to characterize the microflora abundance in colonic mucosal samples and correlate potential interactions between the identified species with respect to the healthy and diseased states. We analyzed the modelled network by computing several local and global network statistics, identified recurring patterns or motifs, fit the network models to a family of well-studied graph models. This study has demonstrated, for the first time, an approach that differentiated the gut microbiota in alcoholic subjects and healthy subjects using topological network analysis of the gut microbiome.},
+	keywords = {*Metagenome, *Models, Biological, Colon/*microbiology, Humans, Metabolic Networks and Pathways},
+	issn = {1612-1880 (Electronic); 1612-1872 (Linking)},
+	doi = {10.1002/cbdv.200900324},
+	author = {Naqvi, Ammar and Huzefa Rangwala and Ali Keshavarzian and Patrick Gillevet}
+}

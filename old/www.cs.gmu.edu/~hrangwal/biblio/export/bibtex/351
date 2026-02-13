@@ -1,0 +1,10 @@
+@article {Mayer:2005qf,
+	title = {Feature mining for prediction of degree of liver fibrosis.},
+	journal = {AMIA Annu Symp Proc},
+	year = {2005},
+	pages = {1048},
+	address = {University of Minnesota, Minneapolis, MN, USA.},
+	keywords = {*Diagnosis, Clinical, Computer-Assisted, Decision Support Systems, Humans, Liver Cirrhosis/*diagnosis},
+	issn = {1942-597X (Electronic); 1559-4076 (Linking)},
+	author = {Mayer, Benjamin W and Rangwala, Huzefa S and Gupta, Rohit and Srivastava, Jaideep and George Karypis and Kumar, Vipin and de Groen, Piet C}
+}

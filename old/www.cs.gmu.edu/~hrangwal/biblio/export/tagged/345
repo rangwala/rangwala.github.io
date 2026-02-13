@@ -1,0 +1,10 @@
+%0 Conference Paper
+%B PAKDD
+%D 2009
+%T A Kernel Framework for Protein Residue Annotation
+%A Huzefa Rangwala
+%A Christopher Kauffman
+%A George Karypis
+%P 439-451
+%X Over the last decade several prediction methods have been developed for determining structural and functional properties of individual protein residues using sequence and sequence-derived information. Most of these methods are based on support vector machines as they provide accurate and generalizable prediction models. We developed a general purpose protein residue annotation toolkit (Pro SAT) to allow biologists to formulate residue-wise prediction problems. Pro SAT formulates annotation problem as a classification or regression problem using support vector machines. For every residue Pro SAT captures local information (any sequence-derived information) around the reside to create fixed length feature vectors. Pro SAT implements accurate and fast kernel functions, and also introduces a flexible window-based encoding scheme that allows better capture of signals for certain prediction problems. In this work we evaluate the performance of Pro SAT on the disorder prediction and contact order estimation problems, studying the effect of the different kernels introduced here. Pro SAT shows better or at least comparable performance to state-of-the-art prediction systems. In particular Pro SAT has proven to be the best performing transmembrane-helix predictor on an independent blind benchmark. Availability: http://bio.dtc.umn.edu/prosat
+

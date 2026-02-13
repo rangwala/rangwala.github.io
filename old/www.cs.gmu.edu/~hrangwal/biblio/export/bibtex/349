@@ -1,0 +1,12 @@
+@book {Rangwala:2010cr,
+	title = {Introduction to protein structure prediction : methods and algorithms},
+	volume = {14},
+	year = {2010},
+	publisher = {Wiley},
+	organization = {Wiley},
+	address = {Hoboken, N.J.},
+	abstract = {"This book helps unravel the relationship of pure sequence information and three-dimensional structure, which remains one of the great fundamental problems in molecular biology and bioinformatics. It describes key applications of modeled structures, focusing on the methods and algorithms that are used to predict protein structure written by experts who participate in the structure prediction competition. The book also delivers applications used for predicted models in other studies. Researchers in bioinformatics and molecular biology will find this text highly useful, as will students in graduate courses in protein prediction"{\textendash}},
+	isbn = {9780470470596},
+	url = {http://www.loc.gov/catdir/enhancements/fy1112/2010028352-b.html},
+	author = {Huzefa Rangwala and Karypis, G}
+}

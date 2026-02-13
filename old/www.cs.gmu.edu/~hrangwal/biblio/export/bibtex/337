@@ -1,0 +1,7 @@
+@conference {DBLP:conf/asunam/LiangHSR11,
+	title = {Predicting Network Response Times Using Social Information},
+	booktitle = {ASONAM},
+	year = {2011},
+	pages = {527-531},
+	author = {Chen Liang and Sharath Hiremagalore and Angelos Stavrou and Huzefa Rangwala}
+}

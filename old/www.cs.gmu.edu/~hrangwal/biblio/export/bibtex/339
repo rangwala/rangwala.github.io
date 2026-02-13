@@ -1,0 +1,6 @@
+@conference {DBLP:conf/icwsm/RangwalaJ10,
+	title = {Co-Participation Networks Using Comment Information},
+	booktitle = {ICWSM},
+	year = {2010},
+	author = {Huzefa Rangwala and Salman Jamali}
+}

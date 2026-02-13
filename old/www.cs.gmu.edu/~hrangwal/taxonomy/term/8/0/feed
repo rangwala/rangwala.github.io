@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.cs.gmu.edu/~hrangwal"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>MLBio+ Laboratory - CS 750 Discussion Forum</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8/0</link>
+ <description>This forum is for discussion of class related activities.</description>
+ <language>en</language>
+<item>
+ <title>NYT article on </title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/367</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/2011/12/01/business/dna-sequencing-caught-in-deluge-of-data.html&quot; title=&quot;http://www.nytimes.com/2011/12/01/business/dna-sequencing-caught-in-deluge-of-data.html&quot;&gt;http://www.nytimes.com/2011/12/01/business/dna-sequencing-caught-in-delu...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DNA Sequencing Caught in Deluge of Data&lt;br /&gt;
+By ANDREW POLLACK&lt;br /&gt;
+BGI, based in China, is the world’s largest genomics research institute, with 167 DNA sequencers producing the equivalent of 2,000 human genomes a day.&lt;/p&gt;
+&lt;p&gt;BGI churns out so much data that it often cannot transmit its results to clients or collaborators over the Internet or other communications lines because that would take weeks. Instead, it sends computer disks containing the data, via FedEx.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/367&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/367#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Fri, 02 Dec 2011 12:45:32 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">367 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Project Presentation Signups</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/326</link>
+ <description>&lt;p&gt;There are about 20+ projects. The presentations will be spread across the 2 days.&lt;/p&gt;
+&lt;p&gt;Sign up for either 11/28 or 12/05 by replying to this thread.&lt;/p&gt;
+&lt;p&gt;Priority will be on a first-come first-serve basis.&lt;/p&gt;
+&lt;p&gt;Example of sign-up:&lt;/p&gt;
+&lt;p&gt;Team Members: A &amp;amp; B&lt;br /&gt;
+Project Title: XXX ...&lt;br /&gt;
+Priority: 11/28 or 12/05 &lt;/p&gt;
+&lt;p&gt;Folks -- The demand for 12/05 implies that only the first few commenters will get that date. &lt;/p&gt;
+&lt;p&gt;The presentation signup sheet is closed.  Thanks,&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+-Huzefa&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/326#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Thu, 10 Nov 2011 16:11:06 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">326 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Interesting site on Machine Learning Open Source Software</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/300</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.mloss.org/software/&quot; title=&quot;http://www.mloss.org/software/&quot;&gt;http://www.mloss.org/software/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Found this through the &lt;a href=&quot;http://CRAN.R-Project.org&quot; title=&quot;http://CRAN.R-Project.org&quot;&gt;http://CRAN.R-Project.org&lt;/a&gt; pages on Machine Learning/Statistical Learning views.&lt;/p&gt;
+&lt;p&gt;Kent&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/300#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Mon, 24 Oct 2011 18:01:36 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">300 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Nice Paper on clustering</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/299</link>
+ <description>&lt;p&gt;Data Clustering: 50 Years Beyond K-Means by Anil K. Jain. This is an interesting paper to gain insight into clustering algorithms.&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/299#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Mon, 17 Oct 2011 07:37:28 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">299 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Clustering Site</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/298</link>
+ <description>&lt;p&gt;Hi All,&lt;/p&gt;
+&lt;p&gt;Pl. find below the link for nice clustering site. This will help you in getting the overview for clustering algorithms and will solve most of your doubt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sites.google.com/site/dataclusteringalgorithms/home&quot; title=&quot;https://sites.google.com/site/dataclusteringalgorithms/home&quot;&gt;https://sites.google.com/site/dataclusteringalgorithms/home&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks!!&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/298#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Mon, 17 Oct 2011 07:28:59 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">298 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Politics and Data Mining</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/296</link>
+ <description>&lt;p&gt;Forwarded by Mia.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnn.com/2011/10/09/tech/innovation/obama-data-crunching-election/index.html?hpt=hp_c2&quot; title=&quot;http://www.cnn.com/2011/10/09/tech/innovation/obama-data-crunching-election/index.html?hpt=hp_c2&quot;&gt;http://www.cnn.com/2011/10/09/tech/innovation/obama-data-crunching-elect...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another reason to study data mining ...&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/296#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Sun, 09 Oct 2011 18:00:17 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">296 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>HW2 - Part 2</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/295</link>
+ <description>&lt;p&gt;Working on part II of homework 2.&lt;/p&gt;
+&lt;p&gt;I get ties on several atttributes. Which one should I choose ?&lt;/p&gt;
+&lt;p&gt;My answer: Any one of them would be fine.&lt;/p&gt;
+&lt;p&gt;Lack of ID3 in new versions of Weka ?&lt;/p&gt;
+&lt;p&gt;My answer: Use any one of the decision tree implementations that are available.&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+-Huzefa&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/295#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Wed, 05 Oct 2011 13:51:13 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">295 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>weka unusably slow?</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/292</link>
+ <description>&lt;p&gt;is anyone else able to scroll through the datapoints in the visualize tab? my machine locks up for many seconds, then finally scrolls some random amount.  do i just need to be patient or is my setup wrong?  I&#039;ve loaded the raw training data.  also I don&#039;t understand what I&#039;m looking at so maybe I need a partner.  Thanks.&lt;/p&gt;
+&lt;p&gt;- Eli&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/292#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Thu, 15 Sep 2011 01:11:16 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">292 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Need lab partner for HW 1.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/291</link>
+ <description>&lt;p&gt;Statistics major with BS in Comp Sci that&#039;s a little aged seeking a lab partner for HW 1 to work eves (T/Th) and/or weekends to complete.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:kmanley1@masonlive.gmu.edu&quot;&gt;kmanley1@masonlive.gmu.edu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks.&lt;/p&gt;
+&lt;p&gt;Kent&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/291#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Wed, 07 Sep 2011 01:32:45 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">291 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Book on Reserve</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/286</link>
+ <description>&lt;p&gt;Introduction to Data Mining&lt;/p&gt;
+&lt;p&gt;has been placed on reserve at the Johnson Center Library for your students.&lt;/p&gt;
+&lt;p&gt;Please share the following information with your students:&lt;/p&gt;
+&lt;p&gt;* One copy of each text is on reserve at the Johnson Center Library. It may be borrowed for 2 hours at a time.&lt;br /&gt;
+* To borrow a book, students will need this call number:&lt;/p&gt;
+&lt;p&gt;Introduction to Data Mining        QA 76.9 .D343 T35 2006&lt;/p&gt;
+&lt;p&gt;Please note that because I have placed the book on reserve, it will be listed under my name (Theresa Calcagno). Thus, the call number is the best way for students to access the book.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cs.gmu.edu/~hrangwal/node/286&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/286#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/8">CS 750 Discussion Forum</category>
+ <pubDate>Fri, 26 Aug 2011 14:59:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">286 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,9 @@
+@conference {yu2012protein,
+	title = {Protein function prediction using weak-label learning},
+	booktitle = {Proceedings of the ACM Conference on Bioinformatics, Computational Biology and Biomedicine},
+	year = {2012},
+	pages = {202{\textendash}209},
+	publisher = {ACM},
+	organization = {ACM},
+	author = {Yu, G. and Zhang, G. and Rangwala, H. and Domeniconi, C. and Yu, Z.}
+}

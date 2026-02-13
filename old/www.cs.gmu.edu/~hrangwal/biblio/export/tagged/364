@@ -1,0 +1,14 @@
+%0 Journal Article
+%J BMC Genomics
+%D 2011
+%T Evaluation of short read metagenomic assembly.
+%A Anveshi Charuvaka
+%A Huzefa Rangwala
+%C Computer Science Department, George Mason University, Fairfax, Virginia, USA. rangwala@cs.gmu.edu.
+%K hf11
+%P S8
+%R 10.1186/1471-2164-12-S2-S8
+%V 12 Suppl 2
+%X BACKGROUND: Metagenomic assembly is a challenging problem due to the presence of genetic material from multiple organisms. The problem becomes even more difficult when short reads produced by next generation sequencing technologies are used. Although whole genome assemblers are not designed to assemble metagenomic samples, they are being used for metagenomics due to the lack of assemblers capable of dealing with metagenomic samples. We present an evaluation of assembly of simulated short-read metagenomic samples using a state-of-art de Bruijn graph based assembler. RESULTS: We assembled simulated metagenomic reads from datasets of various complexities using a state-of-art de Bruijn graph based parallel assembler. We have also studied the effect of k-mer size used in de Bruijn graph on metagenomic assembly and developed a clustering solution to pool the contigs obtained from different assembly runs, which allowed us to obtain longer contigs. We have also assessed the degree of chimericity of the assembled contigs using an entropy/impurity metric and compared the metagenomic assemblies to assemblies of isolated individual source genomes. CONCLUSIONS: Our results show that accuracy of the assembled contigs was better than expected for the metagenomic samples with a few dominant organisms and was especially poor in samples containing many closely related strains. Clustering contigs from different k-mer parameter of the de Bruijn graph allowed us to obtain longer contigs, however the clustering resulted in accumulation of erroneous contigs thus increasing the error rate in clustered contigs.
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/1471-2164-12-S2-S8.pdf
+

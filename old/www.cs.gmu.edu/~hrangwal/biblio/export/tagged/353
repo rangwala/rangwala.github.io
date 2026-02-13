@@ -1,0 +1,21 @@
+%0 Journal Article
+%J Bioinformatics
+%D 2007
+%T Incremental window-based protein sequence alignment algorithms.
+%A Huzefa Rangwala
+%A George Karypis
+%C Department of Computer Science & Engineering, University of Minnesota Minneapolis, MN 55455, USA. rangwala@cs.umn.edu
+%K *Algorithms
+%K Amino Acid Sequence
+%K hf11
+%K Molecular Sequence Data
+%K Protein/*methods
+%K Proteins/*chemistry
+%K Sequence Alignment/*methods
+%K Sequence Analysis
+%P e17-23
+%R 10.1093/bioinformatics/btl297
+%V 23
+%X MOTIVATION: Protein sequence alignment plays a critical role in computational biology as it is an integral part in many analysis tasks designed to solve problems in comparative genomics, structure and function prediction, and homology modeling. METHODS: We have developed novel sequence alignment algorithms that compute the alignment between a pair of sequences based on short fixed- or variable-length high-scoring subsequences. Our algorithms build the alignments by repeatedly selecting the highest scoring pairs of subsequences and using them to construct small portions of the final alignment. We utilize PSI-BLAST generated sequence profiles and employ a profile-to-profile scoring scheme derived from PICASSO. RESULTS: We evaluated the performance of the computed alignments on two recently published benchmark datasets and compared them against the alignments computed by existing state-of-the-art dynamic programming-based profile-to-profile local and global sequence alignment algorithms. Our results show that the new algorithms achieve alignments that are comparable with or better than those achieved by existing algorithms. Moreover, our results also showed that these algorithms can be used to provide better information as to which of the aligned positions are more reliable–a critical piece of information for comparative modeling applications.
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/Bioinformatics-2007-Rangwala-e17-23.pdf
+

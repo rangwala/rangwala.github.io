@@ -1,0 +1,13 @@
+@conference {408,
+	title = {LSH-Div: Species Diversity Estimation using Locality Sensitive Hashing},
+	booktitle = {IEEE International Conference  on  Bioinformatics and Biomedicine  (BIBM)},
+	year = {2012},
+	note = {Acceptance Rate: 22.2\%},
+	month = {10/2012},
+	pages = {1 - 6},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Philadelphia, USA},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/OTU_BIBM2012_Short.pdf},
+	author = {Zeehasham Rasheed and Huzefa Rangwala and Daniel Barbara}
+}

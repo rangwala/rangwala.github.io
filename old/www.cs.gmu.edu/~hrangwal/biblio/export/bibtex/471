@@ -1,0 +1,11 @@
+@conference {ecml2013a,
+	title = {Relevant Subsequence Detection with Sparse Dictionary Learning},
+	booktitle = {Proceedings of the European Conference on Machine Learning and Principles of Knowledge Discovery and Data Mining (ECML-PKDD)},
+	year = {In Press},
+	note = {Acceptance Rate: {111/443 = 25.0 \%}},
+	month = {September},
+	publisher = {ECML},
+	organization = {ECML},
+	address = {Prague, CZ},
+	author = {Sam Blasiak and Huzefa Rangwala and Kathryn B. Laskey}
+}

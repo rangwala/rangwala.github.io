@@ -1,0 +1,7 @@
+@conference {DBLP:conf/mldm/SahaDR11,
+	title = {Detection of Communities and Bridges in Weighted Networks},
+	booktitle = {MLDM},
+	year = {2011},
+	pages = {584-598},
+	author = {Tanwistha Saha and Carlotta Domeniconi and Huzefa Rangwala}
+}

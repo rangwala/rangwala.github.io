@@ -1,136 +1,648 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
- 
- <!-- If IE use the latest rendering engine -->
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <!-- Set the page to the width of the device and set the zoon level -->
-  <meta name="viewport" content="width = device-width, initial-scale = 1">
-  <title>Huzefa Rangwala @ Computer Science, George Mason University</title>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-   
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-   <style>
-   .jumbotron{
-        /* background-color:#2E2D88;
-             color:white; */
-   }
-   /* Adds borders for tabs */
-   .tab-content {
-         border-left: 1px solid #ddd;
-             border-right: 1px solid #ddd;
-                 border-bottom: 1px solid #ddd;
-                     padding: 10px;
-   }
-   .nav-tabs {
-         margin-bottom: 0;
-   }
-   .my-span3 {  
-        height: 250px !important;
-        overflow: scroll;
-   }
-   </style>
-    
-    </head>
-    <body>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Huzefa Rangwala, PhD</title>
 
-     <!--Navigation-->
-    <!--Navigation bar-->
-    <div class="container-fluid" id="nav-placeholder">
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
-    </div>
+  <style>
+    :root {
+      --teal: #0089A7;
+      --teal-dark: #006f88;
+      --teal-light: #e6f4f7;
+      --text-main: #333;
+      --text-muted: #666;
+    }
 
-    <script type="text/javascript">
-    $(function(){
-        $("#nav-placeholder").load("menus/topnav.html");
-        $("#news-placeholder").load("news-listing.html");
-    });
-    </script>
-    <!--end of Navigation bar-->
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 70px;
+    }
 
-     
-     <!-- CONTAINERS -->
-     <!-- container puts padding around itself while container-fluid fills the whole screen. Bootstap grids require a container. -->
-    
-    <section id="home" style="margin-top:40px">
+    body {
+      font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+      color: var(--text-main);
+      padding-top: 56px;
+    }
+
+    p, li, td {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 0.97rem;
+      line-height: 1.7;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: var(--teal) !important;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: #fff !important;
+    }
+    .navbar-nav .nav-link {
+      color: rgba(255,255,255,0.85) !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+      padding: 0.5rem 1rem;
+      transition: color 0.2s;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+      color: #fff !important;
+    }
+    .navbar-toggler {
+      border-color: rgba(255,255,255,0.4);
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 0;
+    }
+    section:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+
+    .section-title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: var(--teal);
+      margin-top: 8px;
+      margin-bottom: 30px;
+    }
+
+    /* About */
+    .portrait {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--teal);
+    }
+    .about-name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: 1rem;
+      margin-bottom: 0.15rem;
+    }
+    .about-title {
+      color: var(--text-muted);
+      font-family: 'Lora', serif;
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+    .social-icons a {
+      color: var(--teal);
+      font-size: 1.4rem;
+      margin: 0 8px;
+      transition: color 0.2s;
+    }
+    .social-icons a:hover {
+      color: var(--teal-dark);
+    }
+
+    /* Publications */
+    .year-separator {
+      display: flex;
+      align-items: center;
+      margin: 30px 0 15px;
+    }
+    .year-separator::before,
+    .year-separator::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #ccc;
+    }
+    .year-separator span {
+      padding: 0 15px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--teal);
+      font-family: 'Open Sans', sans-serif;
+    }
+    .pub-entry {
+      margin-bottom: 14px;
+      padding-left: 0;
+    }
+    .pub-entry .pub-title {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .pub-entry .pub-venue {
+      font-style: italic;
+      color: var(--text-muted);
+    }
+    .pub-tag {
+      display: inline-block;
+      background: var(--teal-light);
+      color: var(--teal-dark);
+      font-size: 0.72rem;
+      font-family: 'Open Sans', sans-serif;
+      padding: 2px 8px;
+      border-radius: 3px;
+      margin: 2px 2px 0 0;
+      font-weight: 600;
+    }
+
+    /* Recent pubs loading */
+    .recent-pubs-loading {
+      text-align: center;
+      padding: 20px 0;
+      color: var(--text-muted);
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.9rem;
+    }
+    .recent-pubs-loading .spinner-border {
+      width: 1.2rem;
+      height: 1.2rem;
+      border-width: 2px;
+      color: var(--teal);
+      margin-right: 8px;
+    }
+    .scholar-link-btn {
+      display: inline-block;
+      color: var(--teal);
+      border: 1px solid var(--teal);
+      padding: 6px 16px;
+      border-radius: 4px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .scholar-link-btn:hover {
+      background: var(--teal);
+      color: #fff;
+    }
+    .scholar-link-btn i {
+      margin-right: 6px;
+    }
+    .pub-entry a.pub-title {
+      font-weight: 600;
+      color: var(--teal-dark);
+      text-decoration: none;
+    }
+    .pub-entry a.pub-title:hover {
+      text-decoration: underline;
+    }
+
+    /* News */
+    .news-item {
+      padding: 6px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .news-item:last-child {
+      border-bottom: none;
+    }
+    .news-item i {
+      color: var(--teal);
+      margin-right: 8px;
+    }
+
+    /* Past section */
+    .subsection-title {
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--teal);
+      margin-top: 30px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .subsection-title:first-of-type {
+      margin-top: 0;
+    }
+    .table th {
+      background-color: var(--teal);
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .table td {
+      font-size: 0.9rem;
+    }
+    .student-list li {
+      margin-bottom: 6px;
+    }
+    .course-item {
+      margin-bottom: 4px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: var(--teal);
+      color: #fff;
+      padding: 30px 0;
+    }
+    footer a {
+      color: rgba(255,255,255,0.85);
+      font-size: 1.3rem;
+      margin: 0 10px;
+      transition: color 0.2s;
+    }
+    footer a:hover {
+      color: #fff;
+    }
+    footer .copyright {
+      font-size: 0.85rem;
+      opacity: 0.8;
+      margin-top: 10px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    /* Responsive */
+    @media (max-width: 767px) {
+      .portrait {
+        width: 150px;
+        height: 150px;
+      }
+      .about-left {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      section {
+        padding: 40px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md fixed-top">
     <div class="container">
-        <div class="row">
-       <div align="left" class="col-lg-3">
-       <img class="img-circle" src="images/huzi_PIC.JPG" width="200" border="0" height="250" alt=""></a>
-       </div>
-    
-      <div align="left" class="col-lg-4">
-       <h3> Huzefa Rangwala
-       <h5>Ph.D.,  Univ. of Minnesota - Twin Cities, USA</h5></h3>
-        <h4>Professor<br>
-        Department of Computer Science<br>
-        George Mason University<br>
-        Fairfax, <br>
-        VA 22030, USA<br>
-        Tel: <a href="tel:7039933826">+1 (703)-993-3826</a><br/>
-        Email: 'rangwala', @ 'cs.gmu.edu' <br>
-        Directions: <a target="_blank" href="https://goo.gl/maps/y19Js4dnaZN2">Google Maps</a>
-          </h4>
-          &nbsp <br>
-          </div>
-          
-          <div align="left"  class="col-lg-4"> 
-                    <div class="my-span3">
-                    <div id="news-placeholder"> </div>
-                    </div>
-       
-          </div>
-        
-        </div>
-
-
-        <div class="row">
-             <div class="col-lg-10">
-                <div class="jumbotron">
-                <p class="lead">I am a Professor of <a target="_blank" href="http://www.cs.gmu.edu/">Computer Science</a> at <a target="_blank" href="http://www.gmu.edu/">George Mason University</a>. I am affilated with the 
-                 <a target="_blank" href="http://bioengineering.gmu.edu"> Bioengineering </a> and <a target="_blank" href="http://ssb.gmu.edu/"> Bioinformatics </a> Department at George Mason University.  I graduated with a  Ph.D. (2008) and M.S. (2005) in Computer Science from 
-                 the <a href="http://www.cs.umn.edu/" target="_blank">University of Minnesota, Twin Cities</a> (USA) and a B.S. in Computer Engineering 
-                 from the <a href="http://http://www.vjti.ac.in//" target="_blank">Veermata Jijabai Technological Institute</a> (2003) in Mumbai, India. I 
-                 was a  Visiting Faculty
-                 at the <a href="http://dac.cs.vt.edu/"> Discovery Analytics Center </a> of <a href="http://www.cs.vt.edu/" target="_blank">Virginia Tech. University</a>, in Artlington, VA, USA (2015-2016). 
-                 </p>
-               <hr class="my-4">
-
-                <h4 align="center"> Research Interests</h4>
-               <p> My research interests include <b>Data Mining and Machine Learning </b> involving fundamental contributions in the areas of <ul class="list-inline">
-                 <li> <b> (i) Multi-Task and Transfer Learning  </b> </li>
-                   <li> <b> (ii) Hierarchical Classification </b> </li> and
-                   <li> <b> (iii) Recommender Systems </li> </b> </ul>
-                   <p> with applications in three broad areas: <ul class="list-inline">
-                    <li> <b> (i) Biomedical Informatics </b> </li>
-                   <li> <b> (ii) Educational Data Mining </b> <li> and 
-                   <li> <b> (iii) Social Network Analysis </b> </li>
-                    </p>
-                   <p> My group's focus is on development of novel algorithms, and engineering of effective solutions for real world applications.  My 
-                   research has resulted in development in useful and efficient <a href="software.html"> software </a> 
-                   that aid inter-disciplinary researchers
-                   to make key discoveries, while also  producing  contributions that  have  advanced the field of computer science.
-                    Research contributions are possible due to funding by <ul class="list-inline"> 
-                   <li>(i) National Science Foundation (NSF) </li>
-                   <li> (ii) Navy Research Laboratory (NRL) </li>
-                   <li> (iii) National Institutes of Health (NIH) </li>
-                   <li> (iv) Defense Advanced Research Projects Agency (DARPA) </li>
-                   <li> (v) U.S. Department of Agriculture (USDA) </li> and <li> (vi) Google, Inc. </li>
-                   </ul>
-                   </p>
-               </div>
-               </div>  
-         
-            </ div>
-                                                                                                                                                                                     </div>
-                                                                                                                                                                                      
+      <a class="navbar-brand" href="#about">Huzefa Rangwala</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#past">Past</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    </section>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 about-left text-center">
+          <img src="images/huzi_PIC.JPG" alt="Huzefa Rangwala" class="portrait">
+          <div class="about-name">Huzefa Rangwala, PhD</div>
+          <div class="about-title">[Title placeholder]</div>
+          <div class="social-icons">
+            <a href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+            <a href="https://github.com/rangwala" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:rangwala@cs.gmu.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h2 class="section-title">About</h2>
+          <p>I am a former Professor of <a href="http://www.cs.gmu.edu/" target="_blank">Computer Science</a> at <a href="http://www.gmu.edu/" target="_blank">George Mason University</a>, where I was affiliated with the <a href="http://bioengineering.gmu.edu" target="_blank">Bioengineering</a> and <a href="http://ssb.gmu.edu/" target="_blank">Bioinformatics</a> departments. I graduated with a Ph.D. (2008) and M.S. (2005) in Computer Science from the <a href="http://www.cs.umn.edu/" target="_blank">University of Minnesota, Twin Cities</a> and a B.S. in Computer Engineering from <a href="http://www.vjti.ac.in/" target="_blank">Veermata Jijabai Technological Institute</a> (2003) in Mumbai, India. I was a Visiting Faculty at the <a href="http://dac.cs.vt.edu/" target="_blank">Discovery Analytics Center</a> of <a href="http://www.cs.vt.edu/" target="_blank">Virginia Tech</a> in Arlington, VA (2015&ndash;2016).</p>
 
-     </body>
-     </html>
+          <p><strong>Research Interests:</strong> Data Mining and Machine Learning, with fundamental contributions in <strong>Multi-Task and Transfer Learning</strong>, <strong>Hierarchical Classification</strong>, and <strong>Recommender Systems</strong>, applied to <strong>Biomedical Informatics</strong>, <strong>Educational Data Mining</strong>, and <strong>Social Network Analysis</strong>.</p>
+
+          <p>My group focused on developing novel algorithms and engineering effective solutions for real-world applications. Research was funded by NSF, NRL, NIH, DARPA, USDA, and Google, Inc.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+
+      <!-- Recent Publications (fetched from Google Scholar) -->
+      <div id="recent-pubs">
+        <div class="recent-pubs-loading">
+          <span class="spinner-border" role="status"></span> Loading recent publications from Google Scholar&hellip;
+        </div>
+      </div>
+
+      <h3 class="subsection-title" style="margin-top:40px;">Most Cited</h3>
+      <ol class="list-unstyled">
+        <li class="pub-entry">
+          <span class="pub-title">Asynchronous online federated learning for edge devices with non-IID data.</span>
+          Yujing Chen, Yue Ning, Martin Slawski, and <strong>Huzefa Rangwala</strong>.
+          <span class="pub-venue">IEEE International Conference on Big Data, 2020.</span>
+          <br><span class="pub-tag">Federated Learning</span> <span class="pub-tag">Edge Computing</span>
+        </li>
+        <li class="pub-entry">
+          <span class="pub-title">Modulation of the metabiome by rifaximin in patients with cirrhosis and minimal hepatic encephalopathy.</span>
+          Jasmohan S. Bajaj, Douglas M. Heuman, Arun J. Sanyal, Phillip B. Hylemon, Richard K. Sterling, R. Todd Stravitz, Michael Fuchs, Jason M. Ridlon, Kalyani Daita, Pamela Monteith, Nicole A. Noble, Melanie B. White, Andmorgan Fisher, Masoumeh Sikaroodi, <strong>Huzefa Rangwala</strong>, and Patrick M. Gillevet.
+          <span class="pub-venue">PLoS ONE, 8(4):e60042, 2013.</span>
+          <br><span class="pub-tag">Microbiome Analysis</span> <span class="pub-tag">Clinical Application</span>
+        </li>
+        <li class="pub-entry">
+          <span class="pub-title">Mixed-type tabular data synthesis with score-based diffusion in latent space.</span>
+          Hengrui Zhang, Jiani Zhang, Balasubramaniam Srinivasan, Zhengyuan Shen, Xiao Qin, Christos Faloutsos, <strong>Huzefa Rangwala</strong>, and George Karypis.
+          <span class="pub-venue">International Conference on Learning Representations (ICLR), 2023.</span>
+          <br><span class="pub-tag">Generative Models</span> <span class="pub-tag">Tabular Data</span> <span class="pub-tag">Diffusion</span>
+        </li>
+        <li class="pub-entry">
+          <span class="pub-title">Predicting student performance using personalized analytics.</span>
+          Asmaa Elbadrawy, Agoritsa Polyzou, Zhiyun Ren, Mackenzie Sweeney, George Karypis, and <strong>Huzefa Rangwala</strong>.
+          <span class="pub-venue">Computer, 49(4):61&ndash;69, 2016.</span>
+          <br><span class="pub-tag">Educational Data Mining</span> <span class="pub-tag">Recommender Systems</span>
+        </li>
+        <li class="pub-entry">
+          <span class="pub-title">Next-term student performance prediction: A recommender systems approach.</span>
+          Mack Sweeney, <strong>Huzefa Rangwala</strong>, Jaime Lester, and Aditya Johri.
+          <span class="pub-venue">Journal of Educational Data Mining, 2016.</span>
+          <br><span class="pub-tag">Educational Data Mining</span> <span class="pub-tag">Recommender Systems</span>
+        </li>
+      </ol>
+
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news">
+    <div class="container">
+      <h2 class="section-title">News</h2>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Welcomed 9 undergraduate students for our NSF Sponsored REU Site for the 2nd year.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Mohammad is off for summer internship at TeraData in San Diego, CA.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Qian is off for summer internship at Amazon A9 Group in the Bay Area.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Zhiyun graduates with her Ph.D. and is working as a postdoctoral scholar at Ohio State University.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Qian is off to do a summer internship at Facebook in Seattle, WA.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Zhiyun is off to do a summer internship at Adobe, Inc in San Jose, CA.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Demo Paper on Trajectory Mining and Visualization accepted at ECML-PKDD 2017.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Zhiyun to present paper at EDM 2017 in Wuhan, China.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Huzefa to present tutorial at KDD 2017 in Halifax, Canada.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Paper accepted at ACM RecSys 2017.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Huzefa leads Roundtable discussion at Cyber Learning Conference 2017.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Huzefa presents tutorial at SIAM Data Mining 2017 on Educational Mining.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Congratulations to Azad for defending his Ph.D.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Accepted KDD 2016 Research Paper in collaboration with DAC, Virginia Tech.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Anveshi Charuvaka wins the Outstanding Graduate Student Award for his thesis in 2015.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Azad and Huzefa are presenting a tutorial at SIAM SDM 2016.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Undergraduate Ananya wins OSCAR Student Excellence Award.</div>
+      <div class="news-item"><i class="fa-solid fa-star"></i> Azad is awarded the Summer Graduate Fellowship.</div>
+    </div>
+  </section>
+
+  <!-- PAST -->
+  <section id="past">
+    <div class="container">
+      <h2 class="section-title">Past &mdash; Academic Career at GMU</h2>
+
+      <!-- PhD Alumni -->
+      <h3 class="subsection-title">Ph.D. Alumni</h3>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr><th>Name</th><th>Thesis</th><th>Graduated</th><th>Position After</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Azad Naik</td><td>Hierarchical Classification with Rare Categories and Inconsistencies</td><td>03/2017</td><td>Data Scientist, Microsoft, Seattle, WA</td></tr>
+            <tr><td>Anveshi Charuvaka</td><td>Regularized Learning in Multiple Tasks With Relationships</td><td>03/2015</td><td>Senior Scientist, GE Digital</td></tr>
+            <tr><td>Tanwistha Saha</td><td>Learning in Relational Networks (Co-Advisor: Dr. Carlotta Domeniconi)</td><td>11/2014</td><td>R&amp;D Engineer, Intel</td></tr>
+            <tr><td>Samuel Blasiak</td><td>Latent Variable Models of Sequences for Classification and Discovery</td><td>08/2013</td><td>Software Engineer, Google</td></tr>
+            <tr><td>Zeehasham Rasheed</td><td>Data Mining Framework for Metagenome Analysis</td><td>04/2013</td><td>Data Scientist, AOL</td></tr>
+            <tr><td>Nuttachat Wisittipanit</td><td>Machine Learning Approach for Profiling Human Microbiome (Co-Advisor: Patrick Gillevet)</td><td>03/2012</td><td>&mdash;</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PhD Students -->
+      <h3 class="subsection-title">Ph.D. Students (at GMU)</h3>
+      <ul class="student-list list-unstyled">
+        <li><strong>Zhiyun Ren</strong> &mdash; Educational Data Mining, Learning Analytics</li>
+        <li><strong>Qian Hu</strong> &mdash; Educational Data Mining, Learning Analytics</li>
+        <li><strong>Mohammad Arifur Rahman</strong> &mdash; Bioinformatics, Metagenomics, Multiple Instance Learning</li>
+        <li><strong>Li Zhang</strong> &mdash; Statistical Analysis, Educational Data Mining</li>
+        <li><strong>Yujing Chen</strong> &mdash; Statistical Analysis, Educational Data Mining</li>
+        <li><strong>Al-Amin Hosain</strong> &mdash; Cyber-Physical Systems, Multi-Task Learning</li>
+      </ul>
+
+      <!-- MS Advisees -->
+      <h3 class="subsection-title">M.S. Thesis Advisees</h3>
+      <ul class="student-list list-unstyled">
+        <li><strong>Mackenzie Sweeney</strong> &mdash; M.S. in CS (Spring 2015&ndash;Summer 2016). Thesis: <em>Intelligent Degree Planning Systems: Advancements in Personalized Achievability Rating.</em></li>
+        <li><strong>Nikhil Muralidhar</strong> &mdash; M.S. in CS (Spring 2014&ndash;Fall 2015). Thesis: <em>Recommending Temporally Relevant News Content Using Implicit Feedback Data: A Tag-based Approach.</em></li>
+        <li><strong>Azad Naik</strong> &mdash; M.S. in CS (Fall 2012&ndash;Spring 2013). Thesis: <em>Using Multi-Task Learning for Large-Scale Document Classification.</em></li>
+        <li><strong>Syed Mahmood</strong> &mdash; M.S. in CS (Fall 2009&ndash;Fall 2012). Thesis: <em>GPU-based Eulerian Assembly of Genomes.</em></li>
+        <li><strong>Ammar Naqvi</strong> &mdash; M.S. in BINF (Co-Advised with Prof. Gillevet, Spring 2009&ndash;Fall 2009). Thesis: <em>Understanding and Analyzing the Human Microbiome.</em></li>
+        <li><strong>Salman Jamali</strong> &mdash; M.S. in CS (Spring 2009&ndash;Summer 2009). Thesis: <em>Comment Mining, Popularity Prediction and Social Network Analysis.</em></li>
+      </ul>
+
+      <!-- Undergraduate Mentees -->
+      <h3 class="subsection-title">Undergraduate Mentees</h3>
+      <ul class="student-list list-unstyled">
+        <li>Nathan LaPierre, B.S. in CS (Fall 2015&ndash;Summer 2016) &mdash; Sponsor: NSF</li>
+        <li>Abigail Justen, B.S. in CS (Summer 2016) &mdash; Sponsor: NSF BIGDATA</li>
+        <li>Thi Nguyen, B.S. in CS (Summer 2016) &mdash; Sponsor: NSF BIGDATA</li>
+        <li>Ameer Takaddein, B.S. in CS (Summer 2016) &mdash; Sponsor: NSF BIGDATA</li>
+        <li>Jason Ko, B.S. in CS (Summer 2016) &mdash; Sponsor: NSF BIGDATA</li>
+        <li>Michel Jean Rouly, B.S. in CS (Summer 2015) &mdash; Sponsor: NSF</li>
+        <li>Anisha Kolla, B.S. in CS (Spring 2013) &mdash; Sponsor: URSP, OSCAR, GMU</li>
+        <li>Hozaifah Zafar, B.S. in CS (Spring 2013&ndash;) &mdash; Sponsor: USRP, OSCAR, GMU</li>
+        <li>Emily Eastlake, B.S. in BENG (Summer 2012) &mdash; Sponsor: SURE Program, Bioengineering, GMU</li>
+        <li>Liban Hassan, B.S. in ECE (Summer 2011) &mdash; Sponsor: NSF LSAMP Program, GMU</li>
+        <li>Amanda Zouzolou, B.S. in BENG (Summer 2011) &mdash; Sponsor: SURE Program, Bioengineering, GMU</li>
+        <li>Roderick Tolbert, B.S. in CS (Summer 2011) &mdash; Sponsor: NSF REU</li>
+        <li>Charles Sweet, B.S. in CS (Summer 2010&ndash;Fall 2012) &mdash; Sponsor: UAP Program, GMU</li>
+        <li>Minh Bui, B.S. in CS (Summer 2010) &mdash; Sponsor: UAP Program, GMU</li>
+      </ul>
+
+      <!-- Projects -->
+      <h3 class="subsection-title">Research Projects</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title" style="color:var(--teal)">Biological Data Mining</h5>
+              <p class="card-text">Development of machine learning algorithms for metagenomics, protein function prediction, and microbiome analysis. Tools: MC-MinH, HierCost, TAC-ELM, LSH-Div, svmPRAT, MONSTER.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title" style="color:var(--teal)">Learning Analytics</h5>
+              <p class="card-text">Building recommender systems and predictive models for student performance and educational outcomes. Tools: NTSGP, DMGrader. Funded by NSF BIG DATA.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title" style="color:var(--teal)">Cyber-Physical Systems</h5>
+              <p class="card-text">Classification of hand motions using ultrasound imaging for prosthetics and rehabilitation engineering, in collaboration with the Sikdar Lab at GMU.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Teaching -->
+      <h3 class="subsection-title">Teaching</h3>
+      <ul class="student-list list-unstyled">
+        <li class="course-item"><strong>CS 584</strong> &mdash; Data Mining (Graduate)</li>
+        <li class="course-item"><strong>CS 484</strong> &mdash; Data Mining (Undergraduate)</li>
+        <li class="course-item"><strong>CS 795</strong> &mdash; Advanced Topics in Data Mining / Social Network Analysis (Graduate Seminar)</li>
+        <li class="course-item"><strong>CS 465</strong> &mdash; Computer Systems Architecture</li>
+        <li class="course-item"><strong>CS 367</strong> &mdash; Computer Systems and Programming</li>
+        <li class="course-item"><strong>CS 750</strong> &mdash; Theory and Applications of Data Mining</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <div class="container">
+      <div>
+        <a href="https://scholar.google.com/citations?user=XKs7O_kAAAAJ" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+        <a href="https://github.com/rangwala" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:rangwala@cs.gmu.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <div class="copyright">&copy; Huzefa Rangwala</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Scroll-spy: highlight active nav link
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    function updateActiveNav() {
+      let current = '';
+      const offset = 100;
+      sections.forEach(section => {
+        const top = section.offsetTop - offset;
+        if (window.scrollY >= top) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveNav);
+    window.addEventListener('load', updateActiveNav);
+
+    // Collapse navbar on mobile after click
+    const navbarCollapse = document.getElementById('navbarNav');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (navbarCollapse.classList.contains('show')) {
+          bootstrap.Collapse.getOrCreateInstance(navbarCollapse).hide();
+        }
+      });
+    });
+
+    // Fetch recent publications from Google Scholar
+    (async function fetchRecentPubs() {
+      const container = document.getElementById('recent-pubs');
+      const scholarUrl = 'https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en&sortby=pubdate';
+      const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(scholarUrl);
+
+      function renderFallback() {
+        container.innerHTML =
+          '<p><a href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank" class="scholar-link-btn">' +
+          '<i class="fa-brands fa-google-scholar"></i> View all publications on Google Scholar</a></p>';
+      }
+
+      try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 8000);
+        const response = await fetch(proxyUrl, { signal: controller.signal });
+        clearTimeout(timeout);
+
+        if (!response.ok) throw new Error('Fetch failed');
+        const data = await response.json();
+        if (!data.contents) throw new Error('No content');
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(data.contents, 'text/html');
+        const rows = doc.querySelectorAll('#gsc_a_b .gsc_a_tr');
+
+        if (!rows || rows.length === 0) throw new Error('No publications found');
+
+        let html = '<ol class="list-unstyled">';
+        const limit = Math.min(rows.length, 10);
+
+        for (let i = 0; i < limit; i++) {
+          const row = rows[i];
+          const titleEl = row.querySelector('.gsc_a_at');
+          if (!titleEl) continue;
+
+          const title = titleEl.textContent.trim();
+          const href = titleEl.getAttribute('href') || '';
+          const link = href.startsWith('/') ? 'https://scholar.google.com' + href : href;
+
+          const grayDivs = row.querySelectorAll('.gs_gray');
+          const authors = grayDivs[0] ? grayDivs[0].textContent.trim() : '';
+          const venue = grayDivs[1] ? grayDivs[1].textContent.trim() : '';
+
+          const yearEl = row.querySelector('.gsc_a_y span');
+          const year = yearEl ? yearEl.textContent.trim() : '';
+
+          if (!title) continue;
+
+          // Bold Rangwala in author list (escape HTML first)
+          const safeAuthors = authors
+            .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+            .replace(/(H\.?\s*N?\.?\s*Rangwala|Rangwala\s*H\.?\s*N?\.?)/gi, '<strong>$1</strong>');
+          const safeTitle = title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          const safeVenue = venue.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+          html += '<li class="pub-entry">';
+          html += '<a href="' + link + '" target="_blank" class="pub-title">' + safeTitle + '</a><br>';
+          html += safeAuthors;
+          if (safeVenue) html += ' <span class="pub-venue">' + safeVenue + '</span>';
+          if (year) html += ' <span class="pub-tag">' + year + '</span>';
+          html += '</li>';
+        }
+
+        html += '</ol>';
+        html += '<p style="margin-top:10px"><a href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank" class="scholar-link-btn">' +
+                '<i class="fa-brands fa-google-scholar"></i> View all on Google Scholar</a></p>';
+
+        container.innerHTML = html;
+      } catch (e) {
+        renderFallback();
+      }
+    })();
+  </script>
+
+</body>
+</html>
