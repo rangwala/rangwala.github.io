@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.cs.gmu.edu/~hrangwal"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>MLBio+ Laboratory - CS 465 Discussion Forum</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7/0</link>
+ <description>This is where you can discuss about CS465 Computer Systems Architecture class.</description>
+ <language>en</language>
+<item>
+ <title>4.28.2 (HW4)</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/203</link>
+ <description>&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;For problem 4.28.2, are you looking for a diagram similar to figure 4.68 or 4.70?  &lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+Aaron&lt;/p&gt;
+&lt;p&gt;Answer: Either one is fine.&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/203#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Sun, 28 Nov 2010 16:03:24 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">203 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Due Date for HW4???</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/202</link>
+ <description>&lt;p&gt;The HW4 assignment page says:&lt;/p&gt;
+&lt;p&gt;Due Date: 12.06.2010&lt;/p&gt;
+&lt;p&gt;but it also says:&lt;/p&gt;
+&lt;p&gt;In class on 12.01.2010 please submit a hard-copy for both Parts 1 and 2.&lt;/p&gt;
+&lt;p&gt;Which is the correct due date?&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+James D&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/202#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Wed, 17 Nov 2010 14:20:23 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">202 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Problem 4.7.1</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/199</link>
+ <description>&lt;p&gt;Aaron points out&lt;/p&gt;
+&lt;p&gt;For 4.7.1, are we to follow the complete datapath as seen in Figure 4.19, or are we to take the items only as necessary to make the ALU operations work.  I ask this because if you take the bare elements as seen in Figure 4.7, the answer is different because the Multiplexers are not needed.&lt;/p&gt;
+&lt;p&gt;My answer &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;it&gt;&quot;Lets use the complete data path and see how the muxes will be used.&quot; &lt;/it&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/199#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Tue, 26 Oct 2010 13:37:36 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">199 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Any comments on the exam ?</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/198</link>
+ <description>&lt;p&gt;How was the exam ? Feel free to comment below.&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/198#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Wed, 20 Oct 2010 22:01:08 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">198 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Problem 2.2.3 (b) HW 1</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/194</link>
+ <description>&lt;p&gt;Thanks to David for pointing this out:&lt;/p&gt;
+&lt;p&gt;&quot;If the variables f, g, h, and i have values 1, 2, 3, and 4 respectively, what is the end value of f?.  For part b) you will need a value of &quot;j&quot;&lt;/p&gt;
+&lt;p&gt;Assume j = 1.&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+-Huzefa&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/194#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Sun, 19 Sep 2010 19:22:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">194 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Problem 1.65 (HW1)</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/192</link>
+ <description>&lt;p&gt;Thanks to Aaron for  pointing this out.&lt;/p&gt;
+&lt;p&gt;Problem 1.6.5 says &lt;/p&gt;
+&lt;p&gt;If the number of instructions executed in a certain program is divided equally among the classes of instructions in Problem 2.36.4 except for class A....&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;blue&quot;&gt; It should say 1.6.4 instead of 2.36.4 &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;br /&gt;
+-Huzefa&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/192#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Sat, 18 Sep 2010 13:54:06 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">192 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Testing First Post as Student</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/188</link>
+ <description>&lt;p&gt;Hi:&lt;/p&gt;
+&lt;p&gt;I can post here as student. Anyone working on HW0 yet ?&lt;/p&gt;
+&lt;p&gt;Regards,&lt;br /&gt;
+-Huzefa (logged in as student)&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/188#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Wed, 01 Sep 2010 13:54:13 +0000</pubDate>
+ <dc:creator>student</dc:creator>
+ <guid isPermaLink="false">188 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Welcome to CS465 Forum</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/187</link>
+ <description>&lt;p&gt;Hi All!&lt;/p&gt;
+&lt;p&gt;Forum is enabled. The best way to interact with other students and receiving answers on common questions is by using this medium.&lt;/p&gt;
+&lt;p&gt;You need to login as student to post here but it is anonymous.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;br /&gt;
+-Huzefa&lt;/p&gt;
+</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/187#comments</comments>
+ <category domain="http://www.cs.gmu.edu/~hrangwal/taxonomy/term/7">CS 465 Discussion Forum</category>
+ <pubDate>Wed, 01 Sep 2010 13:52:33 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">187 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+</channel>
+</rss>

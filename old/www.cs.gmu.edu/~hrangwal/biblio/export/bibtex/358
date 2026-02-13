@@ -1,0 +1,14 @@
+@article {Rangwala:2009fr,
+	title = {svmPRAT: SVM-based protein residue annotation toolkit.},
+	journal = {BMC Bioinformatics},
+	volume = {10},
+	year = {2009},
+	pages = {439},
+	address = {Computer Science Department, George Mason University, Fairfax, VA, USA. rangwala@cs.gmu.edu},
+	abstract = {BACKGROUND: Over the last decade several prediction methods have been developed for determining the structural and functional properties of individual protein residues using sequence and sequence-derived information. Most of these methods are based on support vector machines as they provide accurate and generalizable prediction models. RESULTS: We present a general purpose protein residue annotation toolkit (svmPRAT) to allow biologists to formulate residue-wise prediction problems. svmPRAT formulates the annotation problem as a classification or regression problem using support vector machines. One of the key features of svmPRAT is its ease of use in incorporating any user-provided information in the form of feature matrices. For every residue svmPRAT captures local information around the reside to create fixed length feature vectors. svmPRAT implements accurate and fast kernel functions, and also introduces a flexible window-based encoding scheme that accurately captures signals and pattern for training effective predictive models. CONCLUSIONS: In this work we evaluate svmPRAT on several classification and regression problems including disorder prediction, residue-wise contact order estimation, DNA-binding site prediction, and local structure alphabet prediction. svmPRAT has also been used for the development of state-of-the-art transmembrane helix prediction method called TOPTMH, and secondary structure prediction method called YASSPP. This toolkit developed provides practitioners an efficient and easy-to-use tool for a wide variety of annotation problems.Availability: http://www.cs.gmu.edu/~mlbio/svmprat.},
+	keywords = {*Software, Artificial Intelligence, Automated, Binding Sites, Databases, hf11, Pattern Recognition, Protein, Protein Folding, Protein Structure, Protein/*methods, Proteins/*chemistry, Secondary, Sequence Analysis},
+	issn = {1471-2105 (Electronic); 1471-2105 (Linking)},
+	doi = {10.1186/1471-2105-10-439},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/1471-2105-10-439_0.pdf},
+	author = {Huzefa Rangwala and Christopher Kauffman and George Karypis}
+}

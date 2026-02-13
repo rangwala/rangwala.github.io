@@ -1,0 +1,10 @@
+@inbook {Rangwalabooka,
+	title = {Introduction to Protein Structure Prediction: Methods and Algorithms},
+	year = {2010},
+	pages = {1{\textendash}14},
+	publisher = {Wiley},
+	organization = {Wiley},
+	chapter = {Introduction to Protein Structure},
+	author = {Huzefa Rangwala and George Karypis},
+	editor = {Huzefa Rangwala and George Karypis}
+}

@@ -1,0 +1,505 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>CS 750: Theory and Applications of Data Mining (Spring 2011) | MLBio+ Laboratory</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/~hrangwal/sites/all/themes/nitobe/favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" media="all" href="/~hrangwal/sites/default/files/css/css_eaed5ee67284326ba9e2a752c33bb566.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/~hrangwal/sites/default/files/css/css_a5d34e900b3fb4657272ecfb0d3f0ee7.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/~hrangwal/sites/default/files/css/css_1f691132d615fa9edb76248c88e261a9.css" />
+<style type="text/css">#masthead{background-image:url(http://www.cs.gmu.edu/~hrangwal/sites/all/themes/nitobe/headers/Earth_from_ISS.jpg);}</style>
+		<script type="text/javascript" src="/~hrangwal/sites/default/files/js/js_7f97b92a3f70662cff6fd903d3a092d8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/~hrangwal/" });
+//--><!]]>
+</script>
+		<!--[if lt IE 8]>
+			<link type="text/css" rel="stylesheet" media="screen" href="/~hrangwal/sites/all/themes/nitobe/styles/fix-ie.css" />
+		<![endif]-->
+	</head>
+	<body class="nitobe not-front not-logged-in page-node node-type-page one-sidebar sidebar-left">
+		<div id="page-wrapper" class="clear-block">
+			<div id="header-area" class="container-16">
+				<div id="title-group" class="grid-12">
+			            <a href="/~hrangwal/" title="MLBio+ Laboratory"><img src="/~hrangwal/sites/all/themes/nitobe/logo.png" alt="" id="logo" /></a>			            <span id="site-title"><a href="/~hrangwal/" title="MLBio+ Laboratory">MLBio+<span class="alt-color">Laboratory</span></a></span>			            <span id="site-slogan">Machine Learning in Biomedical Informatics</span>			        </div><!-- /title-group -->
+			        			        			        	<div id="search-top" class="grid-4"><form action="/~hrangwal/cs750"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-ce68dea6e9ebf72f5a26098a8d0046c7" value="form-ce68dea6e9ebf72f5a26098a8d0046c7"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>
+			                  		<hr class="break"/>
+          		            		<div id="header-links" class="grid-16">
+            		    <ul id="primary-nav" class="grid-16"><li class="menu-143 first"><a href="/~hrangwal/myself" title="Huzefa Rangwala">Home</a></li>
+<li class="menu-567"><a href="https://cs.gmu.edu/~hrangwal/blog/" title="">News</a></li>
+<li class="menu-498"><a href="/~hrangwal/mlbio" title="">Projects</a></li>
+<li class="menu-462"><a href="/~hrangwal/biblio" title="Displays all the Publications">Publications</a></li>
+<li class="menu-349"><a href="/~hrangwal/dmrg" title="Data Mining Reading Group">Reading Group</a></li>
+<li class="menu-146"><a href="/~hrangwal/node/4" title="Software and Web Servers">Software</a></li>
+<li class="menu-305"><a href="/~hrangwal/node/122" title="Service">Service</a></li>
+<li class="menu-500"><a href="/~hrangwal/node/91" title="">Members</a></li>
+<li class="menu-148"><a href="/~hrangwal/node/7" title="Classes">Teaching</a></li>
+<li class="menu-501 last"><a href="/~hrangwal/node/373" title="Contact Information">Contact</a></li>
+</ul>            		                  			<hr class="break"/>
+            		                		              			</div><!-- #header-links -->
+          		          		
+		         	
+			<div id="masthead" class="grid-16">
+			              		</div><!-- /masthead -->
+          		<hr class="rule-top grid-16"/>
+          		 	
+			</div><!-- /header-area -->
+			<hr class="break"/>
+			<div id="content-area" class="container-16">
+				<div id="content" class="grid-12 push-4">
+					<div class="breadcrumb"><a href="/~hrangwal/">Home</a></div>																				          				<div id="page-headline" class="clear-block">
+    					    <h1 id="page-title" >CS 750: Theory and Applications of Data Mining (Spring 2011)</h1>    					              				</div><!-- #page-headline -->
+														<div id="node-200" class="node  node-page clear-block">
+  <div class="content clear-block">
+            <span class='print-link'></span><table font size="+2" border="0">
+<caption> <b> Class Information </b> </caption>
+<tr>
+<td> <b> Instructor: </b> </td>
+<td> <a href="http://www.cs.gmu.edu/~hrangwal">Huzefa Rangwala</a>, Room #4423 EB, <a href="mailto:rangwala@cs.gmu.edu">rangwala@cs.gmu.edu</a> </td>
+</tr>
+<tr>
+<td> <b>Class Time &amp; Location: </b> </td>
+<td>AB 2026, M 7:20pm - 10:00pm</td>
+</tr>
+<tr>
+<td> <b>Text Book: </b></td>
+<td>Pang-Ning Tan, Michael Steinbach, and Vipin Kumar Introduction to Data Mining, Addison Wesley, 2006. <a href="http://www-users.cs.umn.edu/~kumar/dmbook/index.php"> Book's companion website </a> </td>
+</tr>
+<tr>
+<td> <b> Teaching Assistant: </b></td>
+<td> None
+</td>
+</tr>
+<tr>
+<td> <b> Office Hours: </b></td>
+<td>Instructor: M 3:00-5:00 pm, TA: TBD</td>
+</tr>
+</table>
+<p><font face color ="red"> Please note the syllabus is subject to change to enrich the student's learning experience :). Feel free to email <a href="mailto:rangwala@cs.gmu.edu">rangwala@cs.gmu.edu</a> for questions, concerns, or even say hi </font></p>
+<p><font face color = "navy"> If you have taken INFS 755, then you will not receive credit for CS 750 </font></p>
+<table>
+<caption> <b> About the Course </b> </caption>
+<tr>
+<th> Course Description </th></tr>
+<tr>
+<td>  Over the past decade there has been an exponential increase in the amount of data. This has lead to development of techniques to discover useful and interesting information from the large collections of data. This course aims to provide a overview of the key data mining methods and techniques like classification, clustering, and association rule mining. The course will also provide interesting application examples of data mining, especially in the field of bioinformatics and spatial data mining. </td>
+<tr>
+<th> Course Prerequisites </th></tr>
+<tr>
+<td>Some programming experience is expected. Students should be familiar with basic probability and statistics concepts, and linear algebra. Please expect some programming in the assignments and class projects. If you are not sure about the pre-reqs send me an email.
+</td>
+</tr>
+<tr>
+<th> Course Format </th></tr>
+<tr>
+<td>
+Lectures will be given by the instructor. Besides material from the textbook, topics not discussed in the book may also be covered. Research papers and handouts of material not covered in the book will be made available. Grading will be based on homework assignments, exams, and a project. Homework assignments will require some programming. Exams and homework assignments must be done on an individual basis. Any deviation from this policy will be considered a violation of the GMU Honor Code.
+</td>
+</tr>
+<tr>
+<th>Course Outcomes </th></tr>
+<tr>
+<td> As an outcome of taking this class, a student will be able to
+<ul>
+<li> Understand the various classification, clustering, association rule-mining algorithms. </li>
+<li> Apply the data mining techniques learned to real world applications. </li>
+<li> Read research papers pertaining to data mining and cloud computing  </li>
+</ul>
+</td>
+</tr>
+</tr></table>
+<p><b> Schedule </b></p>
+<table>
+<tr>
+<td> 01.24.2011 </td>
+<td> Welcome, Introduction to Data Mining (Chapter 1) </td>
+<td> </td>
+</tr>
+<tr>
+<td>01.31.2011 </td>
+<td> Data (Chapter 2) </td>
+<td> </td>
+</tr>
+<tr>
+<td>
+02.07.2011
+</td>
+<td>
+Classification (Chapter 4 &amp; 5)
+</td>
+<td>
+[HW1 out]
+</td>
+</tr>
+<tr>
+<td>
+02.14.2011
+</td>
+<td>
+Classification (Contd), Bioinformatics Example
+</td>
+<td> </td>
+</tr>
+<td>
+02.21.2011
+</td>
+<td>
+Clustering (Chapters 7 &amp; 8)
+</td>
+<td>
+[HW 1 due]/[HW2 out]
+</td>
+
+<tr>
+<td>
+02.28.2011
+</td>
+<td>
+Clustering (Contd.)
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+03.07.2011
+</td>
+<td>
+Association Rule Mining (Chapter 6)
+</td>
+<td>
+[HW2 due]
+</td>
+</tr>
+<tr>
+<td>
+03.14.2011
+</td>
+<td>
+No Class [Spring Break]
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+03.21.2011
+</td>
+<td>
+Jigsaw Activity: Clustering
+</td>
+<td>
+[Proposal Due]
+</td>
+</tr>
+<tr>
+<td>
+03.28.2011
+</td>
+<td>
+Exam [30%]
+</td>
+<td>
+[HW3 out]
+</td>
+</tr>
+<tr>
+<td>
+04.04.2011
+</td>
+<td>
+Outlier Detection  (Chapter 10)
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+04.11.2011
+</td>
+<td>
+Web Mining Example
+</td>
+<td>
+[HW3 due]
+</td>
+</tr>
+<tr>
+<td>
+04.18.2011
+</td>
+<td>
+Spatial Data Mining
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+04.25.2011
+</td>
+<td>
+Cloud Computing
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+05.02.2011
+</td>
+<td>
+Project Presentations
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+05.16.2011
+</td>
+<td>
+Project Reports Due [NO Final]
+</td>
+<td>
+</td></tr>
+</table>
+<table>
+<caption> <b>Assignments/Exams </b></caption>
+<tr>
+<th> Deadline
+<th> Type
+<th> % Weight </th></th></th></tr>
+<tr>
+<td> 02.21.11  </td>
+<td> HW  1 </td>
+<td> 10 </td>
+</tr>
+<tr>
+<td> 03.07.11  </td>
+<td> HW  2 </td>
+<td> 10 </td>
+</tr>
+<tr>
+<td> 04.11.11  </td>
+<td> HW 3 </td>
+<td> 10 </td>
+</tr>
+<tr>
+<td> 03.28.11    </td>
+<td> Exam </td>
+<td> 30 </td>
+</tr>
+<tr>
+<td>   -  </td>
+<td> Class Participation </td>
+<td>5 </td>
+</tr>
+<tr>
+<td>      </td>
+<td> Project </td>
+<td>35 </td>
+</tr>
+<tr>
+<td>  03.21.11          </td>
+<td> Project Proposal (2 pages) </td>
+<td>  5 </td>
+<tr>
+<td>   05.02.11                              </td>
+<td> Project Presentations</td>
+<td> 10 </td>
+</tr>
+<tr>
+<td> 05.16.11              </td>
+<td> Final Report </td>
+<td>   20 </td>
+</tr>
+</tr></table>
+<table>
+<caption> <b>Grade Distribution</b></caption>
+<tr>
+<th> Grade
+<th> Score Range  </th></th></tr>
+<tr>
+<td> A+</td>
+<td>  >98 </td>
+<tr>
+<td> A </td>
+<td>  94-98 </td>
+<tr>
+<td> A-</td>
+<td>  90-94 </td>
+<tr>
+<td> B+</td>
+<td>  86-90 </td>
+<tr>
+<td> B</td>
+<td>     82-86 </td>
+<tr>
+<td> B-</td>
+<td>  78-82 </td>
+<tr>
+<td> C+</td>
+<td> 74-78 </td>
+<tr>
+<td> C</td>
+<td>   70-74 </td>
+<tr>
+<td> C-</td>
+<td>   66-70 </td>
+<tr>
+<td> F</td>
+<td>   &lt; 66 </td>
+</tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+<table>
+<caption> <b> Policies: </b> </caption>
+<tr>
+<th> Attendance </th></tr>
+<tr>
+<td>Attendance is not compulsory but highly recommended for doing well in the class. This class has lots of active learning exercises, and they will be a lot of fun.</td>
+</tr>
+<tr>
+<th>Assignment Submission </th></tr>
+<tr>
+<td>
+Please ensure that the assignments are submitted on-time. No late submissions.
+</td>
+</tr>
+<tr>
+<th> Make-Up Exams &amp; Incompletes </th></tr>
+<tr>
+<td>
+Make up exams and incompletes will not be given for this class.
+</td>
+</tr>
+<tr>
+<th> Academic Honesty and GMU Honor Code </th></tr>
+<tr>
+<td> Please visit the <a href="http://www.gmu.edu/cte/Teaching/Getting_Started/Designing_Syllabus/academic_honesty.html">University's Academic Honesty Page</a> and <a href="http://honorcode.gmu.edu/"> GMU Honor Code </a>.
+</td>
+</tr>
+<tr>
+<th> Disability Statement </th></tr>
+<tr>
+<td> If you have a documented learning disability or other condition that may affect academic performance you should: 1) make sure this documentation is on file with the Office of Disability Services (SUB I, Rm. 222; 993-2474; <a href="http://www.gmu.edu/student/drc" title="www.gmu.edu/student/drc">www.gmu.edu/student/drc</a>) to determine the accommodations you need; and 2) talk with me to discuss your accommodation needs. </td>
+</tr>
+</table>
+  </div>
+      <div class="meta">
+                <div class="links"><ul class="links inline"><li class="print_mail first last"><a href="/~hrangwal/printmail/200" title="Send this page by e-mail." class="print-mail" rel="nofollow">Send to friend</a></li>
+</ul></div>
+          </div>
+  </div> <!-- node -->
+				</div><!-- /content -->
+									<div id="left-sidebar" class="grid-4 pull-12">
+					  <div id="block-user-0" class="block block-user block-left">
+    	<h2>User login</h2>
+    <form action="/~hrangwal/cs750?destination=node%2F200"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/~hrangwal/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-a5f194ec0228c44894922f48598dd45d" value="form-a5f194ec0228c44894922f48598dd45d"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div><!-- /block-user-0 -->
+<hr class="break"/><div id="block-menu-menu-classes" class="block block-menu block-left">
+    	<h2>Classes</h2>
+    <ul class="menu"><li class="leaf first"><a href="/~hrangwal/cs367" title="CS 367: Computer Systems and Programming">CS 367 (Fall 2017)</a></li>
+<li class="expanded last active-trail"><a href="/~hrangwal/node/7" title="">Archived Classes</a><ul class="menu"><li class="leaf first"><a href="/~hrangwal/cs584F2016" title="CS 584: Data Mining (Syllabus Page)">CS 584</a></li>
+<li class="collapsed"><a href="/~hrangwal/cs584F2015" title="CS 659: Theory and Applications of Data Mining">CS 584 (TASC)</a></li>
+<li class="collapsed"><a href="/~hrangwal/cs695Sp15SocNet" title="CS 695: Social and Information Network Analysis">CS 695 (Spring 2015)</a></li>
+<li class="collapsed"><a href="/~hrangwal/cs465F2014" title="CS 465 (Fall 2014)">CS 465 (Fall 2014)</a></li>
+<li class="collapsed"><a href="/~hrangwal/CS635Spring2014" title="CS 635: Foundations of Parallel Computation">CS 635 (Spring 2014)</a></li>
+<li class="collapsed"><a href="/~hrangwal/cs465-fall2012" title="CS 465: Computer Systems and Architecture (Fall 2012)">CS 465 (Fall 2012)</a></li>
+<li class="collapsed"><a href="/~hrangwal/infs755" title="INFS 755: Data Mining">INFS 755 (Fall 2011)</a></li>
+<li class="collapsed"><a href="/~hrangwal/cs465F2013" title="CS 465: Computer Systems and Architecture (Fall 2013)">CS 465 (Fall 2013)</a></li>
+<li class="expanded active-trail"><a href="/~hrangwal/cs750" title="CS 750: Theory and Applications of Data Mining (Spring 2011)" class="active">CS 750 (Spring 2011)</a><ul class="menu"><li class="leaf last"><a href="/~hrangwal/node/205" title="Announcements">Announcements</a></li>
+</ul></li>
+<li class="collapsed"><a href="/~hrangwal/cs465" title="CS 465 (Fall 2010) Computer Systems Architecture">CS 465 (Fall 2010)</a></li>
+<li class="collapsed"><a href="/~hrangwal/node/20" title="Syllabus">CS 795 (Spring 2010)</a></li>
+<li class="collapsed"><a href="/~hrangwal/bioml" title="CS 795 (Fall 2009) Biological Data Mining">CS 795 (Fall 2009)</a></li>
+<li class="collapsed"><a href="/~hrangwal/class-bio" title="CS 795 (Spring 2009)">CS 795 (Spring 2009)</a></li>
+<li class="collapsed last"><a href="/~hrangwal/node/8" title="INFS 755 Data Mining (Fall 2008)">INFS 755 (Fall 2008)</a></li>
+</ul></li>
+</ul></div><!-- /block-menu-menu-classes -->
+<hr class="break"/><div id="block-block-9" class="block block-block block-left">
+    	<h2>Data Mining in the News</h2>
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script><script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 6000,
+  width: 200,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('DMfun').start();
+</script></div><!-- /block-block-9 -->
+<hr class="break"/>					</div><!-- /left-sidebar -->
+											</div><!-- /content-area -->
+			<hr class="break"/>
+			<div id="bottom-blocks" class="container-16">
+				<hr class="rule-bottom grid-16"/>
+				<div id="bottom-left" class="grid-4">
+									</div><!-- /bottom-left -->
+				<div id="bottom-center-left" class="grid-4">
+									</div><!-- /bottom-center-left -->
+				<div id="bottom-center-right" class="grid-4">
+									</div><!-- /bottom-center-right -->
+				<div id="bottom-right" class="grid-4">
+					<div id="block-system-0" class="block block-system block-bottom_right">
+    <a href="http://drupal.org"><img src="/~hrangwal/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a></div><!-- /block-system-0 -->
+<hr class="break"/>				</div><!-- /bottom-right -->
+			</div><!-- /bottom-blocks -->
+			<hr class="break"/>
+			<div id="footer-area" class="container-16">
+				<hr class="rule-top grid-16"/>
+				<div id="footer" class="grid-16">
+					(c) Rangwala 2008, George Mason University, Fairfax, VA				</div><!-- /footer -->
+			</div><!-- /footer-area -->
+			<hr class="break"/>
+		</div><!-- /page-wrapper -->
+			</body>
+</html>

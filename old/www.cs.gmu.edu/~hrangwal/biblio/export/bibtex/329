@@ -1,0 +1,10 @@
+@inbook {Rangwalabookb,
+	title = {Introduction to Protein Structure Prediction: Methods and Algorithms},
+	year = {2010},
+	pages = {165{\textendash}194},
+	publisher = {Wiley},
+	organization = {Wiley},
+	chapter = {A survey of remote homology detection methods},
+	author = {Huzefa Rangwala},
+	editor = {Huzefa Rangwala and George Karypis}
+}

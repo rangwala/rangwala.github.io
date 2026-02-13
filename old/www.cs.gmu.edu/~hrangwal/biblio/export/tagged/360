@@ -1,0 +1,22 @@
+%0 Journal Article
+%J J Biotechnol
+%D 2010
+%T Mining manufacturing data for discovery of high productivity process characteristics.
+%A Charaniya, Salim
+%A Le, Huong
+%A Huzefa Rangwala
+%A Mills, Keri
+%A Johnson, Kevin
+%A George Karypis
+%A Hu, Wei-Shou
+%C Department of Chemical Engineering and Materials Science, University of Minnesota, 421 Washington Avenue SE, Minneapolis, MN 55455-0132, USA.
+%K *Bioreactors
+%K Algorithms
+%K Biotechnology/*methods
+%K Cluster Analysis
+%K Data Mining/*methods
+%P 186–197
+%R 10.1016/j.jbiotec.2010.04.005
+%V 147
+%X Modern manufacturing facilities for bioproducts are highly automated with advanced process monitoring and data archiving systems. The time dynamics of hundreds of process parameters and outcome variables over a large number of production runs are archived in the data warehouse. This vast amount of data is a vital resource to comprehend the complex characteristics of bioprocesses and enhance production robustness. Cell culture process data from 108 'trains' comprising production as well as inoculum bioreactors from Genentech's manufacturing facility were investigated. Each run constitutes over one-hundred on-line and off-line temporal parameters. A kernel-based approach combined with a maximum margin-based support vector regression algorithm was used to integrate all the process parameters and develop predictive models for a key cell culture performance parameter. The model was also used to identify and rank process parameters according to their relevance in predicting process outcome. Evaluation of cell culture stage-specific models indicates that production performance can be reliably predicted days prior to harvest. Strong associations between several temporal parameters at various manufacturing stages and final process outcome were uncovered. This model-based data mining represents an important step forward in establishing a process data-driven knowledge discovery in bioprocesses. Implementation of this methodology on the manufacturing floor can facilitate a real-time decision making process and thereby improve the robustness of large scale bioprocesses.
+

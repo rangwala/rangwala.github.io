@@ -1,0 +1,7 @@
+@conference {DBLP:conf/bicob/Rangwala10,
+	title = {Multiple Kernel Learning for Fold Recognition},
+	booktitle = {BICoB},
+	year = {2010},
+	pages = {7-12},
+	author = {Huzefa Rangwala}
+}

@@ -1,0 +1,7 @@
+@conference {DBLP:conf/ijcai/BlasiakR11,
+	title = {A Hidden Markov Model Variant for Sequence Classification},
+	booktitle = {IJCAI},
+	year = {2011},
+	pages = {1192-1197},
+	author = {Sam Blasiak and Huzefa Rangwala}
+}

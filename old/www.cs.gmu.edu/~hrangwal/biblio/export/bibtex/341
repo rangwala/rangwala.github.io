@@ -1,0 +1,7 @@
+@conference {DBLP:conf/bibm/ZhangRK08,
+	title = {Genome Alignments Using MPI-LAGAN},
+	booktitle = {BIBM},
+	year = {2008},
+	pages = {437-440},
+	author = {Ruinan Zhang and Huzefa Rangwala and George Karypis}
+}

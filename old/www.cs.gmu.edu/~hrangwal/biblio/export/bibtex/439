@@ -1,0 +1,19 @@
+@conference {439,
+	title = {Joint Segmentation and Clustering in Text Corpuses},
+	booktitle = {SIAM International Conference in Data Mining},
+	year = {2013},
+	note = {Acceptance Rate: 89/348 = 25.5\%.
+},
+	month = {04/2013},
+	pages = {485-493},
+	publisher = {SIAM},
+	organization = {SIAM},
+	address = {Austin, TX},
+	abstract = {In recent years, many private corporations and government organizations have digitized corpuses of legacy paper documents. Often, these organizations hope to take advantage of digital representations to transform costly manual tasks associated with paper archives into less-costly computer-assisted tasks. The most common approach toward automated information extraction is through inverted indexing systems that allow fast keyword searches. Keyword-based indexing, however, is ineffective for tasks that require information from higher level contexts.
+
+To allow for more effective information extraction from digital corpuses, we propose combining two common document processing tasks, (i) clustering and (ii) segmentation, into one process to simultaneously segment documents within a corpus and assigns each segment to a category. We have developed a generative probabilistic model to accomplish this task, which we call the Joint Segmentation and Clustering (JSC) model.
+
+From experiments measuring segmentation and clustering ability, we show that our model can accurately partition documents and assign meaningful categories to each partition. In addition, experiments tracking predictive perplexity show that our JSC model outperforms basic topic modeling approaches in terms of conciseness of the induced representation.},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/217.pdf},
+	author = {Sam Blasiak and Sithu Sudarshan and Huzefa Rangwala}
+}

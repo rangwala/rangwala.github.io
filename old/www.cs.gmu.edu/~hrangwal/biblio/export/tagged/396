@@ -1,0 +1,16 @@
+%0 Conference Paper
+%B Proceedings of the European Conference on Machine Learning and Principles of Knowledge Discovery and Data Mining (ECML-PKDD)
+%D 2012
+%T A Family of Feed-forward Models for Protein Sequence Classification
+%A Sam Blasiak
+%A Huzefa Rangwala
+%A Kathryn B. Laskey
+%C Bristol, UK
+%I ECML
+%K convolutional neural networks
+%K hidden markov models
+%K sequence classification
+%P 419--434
+%8 09/2012
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/ecml2012.pdf
+

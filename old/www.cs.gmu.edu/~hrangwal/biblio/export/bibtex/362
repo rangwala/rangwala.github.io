@@ -1,0 +1,14 @@
+@article {Naqvi:2010yq,
+	title = {Analysis of multitag pyrosequence data from human cervical lavage samples.},
+	journal = {Chem Biodivers},
+	volume = {7},
+	number = {5},
+	year = {2010},
+	pages = {1076{\textendash}1085},
+	address = {Microbiome Analysis Center, Manassas, VA 20110, USA.},
+	abstract = {We have been using the Roche GS-FLX sequencing platform to produce tens of thousands of sequencing reads from samples of both bacterial communities (microbiome) and fungal communities (mycobiome) of stool, gut mucosa, vaginal washes, and oral washes from a large number of subjects. This vast volume of data from diverse sources has necessitated the development of an analysis pipeline in order to systematically and rapidly identify the taxa within the samples and to correlate the sample data with clinical and environmental features. Specifically, we have developed automated analytical tools for data tracking, taxonomical analysis, and feature clustering of bacteria in the human microbiome and demonstrate the pipeline using Cervical Vaginal Lavage (CVL) samples. This analysis pipeline will not only provide insight to our specific CVL dataset, but is applicable to other microbiome samples and will ultimately broaden our understanding of how the microbiome influences human health.},
+	keywords = {*Metagenome, *Sequence Analysis, 16S/genetics, Bacteria/*classification/genetics/isolation \& purification, Bacterial/complications/*microbiology, Cervix Uteri, Cluster Analysis, DNA, Female, HIV Infections/complications, Humans, Ribosomal, RNA, Therapeutic Irrigation, Vaginosis},
+	issn = {1612-1880 (Electronic); 1612-1872 (Linking)},
+	doi = {10.1002/cbdv.200900321},
+	author = {Naqvi, Ammar and Huzefa Rangwala and Spear, Greg and Patrick Gillevet}
+}

@@ -1,0 +1,15 @@
+@conference {440,
+	title = {Sparsification and Sampling of Networks for Collective Classification},
+	booktitle = {The 2013 International Conference on Social Computing, Behavioral-Cultural Modeling, \& Prediction (SBP)},
+	year = {2013},
+	note = {Acceptance Rate: 24 \%},
+	month = {04/2013},
+	pages = {293-302},
+	publisher = {Springer},
+	organization = {Springer},
+	address = {Washington, DC},
+	abstract = {Network analysis has been an active area of research for the past few decades. Out of many open research questions that have been extensively studied, relational classication, community detection, link prediction are only to name a few. Collective classication is a well-known relational classication method for classifying entities (nodes) within a network which involves using both node based features and topological features of each node. It involves collective prediction of the unknown labels of all the test nodes in the network using label information of the training nodes. Even though this has been a well researched topic for years, very little has been done to address the following two challenges: (1) how to actively select the labeled nodes from the network to be used for training, and (2) how to eciently obtain a sparse representation of the original network without losing much information, so that learning can scale to large networks. A lot of work has been done in theoretical computer science which aims towards nding the best approximation of large graphs. However, not much has been done from the perspective of finding an approximate subgraph that will help in classication of network datasets. In this paper, our contribution is in proposing an efficient graph sparsication method and a sampling technique which, along with the state-of-the-art network classiers, can give comparable runtime and classication accuracies},
+	doi = {http://dx.doi.org/10.1007/978-3-642-37210-0_32},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/10.1007_978-3-642-37210-0_32.pdf},
+	author = {Tanwistha Saha and Huzefa Rangwala and Carlotta Domeniconi}
+}

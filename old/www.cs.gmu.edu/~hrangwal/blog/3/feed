@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.cs.gmu.edu/~hrangwal"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>test&#039;s blog</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/blog/3</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>TEST</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/127</link>
+ <description>&lt;p&gt;check&lt;/p&gt;
+</description>
+ <pubDate>Tue, 06 Oct 2009 14:41:06 +0000</pubDate>
+ <dc:creator>test</dc:creator>
+ <guid isPermaLink="false">127 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+</channel>
+</rss>

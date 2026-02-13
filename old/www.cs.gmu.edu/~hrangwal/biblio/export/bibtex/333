@@ -1,0 +1,13 @@
+@article {10.1109/WISM.2009.15,
+	title = {Digging Digg: Comment Mining, Popularity Prediction, and Social Network Analysis},
+	journal = {Web Information Systems and Mining, International Conference on},
+	year = {2009},
+	pages = {32-38},
+	publisher = {IEEE Computer Society},
+	address = {Los Alamitos, CA, USA},
+	keywords = {hf11},
+	isbn = {978-0-7695-3817-4},
+	doi = {http://doi.ieeecomputersociety.org/10.1109/WISM.2009.15},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/GMU-CS-TR-2009-7.pdf},
+	author = {Salman Jamali and Huzefa Rangwala}
+}

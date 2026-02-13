@@ -1,0 +1,24 @@
+%0 Journal Article
+%J J Bioinform Comput Biol
+%D 2010
+%T TOPTMH: topology predictor for transmembrane alpha-helices.
+%A Rezwan Ahmed
+%A Huzefa Rangwala
+%A George Karypis
+%C Department of Computer Science and Engineering, University of Minnesota, Minneapolis, Minnesota 55455, USA. ahmed@cs.umn.edu
+%K *Algorithms
+%K *Models
+%K *Protein Structure
+%K Artificial Intelligence
+%K Computational Biology
+%K Databases
+%K Hydrophobic and Hydrophilic Interactions
+%K Markov Chains
+%K Membrane Proteins/*chemistry
+%K Molecular
+%K Protein
+%K Secondary
+%P 39–57
+%V 8
+%X Alpha-helical transmembrane proteins mediate many key biological processes and represent 20%-30% of all genes in many organisms. Due to the difficulties in experimentally determining their high-resolution 3D structure, computational methods to predict the location and orientation of transmembrane helix segments using sequence information are essential. We present TOPTMH, a new transmembrane helix topology prediction method that combines support vector machines, hidden Markov models, and a widely used rule-based scheme. The contribution of this work is the development of a prediction approach that first uses a binary SVM classifier to predict the helix residues and then it employs a pair of HMM models that incorporate the SVM predictions and hydropathy-based features to identify the entire transmembrane helix segments by capturing the structural characteristics of these proteins. TOPTMH outperforms state-of-the-art prediction methods and achieves the best performance on an independent static benchmark.
+

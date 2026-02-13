@@ -1,0 +1,9 @@
+@inbook {biodm,
+	title = {Biological Data Mining},
+	year = {2009},
+	publisher = {CRC Press},
+	organization = {CRC Press},
+	chapter = {Predicting Local Structure and Function of Proteins},
+	author = {Huzefa Rangwala and George Karypis},
+	editor = {Jake Chen and Stefano Lonardi}
+}

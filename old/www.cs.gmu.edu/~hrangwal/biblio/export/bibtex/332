@@ -1,0 +1,8 @@
+@conference {Rangwala05massivelyparallel,
+	title = {Massively parallel BLAST for the Blue Gene/L},
+	booktitle = {In High Availability and Performance Computing Workshop},
+	year = {2005},
+	keywords = {hf11},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/10.1.1.96.8496.pdf},
+	author = {Huzefa Rangwala and Eric Lantz and Roy Musselman and Kurt Pinnow and Brian Smith and Brian Wallenfelt}
+}

@@ -1,0 +1,7 @@
+@conference {DBLP:conf/hpcc/MahmoodR11,
+	title = {GPU-Euler: Sequence Assembly Using GPGPU},
+	booktitle = {HPCC},
+	year = {2011},
+	pages = {153-160},
+	author = {Syed Faraz Mahmood and Huzefa Rangwala}
+}

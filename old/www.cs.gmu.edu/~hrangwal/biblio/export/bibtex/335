@@ -1,0 +1,7 @@
+@conference {DBLP:conf/bicob/RasheedR11,
+	title = {TAC-ELM: Metagenomic Taxonomic Classification with Extreme Learning Machines},
+	booktitle = {BICoB},
+	year = {2011},
+	pages = {92-97},
+	author = {Zeehasham Rasheed and Huzefa Rangwala}
+}

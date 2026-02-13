@@ -1,0 +1,11 @@
+@article {DBLP:journals/expert/RangwalaJ10,
+	title = {Defining a Coparticipation Network Using Comments on Digg},
+	journal = {IEEE Intelligent Systems},
+	volume = {25},
+	number = {4},
+	year = {2010},
+	pages = {36-45},
+	keywords = {hf11},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/05552588.pdf},
+	author = {Huzefa Rangwala and Salman Jamali}
+}

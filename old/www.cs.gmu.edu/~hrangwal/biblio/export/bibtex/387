@@ -1,0 +1,11 @@
+@article {Mutlu12012012,
+	title = {Colonic microbiome is altered in alcoholism},
+	journal = {American Journal of Physiology - Gastrointestinal and Liver Physiology},
+	year = {2012},
+	abstract = {Background: Several studies indicate the importance of colonic microbiota in metabolic and inflammatory disorders and importance of diet on microbiota composition. The effects of alcohol, one of the prominent components of diet, on colonic bacterial composition is largely unknown. Mounting evidence suggests that gut-derived bacterial endotoxins are co-factors for alcohol-induced tissue injury and organ failure like alcoholic liver disease (ALD) that only occur in subset of alcoholics .We hypothesized that chronic alcohol consumption results in alterations of the gut microbiome in a sub-group of alcoholics and this may be responsible for the observed inflammatory state and endotoxemia in alcoholics. Thus, we interrogated the mucosa associated colonic microbiome in 48 alcoholics with and without ALD as well as 18 healthy subjects. Methods: Colonic biopsy samples from subjects were analyzed for microbiota composition using Length Heterogeneity PCR (LH-PCR) fingerprinting and Multitag Pyrosequencing (MTPS). Results: A sub-group of alcoholics have an altered colonic microbiome (dysbiosis). The alcoholics with dysbiosis had lower median abundances of Bacteroidetes and higher ones of Proteobacteria. The observed alterations appear to correlate with high levels of serum endotoxin in a subset of the samples. Network topology analysis indicated that alcohol use is correlated with decreased connectivity of the microbial network and this alteration is seen even after an extended period of sobriety. Conclusion: We show that the colonic mucosa associated bacterial microbiome is altered in a subset of alcoholics. The altered microbiota composition is persistent and correlates with endotoxemia in a sub-group of alcoholics.},
+	keywords = {hf11},
+	doi = {10.1152/ajpgi.00380.2011},
+	url = {http://ajpgi.physiology.org/content/early/2012/01/06/ajpgi.00380.2011.abstract},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/Liver Physiol-2012ajpgi.pdf},
+	author = {Ece A. Mutlu and Gillevet, Patrick M and Huzefa Rangwala and Masoumeh Sikaroodi and Naqvi, Ammar and Engen, Phillip A and Kwasny, Mary and Lau, Cynthia K and Ali Keshavarzian}
+}

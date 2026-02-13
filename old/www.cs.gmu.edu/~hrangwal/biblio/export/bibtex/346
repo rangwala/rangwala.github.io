@@ -1,0 +1,7 @@
+@conference {DBLP:conf/apbc/RangwalaK08,
+	title = {fRMSDAlign: Protein Sequence Alignment Using Predicted Local Structure Information for Pairs with Low Sequence Identity},
+	booktitle = {APBC},
+	year = {2008},
+	pages = {111-122},
+	author = {Huzefa Rangwala and George Karypis}
+}

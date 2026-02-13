@@ -1,0 +1,29 @@
+%0 Journal Article
+%J Chem Biodivers
+%D 2010
+%T Analysis of multitag pyrosequence data from human cervical lavage samples.
+%A Naqvi, Ammar
+%A Huzefa Rangwala
+%A Spear, Greg
+%A Patrick Gillevet
+%C Microbiome Analysis Center, Manassas, VA 20110, USA.
+%K *Metagenome
+%K *Sequence Analysis
+%K 16S/genetics
+%K Bacteria/*classification/genetics/isolation & purification
+%K Bacterial/complications/*microbiology
+%K Cervix Uteri
+%K Cluster Analysis
+%K DNA
+%K Female
+%K HIV Infections/complications
+%K Humans
+%K Ribosomal
+%K RNA
+%K Therapeutic Irrigation
+%K Vaginosis
+%P 1076–1085
+%R 10.1002/cbdv.200900321
+%V 7
+%X We have been using the Roche GS-FLX sequencing platform to produce tens of thousands of sequencing reads from samples of both bacterial communities (microbiome) and fungal communities (mycobiome) of stool, gut mucosa, vaginal washes, and oral washes from a large number of subjects. This vast volume of data from diverse sources has necessitated the development of an analysis pipeline in order to systematically and rapidly identify the taxa within the samples and to correlate the sample data with clinical and environmental features. Specifically, we have developed automated analytical tools for data tracking, taxonomical analysis, and feature clustering of bacteria in the human microbiome and demonstrate the pipeline using Cervical Vaginal Lavage (CVL) samples. This analysis pipeline will not only provide insight to our specific CVL dataset, but is applicable to other microbiome samples and will ultimately broaden our understanding of how the microbiome influences human health.
+

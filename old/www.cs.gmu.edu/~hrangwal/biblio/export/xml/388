@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><xml><records><record><source-app name="Biblio" version="6.x">Drupal-Biblio</source-app><ref-type>47</ref-type><contributors><authors><author><style face="normal" font="default" size="100%">Zeehasham Rasheed</style></author><author><style face="normal" font="default" size="100%">Huzefa Rangwala</style></author><author><style face="normal" font="default" size="100%">Daniel Barbara</style></author></authors></contributors><titles><title><style face="normal" font="default" size="100%">Efficient Clustering of Metagenomic Sequences using Locality Sensitive Hashing</style></title><secondary-title><style face="normal" font="default" size="100%">SIAM International Conference in Data Mining</style></secondary-title></titles><keywords><keyword><style  face="normal" font="default" size="100%">clustering</style></keyword><keyword><style  face="normal" font="default" size="100%">hashing</style></keyword><keyword><style  face="normal" font="default" size="100%">metagenome</style></keyword></keywords><dates><year><style  face="normal" font="default" size="100%">2012</style></year><pub-dates><date><style  face="normal" font="default" size="100%">04/2012</style></date></pub-dates></dates><urls><related-urls><url><style face="normal" font="default" size="100%">http://www.cs.gmu.edu/~hrangwal/sites/default/files/mclsh_sdm2012.pdf</style></url></related-urls></urls><publisher><style face="normal" font="default" size="100%">SIAM</style></publisher><pub-location><style face="normal" font="default" size="100%">Anaheim, CA</style></pub-location><pages><style face="normal" font="default" size="100%">1023-1034</style></pages><abstract><style face="normal" font="default" size="100%">The new generation of genomic technologies have allowed re-
+searchers to determine the collective DNA of organisms (e.g.,
+microbes) co-existing as communities across the ecosystem
+(e.g., within the human host). There is a need for the com-
+putational approaches to analyze and annotate the large vol-
+umes of available sequence data from such microbial commu-
+nities (metagenomes).
+In this paper, we developed an ecient and accurate
+metagenome clustering approach that uses the locality sen-
+sitive hashing (LSH) technique to approximate the computa-
+tional complexity associated with comparing sequences. We
+introduce the use of xed-length, gapless subsequences for
+improving the sensitivity of the LSH-based similarity func-
+tion. We evaluate the performance of our algorithm on
+two metagenome datasets associated with microbes existing
+across dierent human skin locations. Our empirical results
+show the strength of the developed approach in compari-
+son to three state-of-the-art sequence clustering algorithms
+with regards to computational eciency and clustering qual-
+ity. We also demonstrate practical signicance for the de-
+veloped clustering algorithm, to compare bacterial diversity
+and structure across dierent skin locations.</style></abstract></record></records></xml>

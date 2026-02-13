@@ -1,0 +1,15 @@
+@article {Rangwala:2007ve,
+	title = {Incremental window-based protein sequence alignment algorithms.},
+	journal = {Bioinformatics},
+	volume = {23},
+	number = {2},
+	year = {2007},
+	pages = {e17-23},
+	address = {Department of Computer Science \& Engineering, University of Minnesota Minneapolis, MN 55455, USA. rangwala@cs.umn.edu},
+	abstract = {MOTIVATION: Protein sequence alignment plays a critical role in computational biology as it is an integral part in many analysis tasks designed to solve problems in comparative genomics, structure and function prediction, and homology modeling. METHODS: We have developed novel sequence alignment algorithms that compute the alignment between a pair of sequences based on short fixed- or variable-length high-scoring subsequences. Our algorithms build the alignments by repeatedly selecting the highest scoring pairs of subsequences and using them to construct small portions of the final alignment. We utilize PSI-BLAST generated sequence profiles and employ a profile-to-profile scoring scheme derived from PICASSO. RESULTS: We evaluated the performance of the computed alignments on two recently published benchmark datasets and compared them against the alignments computed by existing state-of-the-art dynamic programming-based profile-to-profile local and global sequence alignment algorithms. Our results show that the new algorithms achieve alignments that are comparable with or better than those achieved by existing algorithms. Moreover, our results also showed that these algorithms can be used to provide better information as to which of the aligned positions are more reliable{\textendash}a critical piece of information for comparative modeling applications.},
+	keywords = {*Algorithms, Amino Acid Sequence, hf11, Molecular Sequence Data, Protein/*methods, Proteins/*chemistry, Sequence Alignment/*methods, Sequence Analysis},
+	issn = {1367-4811 (Electronic); 1367-4803 (Linking)},
+	doi = {10.1093/bioinformatics/btl297},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/Bioinformatics-2007-Rangwala-e17-23.pdf},
+	author = {Huzefa Rangwala and George Karypis}
+}

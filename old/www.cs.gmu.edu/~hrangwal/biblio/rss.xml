@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.cs.gmu.edu/~hrangwal"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title></title>
+ <link>http://www.cs.gmu.edu/~hrangwal/biblio</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Protein Function Prediction using Dependence Maximization</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/472</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/69&quot;&gt;Yu G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/30&quot;&gt;Domeniconi C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/65&quot;&gt;Zhang G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/472&quot;&gt;Protein Function Prediction using Dependence Maximization&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;Proceedings of the European Conference on Machine Learning and Principles of Knowledge Discovery and Data Mining (ECML-PKDD)&lt;/i&gt;. Prague, CZ: ECML; In Press.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Protein+Function+Prediction+using+Dependence+Maximization&amp;amp;rft.date=9998&amp;amp;rft.aulast=Yu&amp;amp;rft.aufirst=Guoxian&amp;amp;rft.pub=ECML&amp;amp;rft.place=Prague%2C+CZ&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Mon, 29 Jul 2013 14:20:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">472 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Relevant Subsequence Detection with Sparse Dictionary Learning</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/471</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/33&quot;&gt;Blasiak S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/58&quot;&gt;Laskey KB&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/471&quot;&gt;Relevant Subsequence Detection with Sparse Dictionary Learning&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;Proceedings of the European Conference on Machine Learning and Principles of Knowledge Discovery and Data Mining (ECML-PKDD)&lt;/i&gt;. Prague, CZ: ECML; In Press.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Relevant+Subsequence+Detection+with+Sparse+Dictionary+Learning&amp;amp;rft.date=9998&amp;amp;rft.aulast=Blasiak&amp;amp;rft.aufirst=Sam&amp;amp;rft.pub=ECML&amp;amp;rft.place=Prague%2C+CZ&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Mon, 29 Jul 2013 14:20:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">471 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Protein Function Prediction by Integrating Multiple Kernels</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/467</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/69&quot;&gt;Yu G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/30&quot;&gt;Domeniconi C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/65&quot;&gt;Zhang G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/87&quot;&gt;Zhang Z&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/467&quot;&gt;Protein Function Prediction by Integrating Multiple Kernels&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;23rd. International Joint Conference on Artificial Intelligence&lt;/i&gt;. In Press:1-7.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Protein+Function+Prediction+by+Integrating+Multiple+Kernels&amp;amp;rft.title=23rd.+International+Joint+Conference+on+Artificial+Intelligence&amp;amp;rft.date=9998&amp;amp;rft.spage=1%E2%80%937&amp;amp;rft.aulast=Yu&amp;amp;rft.aufirst=Guoxian&amp;amp;rft.pub=AAAI&amp;amp;rft.place=Beijing%2C+China&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Mon, 29 Jul 2013 14:20:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">467 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>16S rRNA Metagenome Clustering and Diversity Estimation using Locality Sensitive Hashing</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/469</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/21&quot;&gt;Rasheed Z&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/63&quot;&gt;Barbara D&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/469&quot;&gt;16S rRNA Metagenome Clustering and Diversity Estimation using Locality Sensitive Hashing&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;BMC Systems Biology&lt;/i&gt;. In Press.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=16S+rRNA+Metagenome+Clustering+and+Diversity+Estimation+using+Locality+Sensitive+Hashing&amp;amp;rft.title=BMC+Systems+Biology&amp;amp;rft.date=9998&amp;amp;rft.aulast=Rasheed&amp;amp;rft.aufirst=Zeehasham&amp;amp;rft.pub=BioMed+Central&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Mon, 29 Jul 2013 14:20:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">469 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Classification methods for the analysis of LH-PCR data associated with Inflammatory Bowel Disease patients</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/468</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/8&quot;&gt;Wisittipanit N&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/10&quot;&gt;Sikaroodi M&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/88&quot;&gt;Mutlu ECE&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/12&quot;&gt;Keshavarzian A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/9&quot;&gt;Gillevet P&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/468&quot;&gt;Classification methods for the analysis of LH-PCR data associated with Inflammatory Bowel Disease patients&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;International Journal of Bioinformatics Research and Applications&lt;/i&gt;. In Press.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Classification+methods+for+the+analysis+of+LH-PCR+data+associated+with+Inflammatory+Bowel+Disease+patients&amp;amp;rft.title=International+Journal+of+Bioinformatics+Research+and+Applications&amp;amp;rft.date=9998&amp;amp;rft.aulast=Wisittipanit&amp;amp;rft.aufirst=Nuttachat&amp;amp;rft.pub=Inderdcience&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Mon, 29 Jul 2013 14:20:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">468 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Novel Method for Predicting Dexterous Individual Finger Movements by Imaging Muscle Activity using a Wearable Ultrasonic System</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/470</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/89&quot;&gt;Sikdar S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/90&quot;&gt;Eastlake E&lt;/a&gt;, et al.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/470&quot;&gt;Novel Method for Predicting Dexterous Individual Finger Movements by Imaging Muscle Activity using a Wearable Ultrasonic System&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;IEEE Transactions on Neural Systems and Rehabilitation Engineering&lt;/i&gt;. In Press.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Novel+Method+for+Predicting+Dexterous+Individual+Finger+Movements+by+Imaging+Muscle+Activity+using+a+Wearable+Ultrasonic+System&amp;amp;rft.title=IEEE+Transactions+on+Neural+Systems+and+Rehabilitation+Engineering&amp;amp;rft.date=9998&amp;amp;rft.aulast=Sikdar&amp;amp;rft.aufirst=Siddhartha&amp;amp;rft.pub=IEEE&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Mon, 29 Jul 2013 14:20:21 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">470 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>A Map-Reduce Framework for Clustering Metagenomes</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/443</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/21&quot;&gt;Rasheed Z&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/443&quot;&gt;A Map-Reduce Framework for Clustering Metagenomes&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;Proceedings of the 12th IEEE International Workshop on High Performance Computational Biology (HiCOMB)&lt;/i&gt;. Boston, MA: IEEE; 2013:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=A+Map-Reduce+Framework+for+Clustering+Metagenomes&amp;amp;rft.date=2013&amp;amp;rft.spage=549&amp;amp;rft.epage=558&amp;amp;rft.aulast=Rasheed&amp;amp;rft.aufirst=Zeehasham&amp;amp;rft.pub=IEEE&amp;amp;rft.place=Boston%2C+MA&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/443#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/HICOMB2013-06.pdf" length="235405" type="application/pdf" />
+ <pubDate>Wed, 20 Feb 2013 21:04:31 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">443 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Joint Segmentation and Clustering in Text Corpuses</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/439</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/33&quot;&gt;Blasiak S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/75&quot;&gt;Sudarshan S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/439&quot;&gt;Joint Segmentation and Clustering in Text Corpuses&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;SIAM International Conference in Data Mining&lt;/i&gt;. Austin, TX: SIAM; 2013:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Joint+Segmentation+and+Clustering+in+Text+Corpuses&amp;amp;rft.date=2013&amp;amp;rft.spage=485&amp;amp;rft.epage=493&amp;amp;rft.aulast=Blasiak&amp;amp;rft.aufirst=Sam&amp;amp;rft.pub=SIAM&amp;amp;rft.place=Austin%2C+TX&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/439#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/217.pdf" length="1327530" type="application/pdf" />
+ <pubDate>Tue, 05 Feb 2013 18:16:44 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">439 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>MC-MinH: Metagenome Clustering using Minwise based Hashing</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/438</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/21&quot;&gt;Rasheed Z&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/438&quot;&gt;MC-MinH: Metagenome Clustering using Minwise based Hashing&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;SIAM International Conference in Data Mining&lt;/i&gt;. Austin, TX: SIAM; 2013:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=MC-MinH%3A+Metagenome+Clustering+using+Minwise+based+Hashing&amp;amp;rft.date=2013&amp;amp;rft.spage=677&amp;amp;rft.epage=685&amp;amp;rft.aulast=Rasheed&amp;amp;rft.aufirst=Zeehasham&amp;amp;rft.pub=SIAM&amp;amp;rft.place=Austin%2C+TX&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/438#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/277.pdf" length="388531" type="application/pdf" />
+ <pubDate>Tue, 05 Feb 2013 18:13:44 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">438 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Sparsification and Sampling of Networks for Collective Classification</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/440</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/29&quot;&gt;Saha T&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/30&quot;&gt;Domeniconi C&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/440&quot;&gt;Sparsification and Sampling of Networks for Collective Classification&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;The 2013 International Conference on Social Computing, Behavioral-Cultural Modeling, &amp;amp; Prediction (SBP)&lt;/i&gt;. Washington, DC: Springer; 2013:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Sparsification+and+Sampling+of+Networks+for+Collective+Classification&amp;amp;rft.date=2013&amp;amp;rft.spage=293&amp;amp;rft.epage=302&amp;amp;rft.aulast=Saha&amp;amp;rft.aufirst=Tanwistha&amp;amp;rft.pub=Springer&amp;amp;rft.place=Washington%2C+DC&amp;amp;rft_id=info%3Adoi%2Fhttp%3A%2F%2Fdx.doi.org%2F10.1007%2F978-3-642-37210-0_32&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/440#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/10.1007_978-3-642-37210-0_32.pdf" length="223178" type="application/pdf" />
+ <pubDate>Tue, 05 Feb 2013 18:19:20 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">440 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Modulation of the Metabiome by Rifaximin in Patients with Cirrhosis and Minimal Hepatic Encephalopathy</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/450</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/79&quot;&gt;Bajaj JS&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/81&quot;&gt;DM H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/82&quot;&gt;AJ S&lt;/a&gt;, et al.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/450&quot;&gt;Modulation of the Metabiome by Rifaximin in Patients with Cirrhosis and Minimal Hepatic Encephalopathy&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;PLoS ONE &lt;/i&gt;. 2013;8(4).&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Modulation+of+the+Metabiome+by+Rifaximin+in+Patients+with+Cirrhosis+and+Minimal+Hepatic+Encephalopathy&amp;amp;rft.title=PLoS+ONE+&amp;amp;rft.date=2013&amp;amp;rft.volume=8&amp;amp;rft.issue=4&amp;amp;rft.aulast=Bajaj&amp;amp;rft.aufirst=Jasmohan&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/450#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/journal.pone_.0060042.pdf" length="1803905" type="application/pdf" />
+ <pubDate>Thu, 04 Apr 2013 15:21:18 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">450 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Multi-label Classification using Adaptive Neighborhoods</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/419</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/29&quot;&gt;Saha T&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/30&quot;&gt;Domeniconi C&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/419&quot;&gt;Multi-label Classification using Adaptive Neighborhoods&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;Eleventh International Conference on Machine Learning and Applications (ICMLA)&lt;/i&gt;. Boca Raton, FL: IEEE; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Multi-label+Classification+using+Adaptive+Neighborhoods&amp;amp;rft.date=2012&amp;amp;rft.spage=427&amp;amp;rft.epage=432&amp;amp;rft.aulast=Saha&amp;amp;rft.aufirst=Tanwistha&amp;amp;rft.pub=IEEE&amp;amp;rft.place=Boca+Raton%2C+FL&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/419#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/ICMLA_Rank.pdf" length="265751" type="application/pdf" />
+ <pubDate>Wed, 19 Sep 2012 13:41:16 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">419 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Multi-task learning for classifying proteins with dual hierarchies.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/420</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/26&quot;&gt;Charuvaka A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/420&quot;&gt;Multi-task learning for classifying proteins with dual hierarchies.&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;&quot;. In: &lt;i&gt;IEEE International Conference on Data Mining (ICDM)&lt;/i&gt;. Brussels, Belgium: IEEE; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Multi-task+learning+for+classifying+proteins+with+dual+hierarchies.&amp;amp;rft.date=2012&amp;amp;rft.spage=834--839&amp;amp;rft.aulast=Charuvaka&amp;amp;rft.aufirst=Anveshi&amp;amp;rft.pub=IEEE&amp;amp;rft.place=Brussels%2C+Belgium&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/420#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/4905a834.pdf" length="282780" type="application/pdf" />
+ <pubDate>Wed, 19 Sep 2012 13:43:08 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">420 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>LSH-Div: Species Diversity Estimation using Locality Sensitive Hashing</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/408</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/21&quot;&gt;Rasheed Z&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/63&quot;&gt;Barbara D&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/408&quot;&gt;LSH-Div: Species Diversity Estimation using Locality Sensitive Hashing&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;IEEE International Conference  on  Bioinformatics and Biomedicine  (BIBM)&lt;/i&gt;. Philadelphia, USA: IEEE; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=LSH-Div%3A+Species+Diversity+Estimation+using+Locality+Sensitive+Hashing&amp;amp;rft.date=2012&amp;amp;rft.spage=1&amp;amp;rft.epage=6&amp;amp;rft.aulast=Rasheed&amp;amp;rft.aufirst=Zeehasham&amp;amp;rft.pub=IEEE&amp;amp;rft.place=Philadelphia%2C+USA&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/408#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/OTU_BIBM2012_Short.pdf" length="352795" type="application/pdf" />
+ <pubDate>Thu, 16 Aug 2012 18:26:49 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">408 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>A Family of Feed-forward Models for Protein Sequence Classification</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/396</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/33&quot;&gt;Blasiak S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/58&quot;&gt;Laskey KB&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/396&quot;&gt;A Family of Feed-forward Models for Protein Sequence Classification&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;Proceedings of the European Conference on Machine Learning and Principles of Knowledge Discovery and Data Mining (ECML-PKDD)&lt;/i&gt;. Bristol, UK: ECML; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=A+Family+of+Feed-forward+Models+for+Protein+Sequence+Classification&amp;amp;rft.date=2012&amp;amp;rft.spage=419--434&amp;amp;rft.aulast=Blasiak&amp;amp;rft.aufirst=Sam&amp;amp;rft.pub=ECML&amp;amp;rft.place=Bristol%2C+UK&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/396#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/ecml2012.pdf" length="460951" type="application/pdf" />
+ <pubDate>Fri, 15 Jun 2012 19:58:59 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">396 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Transductive multi-label ensemble classification for protein function prediction</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/427</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/69&quot;&gt;Yu G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/30&quot;&gt;Domeniconi C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/65&quot;&gt;Zhang G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/66&quot;&gt;Yu Z&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/427&quot;&gt;Transductive multi-label ensemble classification for protein function prediction&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining&lt;/i&gt;. Beijing, China: ACM; 2012:. KDD &#039;12.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Transductive+multi-label+ensemble+classification+for+protein+function+prediction&amp;amp;rft.series=KDD+%26%23039%3B12&amp;amp;rft.isbn=978-1-4503-1462-6&amp;amp;rft.date=2012&amp;amp;rft.spage=1077%E2%80%931085&amp;amp;rft.aulast=Yu&amp;amp;rft.aufirst=Guoxian&amp;amp;rft.pub=ACM&amp;amp;rft.place=Beijing%2C+China&amp;amp;rft_id=info%3Adoi%2F10.1145%2F2339530.2339700&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/427#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/p1077-yu.pdf" length="570955" type="application/pdf" />
+ <pubDate>Tue, 20 Nov 2012 13:23:19 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">427 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Beam Methods for the Profile Hidden Markov Model</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/389</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/33&quot;&gt;Blasiak S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/58&quot;&gt;Laskey KB&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/389&quot;&gt;Beam Methods for the Profile Hidden Markov Model&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;2012 SIAM International Conference in Data Mining&lt;/i&gt;. Anaheim, CA: SIAM; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Beam+Methods+for+the+Profile+Hidden+Markov+Model&amp;amp;rft.date=2012&amp;amp;rft.spage=331&amp;amp;rft.epage=342&amp;amp;rft.aulast=Blasiak&amp;amp;rft.aufirst=Sam&amp;amp;rft.pub=SIAM&amp;amp;rft.place=Anaheim%2C+CA&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/389#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/sam2012.pdf" length="1094144" type="application/pdf" />
+ <pubDate>Wed, 23 May 2012 18:54:40 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">389 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Efficient Clustering of Metagenomic Sequences using Locality Sensitive Hashing</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/388</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/21&quot;&gt;Rasheed Z&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/63&quot;&gt;Barbara D&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/388&quot;&gt;Efficient Clustering of Metagenomic Sequences using Locality Sensitive Hashing&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;SIAM International Conference in Data Mining&lt;/i&gt;. Anaheim, CA: SIAM; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Efficient+Clustering+of+Metagenomic+Sequences+using+Locality+Sensitive+Hashing&amp;amp;rft.date=2012&amp;amp;rft.spage=1023&amp;amp;rft.epage=1034&amp;amp;rft.aulast=Rasheed&amp;amp;rft.aufirst=Zeehasham&amp;amp;rft.pub=SIAM&amp;amp;rft.place=Anaheim%2C+CA&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/388#comments</comments>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/mclsh_sdm2012.pdf" length="619426" type="application/pdf" />
+ <pubDate>Wed, 23 May 2012 18:51:13 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">388 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Colonic microbiome is altered in alcoholism</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/387</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/11&quot;&gt;Mutlu EA&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/59&quot;&gt;Gillevet PM&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, et al.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/387&quot;&gt;Colonic microbiome is altered in alcoholism&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;American Journal of Physiology - Gastrointestinal and Liver Physiology&lt;/i&gt;. 2012.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Colonic+microbiome+is+altered+in+alcoholism&amp;amp;rft.title=American+Journal+of+Physiology+-+Gastrointestinal+and+Liver+Physiology&amp;amp;rft.date=2012&amp;amp;rft.aulast=Mutlu&amp;amp;rft.aufirst=Ece&amp;amp;rft_id=info%3Adoi%2F10.1152%2Fajpgi.00380.2011&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/Liver Physiol-2012ajpgi.pdf" length="473996" type="application/pdf" />
+ <pubDate>Wed, 23 May 2012 18:41:25 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">387 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Feature Enriched Nonparametric Bayesian Co-clustering</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/386</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/57&quot;&gt;Wang P&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/30&quot;&gt;Domeniconi C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/58&quot;&gt;Laskey KB&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/386&quot;&gt;Feature Enriched Nonparametric Bayesian Co-clustering&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;PAKDD (1)&lt;/i&gt;.; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Feature+Enriched+Nonparametric+Bayesian+Co-clustering&amp;amp;rft.date=2012&amp;amp;rft.spage=517&amp;amp;rft.epage=529&amp;amp;rft.aulast=Wang&amp;amp;rft.aufirst=Pu&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/FE-DPCC.pdf" length="294951" type="application/pdf" />
+ <pubDate>Wed, 23 May 2012 18:39:54 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">386 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Improving network response times using social information</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/380</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/24&quot;&gt;Hiremagalore S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/23&quot;&gt;Liang C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/25&quot;&gt;Stavrou A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/380&quot;&gt;Improving network response times using social information&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;Social Network Analysis and Mining&lt;/i&gt;. 2012:1-12.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Improving+network+response+times+using+social+information&amp;amp;rft.title=Social+Network+Analysis+and+Mining&amp;amp;rft.issn=1869-5450&amp;amp;rft.date=2012&amp;amp;rft.spage=1&amp;amp;rft.epage=12&amp;amp;rft.aulast=Hiremagalore&amp;amp;rft.aufirst=Sharath&amp;amp;rft.pub=Springer+Wien&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/SNAM_J_Sharath_2012.pdf" length="962148" type="application/pdf" />
+ <pubDate>Tue, 10 Apr 2012 23:57:33 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">380 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Malware Characterization Using Behavioral Components</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/441</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/67&quot;&gt;Yavvari C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/76&quot;&gt;Tokhtabayev AG&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/25&quot;&gt;Stavrou A&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/441&quot;&gt;Malware Characterization Using Behavioral Components&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot; In: &lt;a href=&quot;/~hrangwal/biblio/author/77&quot;&gt;Kotenko IV&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/78&quot;&gt;Skormin VA&lt;/a&gt;, eds. &lt;i&gt;MMM-ACNS&lt;/i&gt;. St. Petersburg, Russia; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Malware+Characterization+Using+Behavioral+Components&amp;amp;rft.date=2012&amp;amp;rft.spage=226&amp;amp;rft.epage=239&amp;amp;rft.aulast=Yavvari&amp;amp;rft.aufirst=Chaitanya&amp;amp;rft.place=St.+Petersburg%2C+Russia&quot;&gt;&lt;/span&gt;</description>
+ <comments>http://www.cs.gmu.edu/~hrangwal/node/441#comments</comments>
+ <pubDate>Fri, 08 Feb 2013 19:21:48 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">441 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Metagenomic Taxonomic Classification using Extreme Learning Machines. </title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/407</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/21&quot;&gt;Rasheed Z&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/407&quot;&gt;Metagenomic Taxonomic Classification using Extreme Learning Machines. &lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;Journal of Bioinformatics and Computational Biology&lt;/i&gt;. 2012;10:1250015.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Metagenomic+Taxonomic+Classification+using+Extreme+Learning+Machines.+&amp;amp;rft.title=Journal+of+Bioinformatics+and+Computational+Biology&amp;amp;rft.date=2012&amp;amp;rft.volume=10&amp;amp;rft.spage=1250015&amp;amp;rft.aulast=Rasheed&amp;amp;rft.aufirst=Zeehasham&amp;amp;rft_id=info%3Adoi%2F10.1142%2FS0219720012500151&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/S0219720012500151.pdf" length="307688" type="application/pdf" />
+ <pubDate>Fri, 10 Aug 2012 01:33:54 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">407 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Protein function prediction using weak-label learning</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/429</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/70&quot;&gt;Yu G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/71&quot;&gt;Zhang G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/72&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/73&quot;&gt;Domeniconi C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/74&quot;&gt;Yu Z&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/429&quot;&gt;Protein function prediction using weak-label learning&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;Proceedings of the ACM Conference on Bioinformatics, Computational Biology and Biomedicine&lt;/i&gt;. ACM; 2012:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Protein+function+prediction+using+weak-label+learning&amp;amp;rft.date=2012&amp;amp;rft.spage=202%E2%80%93209&amp;amp;rft.aulast=Yu&amp;amp;rft.auinit=G&amp;amp;rft.pub=ACM&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Tue, 11 Dec 2012 21:04:43 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">429 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Evaluation of short read metagenomic assembly.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/364</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/26&quot;&gt;Charuvaka A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/364&quot;&gt;Evaluation of short read metagenomic assembly.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;BMC Genomics&lt;/i&gt;. 2011;12 Suppl 2:S8.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Evaluation+of+short+read+metagenomic+assembly.&amp;amp;rft.title=BMC+Genomics&amp;amp;rft.issn=1471-2164+%28Electronic%29%3B+1471-2164+%28Linking%29&amp;amp;rft.date=2011&amp;amp;rft.volume=12+Suppl+2&amp;amp;rft.spage=S8&amp;amp;rft.aulast=Charuvaka&amp;amp;rft.aufirst=Anveshi&amp;amp;rft.place=Computer+Science+Department%2C+George+Mason+University%2C+Fairfax%2C+Virginia%2C+USA.+rangwala%40cs.gmu.edu.&amp;amp;rft_id=info%3Adoi%2F10.1186%2F1471-2164-12-S2-S8&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/1471-2164-12-S2-S8.pdf" length="1298286" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">364 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Detection of Communities and Bridges in Weighted Networks</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/343</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/29&quot;&gt;Saha T&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/30&quot;&gt;Domeniconi C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/343&quot;&gt;Detection of Communities and Bridges in Weighted Networks&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;MLDM&lt;/i&gt;.; 2011:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Detection+of+Communities+and+Bridges+in+Weighted+Networks&amp;amp;rft.date=2011&amp;amp;rft.spage=584&amp;amp;rft.epage=598&amp;amp;rft.aulast=Saha&amp;amp;rft.aufirst=Tanwistha&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">343 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>GPU-Euler: Sequence Assembly Using GPGPU</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/342</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/28&quot;&gt;Mahmood SF&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/342&quot;&gt;GPU-Euler: Sequence Assembly Using GPGPU&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;HPCC&lt;/i&gt;.; 2011:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=GPU-Euler%3A+Sequence+Assembly+Using+GPGPU&amp;amp;rft.date=2011&amp;amp;rft.spage=153&amp;amp;rft.epage=160&amp;amp;rft.aulast=Mahmood&amp;amp;rft.aufirst=Syed+Faraz&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">342 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>A Hidden Markov Model Variant for Sequence Classification</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/348</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/33&quot;&gt;Blasiak S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/348&quot;&gt;A Hidden Markov Model Variant for Sequence Classification&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;IJCAI&lt;/i&gt;.; 2011:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=A+Hidden+Markov+Model+Variant+for+Sequence+Classification&amp;amp;rft.date=2011&amp;amp;rft.spage=1192&amp;amp;rft.epage=1197&amp;amp;rft.aulast=Blasiak&amp;amp;rft.aufirst=Sam&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">348 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>An Information Theoretic Approach for the Analysis of RNA and DNA Binding Sites</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/336</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/22&quot;&gt;Li S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/336&quot;&gt;An Information Theoretic Approach for the Analysis of RNA and DNA Binding Sites&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;BICoB&lt;/i&gt;.; 2011:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=An+Information+Theoretic+Approach+for+the+Analysis+of+RNA+and+DNA+Binding+Sites&amp;amp;rft.date=2011&amp;amp;rft.spage=184&amp;amp;rft.epage=189&amp;amp;rft.aulast=Li&amp;amp;rft.aufirst=Sheng&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">336 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Predicting Network Response Times Using Social Information</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/337</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/23&quot;&gt;Liang C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/24&quot;&gt;Hiremagalore S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/25&quot;&gt;Stavrou A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/337&quot;&gt;Predicting Network Response Times Using Social Information&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;ASONAM&lt;/i&gt;.; 2011:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Predicting+Network+Response+Times+Using+Social+Information&amp;amp;rft.date=2011&amp;amp;rft.spage=527&amp;amp;rft.epage=531&amp;amp;rft.aulast=Liang&amp;amp;rft.aufirst=Chen&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">337 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Profiling Microbial Communities using SSU rRNA Sequence and LH-PCR Data</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/334</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/8&quot;&gt;Wisittipanit N&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/10&quot;&gt;Sikaroodi M&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/12&quot;&gt;Keshavarzian A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/11&quot;&gt;Mutlu EA&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/9&quot;&gt;Gillevet P&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/334&quot;&gt;Profiling Microbial Communities using SSU rRNA Sequence and LH-PCR Data&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;BICoB&lt;/i&gt;.; 2011:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Profiling+Microbial+Communities+using+SSU+rRNA+Sequence+and+LH-PCR+Data&amp;amp;rft.date=2011&amp;amp;rft.spage=190&amp;amp;rft.epage=195&amp;amp;rft.aulast=Wisittipanit&amp;amp;rft.aufirst=Nuttachat&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">334 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Solid-phase microextraction and the human fecal VOC metabolome.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/363</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/50&quot;&gt;Dixon E&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/51&quot;&gt;Clubb C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/52&quot;&gt;Pittman S&lt;/a&gt;, et al.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/363&quot;&gt;Solid-phase microextraction and the human fecal VOC metabolome.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;PLoS One&lt;/i&gt;. 2011;6:e18471.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Solid-phase+microextraction+and+the+human+fecal+VOC+metabolome.&amp;amp;rft.title=PLoS+One&amp;amp;rft.issn=1932-6203+%28Electronic%29%3B+1932-6203+%28Linking%29&amp;amp;rft.date=2011&amp;amp;rft.volume=6&amp;amp;rft.spage=e18471&amp;amp;rft.aulast=Dixon&amp;amp;rft.aufirst=Emma&amp;amp;rft.place=Department+of+Chemistry+and+Biochemistry%2C+George+Mason+University%2C+Manassas%2C+Virginia%2C+United+States+of+America.&amp;amp;rft_id=info%3Adoi%2F10.1371%2Fjournal.pone.0018471&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">363 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>TAC-ELM: Metagenomic Taxonomic Classification with Extreme Learning Machines</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/335</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/21&quot;&gt;Rasheed Z&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/335&quot;&gt;TAC-ELM: Metagenomic Taxonomic Classification with Extreme Learning Machines&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;BICoB&lt;/i&gt;.; 2011:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=TAC-ELM%3A+Metagenomic+Taxonomic+Classification+with+Extreme+Learning+Machines&amp;amp;rft.date=2011&amp;amp;rft.spage=92&amp;amp;rft.epage=97&amp;amp;rft.aulast=Rasheed&amp;amp;rft.aufirst=Zeehasham&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">335 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Defining a Coparticipation Network Using Comments on Digg</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/347</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/20&quot;&gt;Jamali S&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/347&quot;&gt;Defining a Coparticipation Network Using Comments on Digg&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;IEEE Intelligent Systems&lt;/i&gt;. 2010;25:36-45.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Defining+a+Coparticipation+Network+Using+Comments+on+Digg&amp;amp;rft.title=IEEE+Intelligent+Systems&amp;amp;rft.date=2010&amp;amp;rft.volume=25&amp;amp;rft.spage=36&amp;amp;rft.epage=45&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/05552588.pdf" length="3871469" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">347 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Mining manufacturing data for discovery of high productivity process characteristics</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/460</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/43&quot;&gt;Charaniya S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/44&quot;&gt;Le H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, et al.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/460&quot;&gt;Mining manufacturing data for discovery of high productivity process characteristics&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;Journal of biotechnology&lt;/i&gt;. 2010;147:186-197.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Mining+manufacturing+data+for+discovery+of+high+productivity+process+characteristics&amp;amp;rft.title=Journal+of+biotechnology&amp;amp;rft.date=2010&amp;amp;rft.volume=147&amp;amp;rft.spage=186%E2%80%93197&amp;amp;rft.aulast=Charaniya&amp;amp;rft.aufirst=Salim&amp;amp;rft.pub=Elsevier&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/1-s2.0-S0168165610001902-main.pdf" length="2167847" type="application/pdf" />
+ <pubDate>Thu, 27 Jun 2013 17:40:38 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">460 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Analysis of multitag pyrosequence data from human cervical lavage samples.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/362</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/48&quot;&gt;Naqvi A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/49&quot;&gt;Spear G&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/9&quot;&gt;Gillevet P&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/362&quot;&gt;Analysis of multitag pyrosequence data from human cervical lavage samples.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;Chem Biodivers&lt;/i&gt;. 2010;7:1076-1085.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Analysis+of+multitag+pyrosequence+data+from+human+cervical+lavage+samples.&amp;amp;rft.title=Chem+Biodivers&amp;amp;rft.issn=1612-1880+%28Electronic%29%3B+1612-1872+%28Linking%29&amp;amp;rft.date=2010&amp;amp;rft.volume=7&amp;amp;rft.spage=1076%E2%80%931085&amp;amp;rft.aulast=Naqvi&amp;amp;rft.aufirst=Ammar&amp;amp;rft.place=Microbiome+Analysis+Center%2C+Manassas%2C+VA+20110%2C+USA.&amp;amp;rft_id=info%3Adoi%2F10.1002%2Fcbdv.200900321&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">362 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Co-Participation Networks Using Comment Information</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/339</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/20&quot;&gt;Jamali S&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/339&quot;&gt;Co-Participation Networks Using Comment Information&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;ICWSM&lt;/i&gt;.; 2010.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Co-Participation+Networks+Using+Comment+Information&amp;amp;rft.date=2010&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">339 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Evaluation of short read metagenomic assembly</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/338</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/26&quot;&gt;Charuvaka A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/338&quot;&gt;Evaluation of short read metagenomic assembly&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;BIBM&lt;/i&gt;.; 2010:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Evaluation+of+short+read+metagenomic+assembly&amp;amp;rft.date=2010&amp;amp;rft.spage=171&amp;amp;rft.epage=178&amp;amp;rft.aulast=Charuvaka&amp;amp;rft.aufirst=Anveshi&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">338 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Introduction to protein structure prediction : methods and algorithms</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/349</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/34&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/349&quot;&gt;Introduction to protein structure prediction : methods and algorithms&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;. Vol. 14. Hoboken, N.J.: Wiley; 2010. Wiley series on bioinformatics 14.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;amp;rft.title=Introduction+to+protein+structure+prediction+%3A+methods+and+algorithms&amp;amp;rft.series=Wiley+series+on+bioinformatics&amp;amp;rft.isbn=9780470470596&amp;amp;rft.date=2010&amp;amp;rft.volume=14&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.pub=Wiley&amp;amp;rft.place=Hoboken%2C+N.J.&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">349 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Introduction to Protein Structure Prediction: Methods and Algorithms</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/330</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/330&quot;&gt;Introduction to Protein Structure Prediction: Methods and Algorithms&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot; In: &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;, eds. Wiley; 2010:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;amp;rft.atitle=Introduction+to+Protein+Structure+Prediction%3A+Methods+and+Algorithms&amp;amp;rft.date=2010&amp;amp;rft.spage=1%E2%80%9314&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.pub=Wiley&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">330 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Introduction to Protein Structure Prediction: Methods and Algorithms</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/329</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/329&quot;&gt;Introduction to Protein Structure Prediction: Methods and Algorithms&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot; In: &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;, eds. Wiley; 2010:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;amp;rft.atitle=Introduction+to+Protein+Structure+Prediction%3A+Methods+and+Algorithms&amp;amp;rft.date=2010&amp;amp;rft.spage=165%E2%80%93194&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.pub=Wiley&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">329 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Mining manufacturing data for discovery of high productivity process characteristics.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/360</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/43&quot;&gt;Charaniya S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/44&quot;&gt;Le H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, et al.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/360&quot;&gt;Mining manufacturing data for discovery of high productivity process characteristics.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;J Biotechnol&lt;/i&gt;. 2010;147:186-197.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Mining+manufacturing+data+for+discovery+of+high+productivity+process+characteristics.&amp;amp;rft.title=J+Biotechnol&amp;amp;rft.issn=1873-4863+%28Electronic%29%3B+0168-1656+%28Linking%29&amp;amp;rft.date=2010&amp;amp;rft.volume=147&amp;amp;rft.spage=186%E2%80%93197&amp;amp;rft.aulast=Charaniya&amp;amp;rft.aufirst=Salim&amp;amp;rft.place=Department+of+Chemical+Engineering+and+Materials+Science%2C+University+of+Minnesota%2C+421+Washington+Avenue+SE%2C+Minneapolis%2C+MN+55455-0132%2C+USA.&amp;amp;rft_id=info%3Adoi%2F10.1016%2Fj.jbiotec.2010.04.005&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">360 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Multiple Kernel Learning for Fold Recognition</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/340</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/340&quot;&gt;Multiple Kernel Learning for Fold Recognition&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;BICoB&lt;/i&gt;.; 2010:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Multiple+Kernel+Learning+for+Fold+Recognition&amp;amp;rft.date=2010&amp;amp;rft.spage=7&amp;amp;rft.epage=12&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">340 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Network-based modeling of the human gut microbiome.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/361</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/48&quot;&gt;Naqvi A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/12&quot;&gt;Keshavarzian A&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/9&quot;&gt;Gillevet P&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/361&quot;&gt;Network-based modeling of the human gut microbiome.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;Chem Biodivers&lt;/i&gt;. 2010;7:1040-1050.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Network-based+modeling+of+the+human+gut+microbiome.&amp;amp;rft.title=Chem+Biodivers&amp;amp;rft.issn=1612-1880+%28Electronic%29%3B+1612-1872+%28Linking%29&amp;amp;rft.date=2010&amp;amp;rft.volume=7&amp;amp;rft.spage=1040%E2%80%931050&amp;amp;rft.aulast=Naqvi&amp;amp;rft.aufirst=Ammar&amp;amp;rft.place=Microbiome+Analysis+Center%2C+Manassas%2C+VA+20110%2C+USA.&amp;amp;rft_id=info%3Adoi%2F10.1002%2Fcbdv.200900324&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">361 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>SVM-based classification and feature selection methods for the analysis of Inflammatory Bowel disease microbiome data</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/331</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/8&quot;&gt;Wisittipanit N&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/9&quot;&gt;Gillevet P&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/10&quot;&gt;Sikaroodi M&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/11&quot;&gt;Mutlu EA&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/12&quot;&gt;Keshavarzian A&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/331&quot;&gt;SVM-based classification and feature selection methods for the analysis of Inflammatory Bowel disease microbiome data&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot; In: &lt;a href=&quot;/~hrangwal/biblio/author/13&quot;&gt;Huan J&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/3&quot;&gt;Chen J&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/14&quot;&gt;Zaki M&lt;/a&gt;, eds. &lt;i&gt;Proceedings of the 9th International Workshop on Data Mining in Bioinformatics&lt;/i&gt;.; 2010:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=SVM-based+classification+and+feature+selection+methods+for+the+analysis+of+Inflammatory+Bowel+disease+microbiome+data&amp;amp;rft.date=2010&amp;amp;rft.spage=1&amp;amp;rft.epage=8&amp;amp;rft.aulast=Wisittipanit&amp;amp;rft.aufirst=Nuttachat&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">331 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>TOPTMH: topology predictor for transmembrane alpha-helices.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/359</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/31&quot;&gt;Ahmed R&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/359&quot;&gt;TOPTMH: topology predictor for transmembrane alpha-helices.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;J Bioinform Comput Biol&lt;/i&gt;. 2010;8:39-57.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=TOPTMH%3A+topology+predictor+for+transmembrane+alpha-helices.&amp;amp;rft.title=J+Bioinform+Comput+Biol&amp;amp;rft.issn=0219-7200+%28Print%29%3B+0219-7200+%28Linking%29&amp;amp;rft.date=2010&amp;amp;rft.volume=8&amp;amp;rft.spage=39%E2%80%9357&amp;amp;rft.aulast=Ahmed&amp;amp;rft.aufirst=Rezwan&amp;amp;rft.place=Department+of+Computer+Science+and+Engineering%2C+University+of+Minnesota%2C+Minneapolis%2C+Minnesota+55455%2C+USA.+ahmed%40cs.umn.edu&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">359 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Digging Digg: Comment Mining, Popularity Prediction, and Social Network Analysis</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/333</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/20&quot;&gt;Jamali S&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/333&quot;&gt;Digging Digg: Comment Mining, Popularity Prediction, and Social Network Analysis&lt;/a&gt;&lt;/span&gt;.&quot; &lt;i&gt;Web Information Systems and Mining, International Conference on&lt;/i&gt;. 2009:32-38.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Digging+Digg%3A+Comment+Mining%2C+Popularity+Prediction%2C+and+Social+Network+Analysis&amp;amp;rft.title=Web+Information+Systems+and+Mining%2C+International+Conference+on&amp;amp;rft.isbn=978-0-7695-3817-4&amp;amp;rft.date=2009&amp;amp;rft.spage=32&amp;amp;rft.epage=38&amp;amp;rft.aulast=Jamali&amp;amp;rft.aufirst=Salman&amp;amp;rft.pub=IEEE+Computer+Society&amp;amp;rft.place=Los+Alamitos%2C+CA%2C+USA&amp;amp;rft_id=info%3Adoi%2Fhttp%3A%2F%2Fdoi.ieeecomputersociety.org%2F10.1109%2FWISM.2009.15&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/GMU-CS-TR-2009-7.pdf" length="3459567" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">333 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Multi-assay-based structure-activity relationship models: improving structure-activity relationship models by incorporating activity information from related targets.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/357</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/42&quot;&gt;Ning X&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/357&quot;&gt;Multi-assay-based structure-activity relationship models: improving structure-activity relationship models by incorporating activity information from related targets.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;J Chem Inf Model&lt;/i&gt;. 2009;49:2444-2456.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Multi-assay-based+structure-activity+relationship+models%3A+improving+structure-activity+relationship+models+by+incorporating+activity+information+from+related+targets.&amp;amp;rft.title=J+Chem+Inf+Model&amp;amp;rft.issn=1549-960X+%28Electronic%29%3B+1549-9596+%28Linking%29&amp;amp;rft.date=2009&amp;amp;rft.volume=49&amp;amp;rft.spage=2444%E2%80%932456&amp;amp;rft.aulast=Ning&amp;amp;rft.aufirst=Xia&amp;amp;rft.place=Department+of+Computer+Science+and+Computer+Engineering%2C+University+of+Minnesota%2C+4-192+EE%2FCS+Building%2C+200+Union+Street+SE%2C+Minneapolis%2C+Minnesota+55455%2C+USA.+xning%40cs.umn.edu&amp;amp;rft_id=info%3Adoi%2F10.1021%2Fci900182q&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/Ning2009.pdf" length="927570" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">357 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>svmPRAT: SVM-based protein residue annotation toolkit.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/358</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/32&quot;&gt;Kauffman C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/358&quot;&gt;svmPRAT: SVM-based protein residue annotation toolkit.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;BMC Bioinformatics&lt;/i&gt;. 2009;10:439.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=svmPRAT%3A+SVM-based+protein+residue+annotation+toolkit.&amp;amp;rft.title=BMC+Bioinformatics&amp;amp;rft.issn=1471-2105+%28Electronic%29%3B+1471-2105+%28Linking%29&amp;amp;rft.date=2009&amp;amp;rft.volume=10&amp;amp;rft.spage=439&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.place=Computer+Science+Department%2C+George+Mason+University%2C+Fairfax%2C+VA%2C+USA.+rangwala%40cs.gmu.edu&amp;amp;rft_id=info%3Adoi%2F10.1186%2F1471-2105-10-439&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/1471-2105-10-439_0.pdf" length="426049" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">358 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Biological Data Mining</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/327</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/327&quot;&gt;Biological Data Mining&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot; In: &lt;a href=&quot;/~hrangwal/biblio/author/3&quot;&gt;Chen J&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/4&quot;&gt;Lonardi S&lt;/a&gt;, eds. CRC Press; 2009.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;amp;rft.atitle=Biological+Data+Mining&amp;amp;rft.date=2009&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.pub=CRC+Press&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">327 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>A Kernel Framework for Protein Residue Annotation</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/345</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/32&quot;&gt;Kauffman C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/345&quot;&gt;A Kernel Framework for Protein Residue Annotation&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;PAKDD&lt;/i&gt;.; 2009:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=A+Kernel+Framework+for+Protein+Residue+Annotation&amp;amp;rft.date=2009&amp;amp;rft.spage=439&amp;amp;rft.epage=451&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">345 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>fRMSDPred: predicting local RMSD between structural fragments using sequence information.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/356</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/356&quot;&gt;fRMSDPred: predicting local RMSD between structural fragments using sequence information.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;Proteins&lt;/i&gt;. 2008;72:1005-1018.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=fRMSDPred%3A+predicting+local+RMSD+between+structural+fragments+using+sequence+information.&amp;amp;rft.title=Proteins&amp;amp;rft.issn=1097-0134+%28Electronic%29%3B+0887-3585+%28Linking%29&amp;amp;rft.date=2008&amp;amp;rft.volume=72&amp;amp;rft.spage=1005%E2%80%931018&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.place=Computer+Science+and+Engineering%2C+University+of+Minnesota%2C+Minneapolis%2C+Minnesota+55455%2C+USA.+rangwala%40cs.umn.edu&amp;amp;rft_id=info%3Adoi%2F10.1002%2Fprot.21998&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/21998_ftp.pdf" length="644576" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">356 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>fRMSDAlign: Protein Sequence Alignment Using Predicted Local Structure Information for Pairs with Low Sequence Identity</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/346</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/346&quot;&gt;fRMSDAlign: Protein Sequence Alignment Using Predicted Local Structure Information for Pairs with Low Sequence Identity&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;APBC&lt;/i&gt;.; 2008:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=fRMSDAlign%3A+Protein+Sequence+Alignment+Using+Predicted+Local+Structure+Information+for+Pairs+with+Low+Sequence+Identity&amp;amp;rft.date=2008&amp;amp;rft.spage=111&amp;amp;rft.epage=122&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">346 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Genome Alignments Using MPI-LAGAN</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/341</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/27&quot;&gt;Zhang R&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/341&quot;&gt;Genome Alignments Using MPI-LAGAN&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;BIBM&lt;/i&gt;.; 2008:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Genome+Alignments+Using+MPI-LAGAN&amp;amp;rft.date=2008&amp;amp;rft.spage=437&amp;amp;rft.epage=440&amp;amp;rft.aulast=Zhang&amp;amp;rft.aufirst=Ruinan&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">341 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Improving homology models for protein-ligand binding sites.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/355</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/41&quot;&gt;Kauffman C&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/355&quot;&gt;Improving homology models for protein-ligand binding sites.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;Comput Syst Bioinformatics Conf&lt;/i&gt;. 2008;7:211-222.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Improving+homology+models+for+protein-ligand+binding+sites.&amp;amp;rft.title=Comput+Syst+Bioinformatics+Conf&amp;amp;rft.issn=1752-7791+%28Print%29%3B+1752-7791+%28Linking%29&amp;amp;rft.date=2008&amp;amp;rft.volume=7&amp;amp;rft.spage=211%E2%80%93222&amp;amp;rft.aulast=Kauffman&amp;amp;rft.aufirst=Chris&amp;amp;rft.place=Department+of+Computer+Science%2C+University+of+Minnesota%2C+117+Pleasant+St+SE%2C+Room+464%2C+Minneapolis%2C+MN+55455%2C+USA.+kauffman%40cs.umn.edu&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">355 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>TOPTMH: Topology Predictor for Transmembrane alpha-Helices</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/344</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/31&quot;&gt;Ahmed R&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/344&quot;&gt;TOPTMH: Topology Predictor for Transmembrane alpha-Helices&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;ECML/PKDD (1)&lt;/i&gt;.; 2008:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=TOPTMH%3A+Topology+Predictor+for+Transmembrane+alpha-Helices&amp;amp;rft.date=2008&amp;amp;rft.spage=23&amp;amp;rft.epage=38&amp;amp;rft.aulast=Ahmed&amp;amp;rft.aufirst=Rezwan&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">344 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Incremental window-based protein sequence alignment algorithms.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/353</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/353&quot;&gt;Incremental window-based protein sequence alignment algorithms.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;Bioinformatics&lt;/i&gt;. 2007;23:e17-23.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Incremental+window-based+protein+sequence+alignment+algorithms.&amp;amp;rft.title=Bioinformatics&amp;amp;rft.issn=1367-4811+%28Electronic%29%3B+1367-4803+%28Linking%29&amp;amp;rft.date=2007&amp;amp;rft.volume=23&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.place=Department+of+Computer+Science+%26amp%3B+Engineering%2C+University+of+Minnesota+Minneapolis%2C+MN+55455%2C+USA.+rangwala%40cs.umn.edu&amp;amp;rft_id=info%3Adoi%2F10.1093%2Fbioinformatics%2Fbtl297&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/Bioinformatics-2007-Rangwala-e17-23.pdf" length="130935" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">353 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>fRMSDPred: predicting local RMSD between structural fragments using sequence information.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/354</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/354&quot;&gt;fRMSDPred: predicting local RMSD between structural fragments using sequence information.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;Comput Syst Bioinformatics Conf&lt;/i&gt;. 2007;6:311-322.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=fRMSDPred%3A+predicting+local+RMSD+between+structural+fragments+using+sequence+information.&amp;amp;rft.title=Comput+Syst+Bioinformatics+Conf&amp;amp;rft.issn=1752-7791+%28Print%29%3B+1752-7791+%28Linking%29&amp;amp;rft.date=2007&amp;amp;rft.volume=6&amp;amp;rft.spage=311%E2%80%93322&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.place=Computer+Science+%26amp%3B+Engineering%2C+University+of+Minnesota%2C+Minneapolis%2C+MN+55455%2C+USA.+rangwala%40cs.umn.edu&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">354 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Knowledge Discovery in Bioinformatics: Techniques, Methods, and Applications</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/328</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/5&quot;&gt;DeRonne K&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/328&quot;&gt;Knowledge Discovery in Bioinformatics: Techniques, Methods, and Applications&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot; In: &lt;a href=&quot;/~hrangwal/biblio/author/6&quot;&gt;Hu X&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/7&quot;&gt;Pan Y&lt;/a&gt;, eds. &lt;i&gt;Knowledge Discovery in Bioinformatics&lt;/i&gt;. John Wiley &amp;amp; Sons, Inc.; 2007:.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;amp;rft.atitle=Knowledge+Discovery+in+Bioinformatics%3A+Techniques%2C+Methods%2C+and+Applications&amp;amp;rft.title=Knowledge+Discovery+in+Bioinformatics&amp;amp;rft.btitle=Knowledge+Discovery+in+Bioinformatics&amp;amp;rft.isbn=9780470124642&amp;amp;rft.date=2007&amp;amp;rft.spage=145%E2%80%93168&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.pub=John+Wiley+%26amp%3B+Sons%2C+Inc.&amp;amp;rft_id=info%3Adoi%2F10.1002%2F9780470124642.ch8&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">328 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Building multiclass classifiers for remote homology detection and fold recognition.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/352</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/352&quot;&gt;Building multiclass classifiers for remote homology detection and fold recognition.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;BMC Bioinformatics&lt;/i&gt;. 2006;7:455.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Building+multiclass+classifiers+for+remote+homology+detection+and+fold+recognition.&amp;amp;rft.title=BMC+Bioinformatics&amp;amp;rft.issn=1471-2105+%28Electronic%29%3B+1471-2105+%28Linking%29&amp;amp;rft.date=2006&amp;amp;rft.volume=7&amp;amp;rft.spage=455&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.place=Department+of+Computer+Science+%26amp%3B+Engineering%2C+University+of+Minnesota%2C+Minneapolis%2C+Minnesota%2C+USA.+rangwala%40cs.umn.edu&amp;amp;rft_id=info%3Adoi%2F10.1186%2F1471-2105-7-455&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/1471-2105-7-455.pdf" length="709228" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">352 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Massively parallel BLAST for the Blue Gene/L</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/332</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/15&quot;&gt;Lantz E&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/16&quot;&gt;Musselman R&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/17&quot;&gt;Pinnow K&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/18&quot;&gt;Smith B&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/19&quot;&gt;Wallenfelt B&lt;/a&gt;.&lt;/span&gt; &quot;&lt;i&gt;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/332&quot;&gt;Massively parallel BLAST for the Blue Gene/L&lt;/a&gt;&lt;/span&gt;&lt;/i&gt;.&quot;. In: &lt;i&gt;In High Availability and Performance Computing Workshop&lt;/i&gt;.; 2005.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;amp;rft.title=Massively+parallel+BLAST+for+the+Blue+Gene%2FL&amp;amp;rft.date=2005&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/10.1.1.96.8496.pdf" length="101871" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">332 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Profile-based direct kernels for remote homology detection and fold recognition.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/350</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/1&quot;&gt;Rangwala H&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/2&quot;&gt;Karypis G&lt;/a&gt;.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/350&quot;&gt;Profile-based direct kernels for remote homology detection and fold recognition.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;Bioinformatics&lt;/i&gt;. 2005;21:4239-4247.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Profile-based+direct+kernels+for+remote+homology+detection+and+fold+recognition.&amp;amp;rft.title=Bioinformatics&amp;amp;rft.issn=1367-4803+%28Print%29%3B+1367-4803+%28Linking%29&amp;amp;rft.date=2005&amp;amp;rft.volume=21&amp;amp;rft.spage=4239%E2%80%934247&amp;amp;rft.aulast=Rangwala&amp;amp;rft.aufirst=Huzefa&amp;amp;rft.place=Department+of+Computer+Science+and+Engineering%2C+University+of+Minnesota+Minneapolis%2C+MN+55455%2C+USA.&amp;amp;rft_id=info%3Adoi%2F10.1093%2Fbioinformatics%2Fbti687&quot;&gt;&lt;/span&gt;</description>
+ <enclosure url="http://www.cs.gmu.edu/~hrangwal/sites/default/files/Bioinformatics-2005-Rangwala-4239-47.pdf" length="178833" type="application/pdf" />
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">350 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+<item>
+ <title>Feature mining for prediction of degree of liver fibrosis.</title>
+ <link>http://www.cs.gmu.edu/~hrangwal/node/351</link>
+ <description>&lt;span class=&quot;biblio-authors&quot;&gt;&lt;a href=&quot;/~hrangwal/biblio/author/35&quot;&gt;Mayer BW&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/36&quot;&gt;Rangwala HS&lt;/a&gt;, &lt;a href=&quot;/~hrangwal/biblio/author/37&quot;&gt;Gupta R&lt;/a&gt;, et al.&lt;/span&gt; &quot;&lt;span class=&quot;biblio-title-ama&quot;&gt;&lt;a href=&quot;/~hrangwal/node/351&quot;&gt;Feature mining for prediction of degree of liver fibrosis.&lt;/a&gt;&lt;/span&gt;&quot; &lt;i&gt;AMIA Annu Symp Proc&lt;/i&gt;. 2005:1048.&lt;span class=&quot;Z3988&quot; title=&quot;ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;rft.atitle=Feature+mining+for+prediction+of+degree+of+liver+fibrosis.&amp;amp;rft.title=AMIA+Annu+Symp+Proc&amp;amp;rft.issn=1942-597X+%28Electronic%29%3B+1559-4076+%28Linking%29&amp;amp;rft.date=2005&amp;amp;rft.spage=1048&amp;amp;rft.aulast=Mayer&amp;amp;rft.aufirst=Benjamin&amp;amp;rft.place=University+of+Minnesota%2C+Minneapolis%2C+MN%2C+USA.&quot;&gt;&lt;/span&gt;</description>
+ <pubDate>Wed, 16 Nov 2011 20:03:28 +0000</pubDate>
+ <dc:creator>rangwala</dc:creator>
+ <guid isPermaLink="false">351 at http://www.cs.gmu.edu/~hrangwal</guid>
+</item>
+</channel>
+</rss>

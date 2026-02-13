@@ -1,0 +1,12 @@
+@article {Kauffman:2008ly,
+	title = {Improving homology models for protein-ligand binding sites.},
+	journal = {Comput Syst Bioinformatics Conf},
+	volume = {7},
+	year = {2008},
+	pages = {211{\textendash}222},
+	address = {Department of Computer Science, University of Minnesota, 117 Pleasant St SE, Room 464, Minneapolis, MN 55455, USA. kauffman@cs.umn.edu},
+	abstract = {In order to improve the prediction of protein-ligand binding sites through homology modeling, we incorporate knowledge of the binding residues into the modeling framework. Residues are identified as binding or nonbinding based on their true labels as well as labels predicted from structure and sequence. The sequence predictions were made using a support vector machine framework which employs a sophisticated window-based kernel. Binding labels are used with a very sensitive sequence alignment method to align the target and template. Relevant parameters governing the alignment process are searched for optimal values. Based on our results, homology models of the binding site can be improved if a priori knowledge of the binding residues is available. For target-template pairs with low sequence identity and high structural diversity our sequence-based prediction method provided sufficient information to realize this improvement.},
+	keywords = {*Algorithms, *Models, Amino Acid, Amino Acid Sequence, Binding Sites, Chemical, Computer Simulation, Ligands, Molecular, Molecular Sequence Data, Protein Binding, Protein Conformation, Protein Structure, Protein/*methods, Proteins/*chemistry/*ultrastructure, Sequence Alignment/*methods, Sequence Analysis, Sequence Homology, Tertiary},
+	issn = {1752-7791 (Print); 1752-7791 (Linking)},
+	author = {Kauffman, Chris and Huzefa Rangwala and George Karypis}
+}

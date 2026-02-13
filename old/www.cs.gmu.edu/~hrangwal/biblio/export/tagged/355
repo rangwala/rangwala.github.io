@@ -1,0 +1,31 @@
+%0 Journal Article
+%J Comput Syst Bioinformatics Conf
+%D 2008
+%T Improving homology models for protein-ligand binding sites.
+%A Kauffman, Chris
+%A Huzefa Rangwala
+%A George Karypis
+%C Department of Computer Science, University of Minnesota, 117 Pleasant St SE, Room 464, Minneapolis, MN 55455, USA. kauffman@cs.umn.edu
+%K *Algorithms
+%K *Models
+%K Amino Acid
+%K Amino Acid Sequence
+%K Binding Sites
+%K Chemical
+%K Computer Simulation
+%K Ligands
+%K Molecular
+%K Molecular Sequence Data
+%K Protein Binding
+%K Protein Conformation
+%K Protein Structure
+%K Protein/*methods
+%K Proteins/*chemistry/*ultrastructure
+%K Sequence Alignment/*methods
+%K Sequence Analysis
+%K Sequence Homology
+%K Tertiary
+%P 211–222
+%V 7
+%X In order to improve the prediction of protein-ligand binding sites through homology modeling, we incorporate knowledge of the binding residues into the modeling framework. Residues are identified as binding or nonbinding based on their true labels as well as labels predicted from structure and sequence. The sequence predictions were made using a support vector machine framework which employs a sophisticated window-based kernel. Binding labels are used with a very sensitive sequence alignment method to align the target and template. Relevant parameters governing the alignment process are searched for optimal values. Based on our results, homology models of the binding site can be improved if a priori knowledge of the binding residues is available. For target-template pairs with low sequence identity and high structural diversity our sequence-based prediction method provided sufficient information to realize this improvement.
+

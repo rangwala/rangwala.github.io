@@ -1,0 +1,17 @@
+@conference {Yu:2012:TME:2339530.2339700,
+	title = {Transductive multi-label ensemble classification for protein function prediction},
+	booktitle = {Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining},
+	series = {KDD {\textquoteright}12},
+	year = {2012},
+	month = {08/2012},
+	pages = {1077{\textendash}1085},
+	publisher = {ACM},
+	organization = {ACM},
+	address = {Beijing, China},
+	keywords = {directed bi-relation graph, multi-label ensemble classifier, protein function prediction},
+	isbn = {978-1-4503-1462-6},
+	doi = {10.1145/2339530.2339700},
+	url = {http://doi.acm.org/10.1145/2339530.2339700},
+	attachments = {http://www.cs.gmu.edu/~hrangwal/sites/default/files/p1077-yu.pdf},
+	author = {Yu, Guoxian and Carlotta Domeniconi and Huzefa Rangwala and Guoji Zhang and Zhiwen Yu}
+}

@@ -1,0 +1,19 @@
+%0 Journal Article
+%J Proteins
+%D 2008
+%T fRMSDPred: predicting local RMSD between structural fragments using sequence information.
+%A Huzefa Rangwala
+%A George Karypis
+%C Computer Science and Engineering, University of Minnesota, Minneapolis, Minnesota 55455, USA. rangwala@cs.umn.edu
+%K *Algorithms
+%K *Sequence Analysis
+%K Databases
+%K hf11
+%K Protein
+%K Proteins
+%P 1005–1018
+%R 10.1002/prot.21998
+%V 72
+%X The effectiveness of comparative modeling approaches for protein structure prediction can be substantially improved by incorporating predicted structural information in the initial sequence-structure alignment. Motivated by the approaches used to align protein structures, this article focuses on developing machine learning approaches for estimating the RMSD value of a pair of protein fragments. These estimated fragment-level RMSD values can be used to construct the alignment, assess the quality of an alignment, and identify high-quality alignment segments. We present algorithms to solve this fragment-level RMSD prediction problem using a supervised learning framework based on support vector regression and classification that incorporates protein profiles, predicted secondary structure, effective information encoding schemes, and novel second-order pairwise exponential kernel functions. Our comprehensive empirical study shows superior results compared with the profile-to-profile scoring schemes. We also show that for protein pairs with low sequence similarity (less than 12% sequence identity) these new local structural features alone or in conjunction with profile-based information lead to alignments that are considerably accurate than those obtained by schemes that use only profile and/or predicted secondary structure information.
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/21998_ftp.pdf
+

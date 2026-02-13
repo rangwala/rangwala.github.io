@@ -1,0 +1,28 @@
+%0 Journal Article
+%J BMC Bioinformatics
+%D 2009
+%T svmPRAT: SVM-based protein residue annotation toolkit.
+%A Huzefa Rangwala
+%A Christopher Kauffman
+%A George Karypis
+%C Computer Science Department, George Mason University, Fairfax, VA, USA. rangwala@cs.gmu.edu
+%K *Software
+%K Artificial Intelligence
+%K Automated
+%K Binding Sites
+%K Databases
+%K hf11
+%K Pattern Recognition
+%K Protein
+%K Protein Folding
+%K Protein Structure
+%K Protein/*methods
+%K Proteins/*chemistry
+%K Secondary
+%K Sequence Analysis
+%P 439
+%R 10.1186/1471-2105-10-439
+%V 10
+%X BACKGROUND: Over the last decade several prediction methods have been developed for determining the structural and functional properties of individual protein residues using sequence and sequence-derived information. Most of these methods are based on support vector machines as they provide accurate and generalizable prediction models. RESULTS: We present a general purpose protein residue annotation toolkit (svmPRAT) to allow biologists to formulate residue-wise prediction problems. svmPRAT formulates the annotation problem as a classification or regression problem using support vector machines. One of the key features of svmPRAT is its ease of use in incorporating any user-provided information in the form of feature matrices. For every residue svmPRAT captures local information around the reside to create fixed length feature vectors. svmPRAT implements accurate and fast kernel functions, and also introduces a flexible window-based encoding scheme that accurately captures signals and pattern for training effective predictive models. CONCLUSIONS: In this work we evaluate svmPRAT on several classification and regression problems including disorder prediction, residue-wise contact order estimation, DNA-binding site prediction, and local structure alphabet prediction. svmPRAT has also been used for the development of state-of-the-art transmembrane helix prediction method called TOPTMH, and secondary structure prediction method called YASSPP. This toolkit developed provides practitioners an efficient and easy-to-use tool for a wide variety of annotation problems.Availability: http://www.cs.gmu.edu/ mlbio/svmprat.
+%> http://www.cs.gmu.edu/~hrangwal/sites/default/files/1471-2105-10-439_0.pdf
+
