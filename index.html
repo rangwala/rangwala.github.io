@@ -14,9 +14,9 @@
 
   <style>
     :root {
-      --teal: #0089A7;
-      --teal-dark: #006f88;
-      --teal-light: #e6f4f7;
+      --accent: #3730a3;
+      --accent-dark: #2a2487;
+      --accent-light: #eef2ff;
       --text-main: #333;
       --text-muted: #666;
     }
@@ -40,7 +40,7 @@
 
     /* Navbar */
     .navbar {
-      background-color: var(--teal) !important;
+      background-color: var(--accent) !important;
       box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
     .navbar-brand {
@@ -89,7 +89,7 @@
       display: block;
       width: 60px;
       height: 3px;
-      background: var(--teal);
+      background: var(--accent);
       margin-top: 8px;
       margin-bottom: 30px;
     }
@@ -100,7 +100,7 @@
       height: 200px;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid var(--teal);
+      border: 4px solid var(--accent);
     }
     .about-name {
       font-size: 1.5rem;
@@ -115,13 +115,13 @@
       margin-bottom: 1rem;
     }
     .social-icons a {
-      color: var(--teal);
+      color: var(--accent);
       font-size: 1.4rem;
       margin: 0 8px;
       transition: color 0.2s;
     }
     .social-icons a:hover {
-      color: var(--teal-dark);
+      color: var(--accent-dark);
     }
 
     /* Publications */
@@ -141,7 +141,7 @@
       padding: 0 15px;
       font-weight: 700;
       font-size: 1.1rem;
-      color: var(--teal);
+      color: var(--accent);
       font-family: 'Open Sans', sans-serif;
     }
     .pub-entry {
@@ -158,8 +158,8 @@
     }
     .pub-tag {
       display: inline-block;
-      background: var(--teal-light);
-      color: var(--teal-dark);
+      background: var(--accent-light);
+      color: var(--accent-dark);
       font-size: 0.72rem;
       font-family: 'Open Sans', sans-serif;
       padding: 2px 8px;
@@ -180,13 +180,13 @@
       width: 1.2rem;
       height: 1.2rem;
       border-width: 2px;
-      color: var(--teal);
+      color: var(--accent);
       margin-right: 8px;
     }
     .scholar-link-btn {
       display: inline-block;
-      color: var(--teal);
-      border: 1px solid var(--teal);
+      color: var(--accent);
+      border: 1px solid var(--accent);
       padding: 6px 16px;
       border-radius: 4px;
       font-family: 'Open Sans', sans-serif;
@@ -196,7 +196,7 @@
       transition: all 0.2s;
     }
     .scholar-link-btn:hover {
-      background: var(--teal);
+      background: var(--accent);
       color: #fff;
     }
     .scholar-link-btn i {
@@ -204,7 +204,7 @@
     }
     .pub-entry a.pub-title {
       font-weight: 600;
-      color: var(--teal-dark);
+      color: var(--accent-dark);
       text-decoration: none;
     }
     .pub-entry a.pub-title:hover {
@@ -220,7 +220,7 @@
       border-bottom: none;
     }
     .news-item i {
-      color: var(--teal);
+      color: var(--accent);
       margin-right: 8px;
     }
 
@@ -228,7 +228,7 @@
     .subsection-title {
       font-weight: 700;
       font-size: 1.15rem;
-      color: var(--teal);
+      color: var(--accent);
       margin-top: 30px;
       margin-bottom: 15px;
       text-transform: uppercase;
@@ -238,7 +238,7 @@
       margin-top: 0;
     }
     .table th {
-      background-color: var(--teal);
+      background-color: var(--accent);
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-size: 0.85rem;
@@ -250,13 +250,9 @@
     .student-list li {
       margin-bottom: 6px;
     }
-    .course-item {
-      margin-bottom: 4px;
-    }
-
     /* Footer */
     footer {
-      background-color: var(--teal);
+      background-color: var(--accent);
       color: #fff;
       padding: 30px 0;
     }
@@ -319,7 +315,7 @@
         <div class="col-md-4 about-left text-center">
           <img src="images/huzi_PIC.JPG" alt="Huzefa Rangwala" class="portrait">
           <div class="about-name">Huzefa Rangwala, PhD</div>
-          <div class="about-title">[Title placeholder]</div>
+          <div class="about-title">Senior Manager, Applied Science &mdash; AWS, Amazon</div>
           <div class="social-icons">
             <a href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
             <a href="https://github.com/rangwala" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
@@ -328,11 +324,11 @@
         </div>
         <div class="col-md-8">
           <h2 class="section-title">About</h2>
-          <p>I am a former Professor of <a href="http://www.cs.gmu.edu/" target="_blank">Computer Science</a> at <a href="http://www.gmu.edu/" target="_blank">George Mason University</a>, where I was affiliated with the <a href="http://bioengineering.gmu.edu" target="_blank">Bioengineering</a> and <a href="http://ssb.gmu.edu/" target="_blank">Bioinformatics</a> departments. I graduated with a Ph.D. (2008) and M.S. (2005) in Computer Science from the <a href="http://www.cs.umn.edu/" target="_blank">University of Minnesota, Twin Cities</a> and a B.S. in Computer Engineering from <a href="http://www.vjti.ac.in/" target="_blank">Veermata Jijabai Technological Institute</a> (2003) in Mumbai, India. I was a Visiting Faculty at the <a href="http://dac.cs.vt.edu/" target="_blank">Discovery Analytics Center</a> of <a href="http://www.cs.vt.edu/" target="_blank">Virginia Tech</a> in Arlington, VA (2015&ndash;2016).</p>
+          <p>I am a Senior Manager of Applied Science at <strong>Amazon Web Services (AWS)</strong>, where I lead science teams across AutoML, Bedrock Guardrails, Model Customization, and Graph ML. My teams build and ship foundation models and enterprise AI solutions at scale &mdash; including <strong>AutoGluon</strong>, <strong>Chronos</strong> (600M+ downloads), <strong>Amazon Bedrock Guardrails</strong>, and <strong>GraphRAG</strong>.</p>
 
-          <p><strong>Research Interests:</strong> Data Mining and Machine Learning, with fundamental contributions in <strong>Multi-Task and Transfer Learning</strong>, <strong>Hierarchical Classification</strong>, and <strong>Recommender Systems</strong>, applied to <strong>Biomedical Informatics</strong>, <strong>Educational Data Mining</strong>, and <strong>Social Network Analysis</strong>.</p>
+          <p>In 2025, my teams delivered multiple high-impact launches at re:Invent including Bedrock Guardrails GA for code modality, model customization with serverless support in SageMaker AI, and reinforcement fine-tuning in Bedrock. We also released <strong>Chronos-2</strong>, Amazon's state-of-the-art foundation model for time series forecasting, and <strong>AutoGluon 1.5</strong> with an 85% win-rate for tabular tasks. Under my leadership, Bedrock Guardrails grew adoption by 462% YoY, processing 10.5B text units across 100+ languages.</p>
 
-          <p>My group focused on developing novel algorithms and engineering effective solutions for real-world applications. Research was funded by NSF, NRL, NIH, DARPA, USDA, and Google, Inc.</p>
+          <p>Previously, I was a <strong>Professor of Computer Science</strong> at <a href="http://www.gmu.edu/" target="_blank">George Mason University</a>, affiliated with the Bioengineering and Bioinformatics departments. I hold a Ph.D. (2008) and M.S. (2005) from the <a href="http://www.cs.umn.edu/" target="_blank">University of Minnesota, Twin Cities</a> and a B.S. from <a href="http://www.vjti.ac.in/" target="_blank">VJTI Mumbai</a> (2003). My research spans machine learning, data mining, recommender systems, and graph neural networks, with funding from NSF, NIH, DARPA, and Google.</p>
         </div>
       </div>
     </div>
@@ -476,45 +472,7 @@
         <li>Minh Bui, B.S. in CS (Summer 2010) &mdash; Sponsor: UAP Program, GMU</li>
       </ul>
 
-      <!-- Projects -->
-      <h3 class="subsection-title">Research Projects</h3>
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title" style="color:var(--teal)">Biological Data Mining</h5>
-              <p class="card-text">Development of machine learning algorithms for metagenomics, protein function prediction, and microbiome analysis. Tools: MC-MinH, HierCost, TAC-ELM, LSH-Div, svmPRAT, MONSTER.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title" style="color:var(--teal)">Learning Analytics</h5>
-              <p class="card-text">Building recommender systems and predictive models for student performance and educational outcomes. Tools: NTSGP, DMGrader. Funded by NSF BIG DATA.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title" style="color:var(--teal)">Cyber-Physical Systems</h5>
-              <p class="card-text">Classification of hand motions using ultrasound imaging for prosthetics and rehabilitation engineering, in collaboration with the Sikdar Lab at GMU.</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Teaching -->
-      <h3 class="subsection-title">Teaching</h3>
-      <ul class="student-list list-unstyled">
-        <li class="course-item"><strong>CS 584</strong> &mdash; Data Mining (Graduate)</li>
-        <li class="course-item"><strong>CS 484</strong> &mdash; Data Mining (Undergraduate)</li>
-        <li class="course-item"><strong>CS 795</strong> &mdash; Advanced Topics in Data Mining / Social Network Analysis (Graduate Seminar)</li>
-        <li class="course-item"><strong>CS 465</strong> &mdash; Computer Systems Architecture</li>
-        <li class="course-item"><strong>CS 367</strong> &mdash; Computer Systems and Programming</li>
-        <li class="course-item"><strong>CS 750</strong> &mdash; Theory and Applications of Data Mining</li>
-      </ul>
 
     </div>
   </section>
