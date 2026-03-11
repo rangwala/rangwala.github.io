@@ -212,6 +212,11 @@
     }
 
     /* News */
+    .news-scroll {
+      max-height: calc(5 * 56px);
+      overflow-y: auto;
+      padding-right: 6px;
+    }
     .news-item {
       padding: 6px 0;
       border-bottom: 1px solid #eee;
@@ -300,9 +305,11 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
           <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
-          <li class="nav-item"><a class="nav-link" href="#past">Past</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#advisees">Student Advisees</a></li>
+          <li class="nav-item"><a class="nav-link" href="teaching.html">Courses (Archive)</a></li>
         </ul>
       </div>
     </div>
@@ -325,62 +332,14 @@
         </div>
         <div class="col-md-8">
           <h2 class="section-title">About</h2>
-          <p>I am a Senior Manager of Applied Science at <strong>Amazon Web Services (AWS)</strong>, where I lead science teams across AutoML, Bedrock Guardrails, Model Customization, and Graph ML. My teams build and ship foundation models and enterprise AI solutions at scale &mdash; including <strong>AutoGluon</strong>, <strong>Chronos</strong> (600M+ downloads), <strong>Amazon Bedrock Guardrails</strong>, and <strong>GraphRAG</strong>.</p>
+          <p>Science leader with a unique blend of academic rigor and industry impact. Previously, I led an applied science organization at <strong>Amazon Web Services (AWS)</strong>, driving post-training science for <strong>Amazon Bedrock</strong> and <strong>SageMaker</strong> &mdash; from customizing foundation models and developing guardrails, to leading open-source efforts on graph ML and AutoML. Prior to that, I held a tenured professorship in the <strong>Computer Science Department</strong> at <a href="http://www.gmu.edu/" target="_blank">George Mason University</a> (2008&ndash;2025), including a stint as Interim Chair (2021&ndash;2022). I am most proud to be the recipient of the <strong>NSF CAREER Award</strong> (2013&ndash;2018), the <strong>GMU Teaching Excellence Award</strong> (2014), the <strong>Outstanding Researcher Award</strong> (2018), and the <strong>OSCAR Undergraduate Mentoring Excellence Award</strong> (2018). Thanks to NSF, NIH, DARPA, Google, DHS, and NRL for supporting my research. I hold a Ph.D. (2008) and M.S. (2005) from the <a href="http://www.cs.umn.edu/" target="_blank">University of Minnesota, Twin Cities</a> and a B.E. from <a href="http://www.vjti.ac.in/" target="_blank">VJTI Mumbai</a> (2003).</p>
 
-          <p>In 2025, my teams delivered multiple high-impact launches at re:Invent including Bedrock Guardrails GA for code modality, model customization with serverless support in SageMaker AI, and reinforcement fine-tuning in Bedrock. We also released <strong>Chronos-2</strong>, Amazon's state-of-the-art foundation model for time series forecasting, and <strong>AutoGluon 1.5</strong> with an 85% win-rate for tabular tasks. Under my leadership, Bedrock Guardrails grew adoption by 462% YoY, processing 10.5B text units across 100+ languages.</p>
+          <p>What energizes me most is connecting advanced science to real problems. In academia, this meant pursuing inter-disciplinary science &mdash; applying machine learning to biology, medicine, education, and social sciences &mdash; in the belief that the most interesting questions live at the boundaries between fields. In industry, it means connecting scientific innovation to real customer impact. Whether it's training foundation models for time series forecasting, making generative AI safer through guardrails, or optimizing GPU kernels with reinforcement learning &mdash; I believe the best research happens when curiosity meets customer obsession.</p>
 
-          <p>Previously, I was a <strong>Professor of Computer Science</strong> at <a href="http://www.gmu.edu/" target="_blank">George Mason University</a>, affiliated with the Bioengineering and Bioinformatics departments. I hold a Ph.D. (2008) and M.S. (2005) from the <a href="http://www.cs.umn.edu/" target="_blank">University of Minnesota, Twin Cities</a> and a B.S. from <a href="http://www.vjti.ac.in/" target="_blank">VJTI Mumbai</a> (2003). My research spans machine learning, data mining, recommender systems, and graph neural networks, with funding from NSF, NIH, DARPA, and Google.</p>
+          <p>I'm passionate about building high-performing teams, mentoring the next generation of scientists, teaching, and creating cultures where exploration and delivery coexist. See my <a href="#advisees">student advisees</a>.</p>
+
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- PUBLICATIONS -->
-  <section id="publications">
-    <div class="container">
-      <h2 class="section-title">Publications</h2>
-
-      <!-- Recent Publications (fetched from Google Scholar) -->
-      <div id="recent-pubs">
-        <div class="recent-pubs-loading">
-          <span class="spinner-border" role="status"></span> Loading recent publications from Google Scholar&hellip;
-        </div>
-      </div>
-
-      <h3 class="subsection-title" style="margin-top:40px;">Most Cited</h3>
-      <ol class="list-unstyled">
-        <li class="pub-entry">
-          <span class="pub-title">Asynchronous online federated learning for edge devices with non-IID data.</span>
-          Yujing Chen, Yue Ning, Martin Slawski, and <strong>Huzefa Rangwala</strong>.
-          <span class="pub-venue">IEEE International Conference on Big Data, 2020.</span>
-          <br><span class="pub-tag">Federated Learning</span> <span class="pub-tag">Edge Computing</span>
-        </li>
-        <li class="pub-entry">
-          <span class="pub-title">Modulation of the metabiome by rifaximin in patients with cirrhosis and minimal hepatic encephalopathy.</span>
-          Jasmohan S. Bajaj, Douglas M. Heuman, Arun J. Sanyal, Phillip B. Hylemon, Richard K. Sterling, R. Todd Stravitz, Michael Fuchs, Jason M. Ridlon, Kalyani Daita, Pamela Monteith, Nicole A. Noble, Melanie B. White, Andmorgan Fisher, Masoumeh Sikaroodi, <strong>Huzefa Rangwala</strong>, and Patrick M. Gillevet.
-          <span class="pub-venue">PLoS ONE, 8(4):e60042, 2013.</span>
-          <br><span class="pub-tag">Microbiome Analysis</span> <span class="pub-tag">Clinical Application</span>
-        </li>
-        <li class="pub-entry">
-          <span class="pub-title">Mixed-type tabular data synthesis with score-based diffusion in latent space.</span>
-          Hengrui Zhang, Jiani Zhang, Balasubramaniam Srinivasan, Zhengyuan Shen, Xiao Qin, Christos Faloutsos, <strong>Huzefa Rangwala</strong>, and George Karypis.
-          <span class="pub-venue">International Conference on Learning Representations (ICLR), 2023.</span>
-          <br><span class="pub-tag">Generative Models</span> <span class="pub-tag">Tabular Data</span> <span class="pub-tag">Diffusion</span>
-        </li>
-        <li class="pub-entry">
-          <span class="pub-title">Predicting student performance using personalized analytics.</span>
-          Asmaa Elbadrawy, Agoritsa Polyzou, Zhiyun Ren, Mackenzie Sweeney, George Karypis, and <strong>Huzefa Rangwala</strong>.
-          <span class="pub-venue">Computer, 49(4):61&ndash;69, 2016.</span>
-          <br><span class="pub-tag">Educational Data Mining</span> <span class="pub-tag">Recommender Systems</span>
-        </li>
-        <li class="pub-entry">
-          <span class="pub-title">Next-term student performance prediction: A recommender systems approach.</span>
-          Mack Sweeney, <strong>Huzefa Rangwala</strong>, Jaime Lester, and Aditya Johri.
-          <span class="pub-venue">Journal of Educational Data Mining, 2016.</span>
-          <br><span class="pub-tag">Educational Data Mining</span> <span class="pub-tag">Recommender Systems</span>
-        </li>
-      </ol>
-
     </div>
   </section>
 
@@ -388,60 +347,123 @@
   <section id="news">
     <div class="container">
       <h2 class="section-title">News</h2>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Welcomed 9 undergraduate students for our NSF Sponsored REU Site for the 2nd year.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Mohammad is off for summer internship at TeraData in San Diego, CA.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Qian is off for summer internship at Amazon A9 Group in the Bay Area.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Zhiyun graduates with her Ph.D. and is working as a postdoctoral scholar at Ohio State University.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Qian is off to do a summer internship at Facebook in Seattle, WA.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Zhiyun is off to do a summer internship at Adobe, Inc in San Jose, CA.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Demo Paper on Trajectory Mining and Visualization accepted at ECML-PKDD 2017.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Zhiyun to present paper at EDM 2017 in Wuhan, China.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Huzefa to present tutorial at KDD 2017 in Halifax, Canada.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Paper accepted at ACM RecSys 2017.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Huzefa leads Roundtable discussion at Cyber Learning Conference 2017.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Huzefa presents tutorial at SIAM Data Mining 2017 on Educational Mining.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Congratulations to Azad for defending his Ph.D.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Accepted KDD 2016 Research Paper in collaboration with DAC, Virginia Tech.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Anveshi Charuvaka wins the Outstanding Graduate Student Award for his thesis in 2015.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Azad and Huzefa are presenting a tutorial at SIAM SDM 2016.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Undergraduate Ananya wins OSCAR Student Excellence Award.</div>
-      <div class="news-item"><i class="fa-solid fa-star"></i> Azad is awarded the Summer Graduate Fellowship.</div>
+
+      <div class="news-scroll">
+        <div class="news-item">
+          <i class="fa-solid fa-star"></i>
+          <strong>Launch</strong> &mdash; <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai/" target="_blank">Amazon Bedrock reinforcement fine-tuning adds support for open-weight models with OpenAI-compatible APIs</a>.
+          Expanding model customization to Qwen and OpenAI GPT-OSS variants via rule-based and AI-powered reward functions.
+        </div>
+
+        <div class="news-item">
+          <i class="fa-solid fa-star"></i>
+          <strong>ICLR 2026</strong> &mdash; <a href="https://lnkd.in/gkS6FvYM" target="_blank">Relatron: Automating Relational Machine Learning over Relational Databases</a>.
+          Congratulations to <strong>Zhikai Chen</strong> for driving this work end-to-end.
+          Co-authors: Han Xie, Haiyang Yu, Xiang Song, and Huzefa Rangwala.
+        </div>
+
+        <div class="news-item">
+          <i class="fa-solid fa-star"></i>
+          <strong>ICLR 2026</strong> &mdash; <a href="https://openreview.net/forum?id=zHuV3Vatov" target="_blank">VeriCoT: Neuro-symbolic Chain-of-Thought Validation via Logical Consistency Checks</a>.
+          Congratulations to <strong>Yu (Annie) Feng</strong> (AWS summer intern) and co-authors Nathaniel Weir, Kaj Bostrom, Sam Bayless, Darion Cassel, Sapana Chaudhary, Benjamin Kiesl-Reiter, and Huzefa Rangwala.
+        </div>
+
+        <div class="news-item">
+          <i class="fa-solid fa-star"></i>
+          <strong>Release</strong> &mdash; <a href="https://github.com/awslabs/graphstorm/releases" target="_blank">GraphStorm 0.5.1</a> (December 2025).
+          Adds edge feature support across all built-in GNN models (GraphSAGE, GAT, GATv2), real-time inference with raw text input, and experimental Mitra integration for tabular feature embeddings.
+        </div>
+
+        <div class="news-item">
+          <i class="fa-solid fa-star"></i>
+          <strong>Release</strong> &mdash; <a href="https://auto.gluon.ai/stable/whats_new/index.html" target="_blank">AutoGluon 1.5.0</a> (December 2025).
+          Introduces Chronos-2 for zero-shot time series forecasting, new tabular models (RealTabPFN-2, TabDPT), and up to 80% win rate over v1.4 on time series benchmarks.
+        </div>
+
+        <div class="news-item">
+          <i class="fa-solid fa-star"></i>
+          <strong>Launch</strong> &mdash; <a href="https://www.amazon.science/blog/introducing-chronos-2-from-univariate-to-universal-forecasting" target="_blank">Chronos-2: From Univariate to Universal Forecasting</a> (October 2025).
+          Amazon's next-generation time series foundation model supporting multivariate, covariate-informed, and zero-shot forecasting. Achieves 90%+ win rate over its predecessor; available open-source on Hugging Face and Amazon SageMaker.
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- PAST -->
-  <section id="past">
+  <!-- PRIOR WORK EXPERIENCE -->
+  <section id="experience">
     <div class="container">
-      <h2 class="section-title">Past &mdash; Academic Career at GMU</h2>
+      <h2 class="section-title">Prior Work Experience</h2>
+
+      <h3 class="subsection-title">Amazon Web Services &mdash; Senior Manager, Applied Science (2022&ndash;2026)</h3>
+
+
+
+      <p>Led a 70-person applied science organization driving post-training science for <strong>Amazon Bedrock</strong> and <strong>SageMaker</strong>, and open-source efforts in GraphML and AutoML.</p>
+
+      <p><strong>2025&ndash;26</strong><br>
+      My teams shipped several high-impact launches. We released <strong>Chronos-2</strong>, Amazon's foundation model for time series forecasting, which achieved state-of-the-art results across all major benchmarks and surpassed 600M downloads. <strong>AutoGluon 1.4</strong> and <strong>1.5</strong> set new records for tabular and time series prediction. I led science for <strong>Amazon Bedrock Guardrails</strong>, expanding content moderation to 100+ languages and new modalities. We launched reinforcement fine-tuning at re:Invent 2025, and explored RL-based GPU kernel optimization achieving up to ~2x speedups.</p>
+
+      <p><strong>2024</strong><br>
+      The team launched <strong>Amazon Bedrock GraphRAG</strong> at re:Invent 2024 and I stood up the <strong>Think Forward Lab</strong> for forward-looking research in autonomous agents and kernel optimization.</p>
+
+      <p><strong>2023</strong><br>
+      I supported the open-source <strong>GraphStorm</strong> project for training large-scale graph neural networks, integrated with <strong>Amazon Neptune</strong> &amp; applied on applications at Amazon for Search, Ads and Fraud.</p>
+
+      I led alignment science (RLHF) for <strong>Amazon Titan</strong>, owned science for <strong>Amazon DataZone</strong>'s data cataloging and governance features, and trained biological sequence models for drug discovery.</p>
+
+      <p><strong>2022</strong><br>
+      I led the team that built custom ML solutions with AWS customers in healthcare, semiconductor, and pharmaceutical industries through the <strong>ML Solutions Lab</strong>.</p>
+
+      <h3 class="subsection-title">George Mason University &mdash; Professor of Computer Science (2008&ndash;2024)</h3>
+
+      <p><strong>Interim Chair (2019&ndash;2020)</strong><br>
+      Recruited 13 new faculty members including chair and 10 tenured/tenure-track faculty. Improved CS Rankings score from 60+ to 34. Won a $3M Break Through Tech Grant from Cornell Tech to improve women graduates in CS from 18% to 33%. Led virtual transition during COVID-19 serving 2,000+ students.</p>
+
+      <p><strong>Lawrence Cranberry Faculty Fellow (2019&ndash;2024)</strong><br>
+      Endowed faculty fellowship recognizing research excellence. Also served as Smithsonian Institution Fellow (2021).</p>
+
+      <p><strong>Research &amp; Funding</strong><br>
+      Secured over $10M in external funding as PI/Co-PI from NSF, NIH, DARPA, Google, DHS, and NRL. Led research in machine learning, data mining, bioinformatics, learning analytics, and fairness-aware algorithms. Published 130+ peer-reviewed papers. General Chair for ACM KDD 2022 in Washington, DC (2,000+ attendees).</p>
+
+      <p><strong>Teaching &amp; Mentoring</strong><br>
+      Graduated 12 Ph.D. students (now at Google, Microsoft, Amazon, Intel, LinkedIn). Advised 7 M.S. thesis students and 14 undergraduate mentees. Taught Data Mining, Computer Systems Architecture, Biological Data Mining, and Parallel Computing. Received Outstanding Researcher, Outstanding Teaching, and Undergraduate Mentoring Excellence awards. NSF CAREER Award recipient (2013&ndash;2018).</p>
+    </div>
+  </section>
+
+
+
+  <!-- ADVISEES -->
+  <section id="advisees">
+    <div class="container">
+      <h2 class="section-title">Student Advisees</h2>
 
       <!-- PhD Alumni -->
       <h3 class="subsection-title">Ph.D. Alumni</h3>
       <div class="table-responsive">
+        <p class="text-muted" style="font-size:0.85rem; font-family:'Open Sans',sans-serif;">† Winner of CS Department Outstanding Graduate Student Award</p>
         <table class="table table-striped table-hover">
           <thead>
             <tr><th>Name</th><th>Thesis</th><th>Graduated</th><th>Position After</th></tr>
           </thead>
           <tbody>
-            <tr><td>Azad Naik</td><td>Hierarchical Classification with Rare Categories and Inconsistencies</td><td>03/2017</td><td>Data Scientist, Microsoft, Seattle, WA</td></tr>
-            <tr><td>Anveshi Charuvaka</td><td>Regularized Learning in Multiple Tasks With Relationships</td><td>03/2015</td><td>Senior Scientist, GE Digital</td></tr>
-            <tr><td>Tanwistha Saha</td><td>Learning in Relational Networks (Co-Advisor: Dr. Carlotta Domeniconi)</td><td>11/2014</td><td>R&amp;D Engineer, Intel</td></tr>
-            <tr><td>Samuel Blasiak</td><td>Latent Variable Models of Sequences for Classification and Discovery</td><td>08/2013</td><td>Software Engineer, Google</td></tr>
+            <tr><td>Jonathan Vasquez</td><td>Auditing Discrimination Risks in Datasets</td><td>12/2024</td><td>Co-Founder, EvoConsulting &amp; EvoAcademy</td></tr>
+            <tr><td>Xavier Gitiaux</td><td>Pre- and Post-Fairness Processing for Black Box Classifiers</td><td>05/2022</td><td>Scientist, Microsoft</td></tr>
+            <tr><td>Al-Amin Hosain <small>(Co-Advisor: Prof. Kosecka)</small></td><td>Word-Level Sign Language Recognition From Videos</td><td>12/2021</td><td>Scientist, Walmart Labs</td></tr>
+            <tr><td>Yujing Chen</td><td>Sensor Analytics using Multi-Task Learning and Federated Learning</td><td>05/2021</td><td>Applied Scientist, Amazon</td></tr>
+            <tr><td>Mohammad Arifur Rahman</td><td>Efficient and Interpretable Machine Learning Algorithms for Predictive Analyses in Metagenomic Data</td><td>12/2020</td><td>Applied Scientist, Amazon</td></tr>
+            <tr><td>Qian Hu</td><td>Educational Data Mining for All: Fair Machine Learning for Student Modeling and Forecasting</td><td>07/2020</td><td>Applied Scientist, Amazon</td></tr>
+            <tr><td>Zhiyun Ren</td><td>Academic Performance Prediction Using Machine Learning Techniques</td><td>05/2019</td><td>Scientist, LinkedIn</td></tr>
+            <tr><td>Azad Naik</td><td>Hierarchical Classification with Rare Categories and Inconsistencies</td><td>02/2017</td><td>Data Scientist, Microsoft</td></tr>
+            <tr><td>Anveshi Charuvaka †</td><td>Regularized Learning in Multiple Tasks With Relationships</td><td>09/2017</td><td>Applied Scientist, Amazon</td></tr>
+            <tr><td>Tanwistha Saha <small>(Co-Advisor: Prof. Domeniconi)</small></td><td>Learning in Relational Networks</td><td>11/2014</td><td>Advanced Analytics &amp; Deployment Engineer, Intel</td></tr>
+            <tr><td>Samuel Blasiak †</td><td>Latent Variable Models of Sequences for Classification and Discovery</td><td>08/2013</td><td>Software Engineer, Google</td></tr>
             <tr><td>Zeehasham Rasheed</td><td>Data Mining Framework for Metagenome Analysis</td><td>04/2013</td><td>Data Scientist, AOL</td></tr>
-            <tr><td>Nuttachat Wisittipanit</td><td>Machine Learning Approach for Profiling Human Microbiome (Co-Advisor: Patrick Gillevet)</td><td>03/2012</td><td>&mdash;</td></tr>
+            <tr><td>Nuttachat Wisittipanit <small>(Co-Advisor: Prof. Gillevet)</small></td><td>Machine Learning Approach for Profiling Human Microbiome</td><td>03/2012</td><td>&mdash;</td></tr>
           </tbody>
         </table>
       </div>
 
-      <!-- PhD Students -->
-      <h3 class="subsection-title">Ph.D. Students (at GMU)</h3>
-      <ul class="student-list list-unstyled">
-        <li><strong>Zhiyun Ren</strong> &mdash; Educational Data Mining, Learning Analytics</li>
-        <li><strong>Qian Hu</strong> &mdash; Educational Data Mining, Learning Analytics</li>
-        <li><strong>Mohammad Arifur Rahman</strong> &mdash; Bioinformatics, Metagenomics, Multiple Instance Learning</li>
-        <li><strong>Li Zhang</strong> &mdash; Statistical Analysis, Educational Data Mining</li>
-        <li><strong>Yujing Chen</strong> &mdash; Statistical Analysis, Educational Data Mining</li>
-        <li><strong>Al-Amin Hosain</strong> &mdash; Cyber-Physical Systems, Multi-Task Learning</li>
-      </ul>
 
       <!-- MS Advisees -->
       <h3 class="subsection-title">M.S. Thesis Advisees</h3>
@@ -529,79 +551,6 @@
       });
     });
 
-    // Fetch recent publications from Google Scholar
-    (async function fetchRecentPubs() {
-      const container = document.getElementById('recent-pubs');
-      const scholarUrl = 'https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en&sortby=pubdate';
-      const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(scholarUrl);
-
-      function renderFallback() {
-        container.innerHTML =
-          '<p><a href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank" class="scholar-link-btn">' +
-          '<i class="fa-brands fa-google-scholar"></i> View all publications on Google Scholar</a></p>';
-      }
-
-      try {
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 8000);
-        const response = await fetch(proxyUrl, { signal: controller.signal });
-        clearTimeout(timeout);
-
-        if (!response.ok) throw new Error('Fetch failed');
-        const data = await response.json();
-        if (!data.contents) throw new Error('No content');
-
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(data.contents, 'text/html');
-        const rows = doc.querySelectorAll('#gsc_a_b .gsc_a_tr');
-
-        if (!rows || rows.length === 0) throw new Error('No publications found');
-
-        let html = '<ol class="list-unstyled">';
-        const limit = Math.min(rows.length, 10);
-
-        for (let i = 0; i < limit; i++) {
-          const row = rows[i];
-          const titleEl = row.querySelector('.gsc_a_at');
-          if (!titleEl) continue;
-
-          const title = titleEl.textContent.trim();
-          const href = titleEl.getAttribute('href') || '';
-          const link = href.startsWith('/') ? 'https://scholar.google.com' + href : href;
-
-          const grayDivs = row.querySelectorAll('.gs_gray');
-          const authors = grayDivs[0] ? grayDivs[0].textContent.trim() : '';
-          const venue = grayDivs[1] ? grayDivs[1].textContent.trim() : '';
-
-          const yearEl = row.querySelector('.gsc_a_y span');
-          const year = yearEl ? yearEl.textContent.trim() : '';
-
-          if (!title) continue;
-
-          // Bold Rangwala in author list (escape HTML first)
-          const safeAuthors = authors
-            .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-            .replace(/(H\.?\s*N?\.?\s*Rangwala|Rangwala\s*H\.?\s*N?\.?)/gi, '<strong>$1</strong>');
-          const safeTitle = title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-          const safeVenue = venue.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-          html += '<li class="pub-entry">';
-          html += '<a href="' + link + '" target="_blank" class="pub-title">' + safeTitle + '</a><br>';
-          html += safeAuthors;
-          if (safeVenue) html += ' <span class="pub-venue">' + safeVenue + '</span>';
-          if (year) html += ' <span class="pub-tag">' + year + '</span>';
-          html += '</li>';
-        }
-
-        html += '</ol>';
-        html += '<p style="margin-top:10px"><a href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank" class="scholar-link-btn">' +
-                '<i class="fa-brands fa-google-scholar"></i> View all on Google Scholar</a></p>';
-
-        container.innerHTML = html;
-      } catch (e) {
-        renderFallback();
-      }
-    })();
   </script>
 
 </body>

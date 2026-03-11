@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses (Archive) &mdash; Huzefa Rangwala</title>
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --accent: #3730a3;
+      --accent-dark: #2a2487;
+      --accent-light: #eef2ff;
+      --text-main: #333;
+      --text-muted: #666;
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+
+    body {
+      font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+      color: var(--text-main);
+      padding-top: 56px;
+    }
+
+    p, li, td {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 0.97rem;
+      line-height: 1.7;
+    }
+
+    /* Navbar */
+    .navbar { background-color: var(--accent) !important; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    .navbar-brand { font-weight: 700; font-size: 1.15rem; color: #fff !important; }
+    .navbar-nav .nav-link {
+      color: rgba(255,255,255,0.85) !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+      padding: 0.5rem 1rem;
+      transition: color 0.2s;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active { color: #fff !important; }
+    .navbar-toggler { border-color: rgba(255,255,255,0.4); }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    section { padding: 60px 0; }
+
+    .section-title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: var(--accent);
+      margin-top: 8px;
+      margin-bottom: 30px;
+    }
+
+    .subsection-title {
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--accent);
+      margin-top: 30px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .subsection-title:first-of-type { margin-top: 0; }
+
+    .course-list { list-style: none; padding: 0; }
+    .course-list li {
+      padding: 6px 0;
+      border-bottom: 1px solid #eee;
+      font-family: 'Lora', Georgia, serif;
+      font-size: 0.97rem;
+    }
+    .course-list li:last-child { border-bottom: none; }
+    .course-list a {
+      color: var(--accent-dark);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .course-list a:hover { text-decoration: underline; }
+    .course-semester {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-left: 8px;
+    }
+
+    /* Footer */
+    footer { background-color: var(--accent); color: #fff; padding: 30px 0; }
+    footer a { color: rgba(255,255,255,0.85); font-size: 1.3rem; margin: 0 10px; transition: color 0.2s; }
+    footer a:hover { color: #fff; }
+    footer .copyright { font-size: 0.85rem; opacity: 0.8; margin-top: 10px; font-family: 'Open Sans', sans-serif; }
+
+    @media (max-width: 767px) { section { padding: 40px 0; } }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Huzefa Rangwala</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#advisees">Student Advisees</a></li>
+          <li class="nav-item"><a class="nav-link active" href="teaching.html">Courses (Archive)</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- COURSES -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Courses (Archive)</h2>
+      <p style="font-family:'Open Sans',sans-serif; font-size:0.9rem; color:var(--text-muted);">Courses taught at the Department of Computer Science, George Mason University.</p>
+
+      <h3 class="subsection-title">CS 584 / CS 484 &mdash; Data Mining</h3>
+      <ul class="course-list">
+        <li><a href="cs584_F2021.html">CS 584: Data Mining</a><span class="course-semester">Fall 2021</span></li>
+        <li><a href="cs584_Sp2021.html">CS 584: Data Mining</a><span class="course-semester">Spring 2021</span></li>
+        <li><a href="cs584_and_484_F2020.html">CS 584 / CS 484: Data Mining</a><span class="course-semester">Fall 2020</span></li>
+        <li><a href="cs484F2019.html">CS 484: Data Mining</a><span class="course-semester">Fall 2019</span></li>
+        <li><a href="cs484F2018.html">CS 484: Data Mining</a><span class="course-semester">Fall 2018</span></li>
+        <li><a href="cs484F2017.html">CS 484: Data Mining</a><span class="course-semester">Fall 2017</span></li>
+      </ul>
+
+      <h3 class="subsection-title">CS 795 &mdash; Deep Learning</h3>
+      <ul class="course-list">
+        <li><a href="cs795Sp2019.html">CS 795: Deep Learning</a><span class="course-semester">Spring 2019</span></li>
+      </ul>
+
+      <h3 class="subsection-title">CS 465 &mdash; Computer Systems Architecture</h3>
+      <ul class="course-list">
+        <li><a href="cs465S2018.html">CS 465: Computer Systems Architecture</a><span class="course-semester">Spring 2018</span></li>
+      </ul>
+
+      <h3 class="subsection-title">CS 367 &mdash; Computer Systems and Programming</h3>
+      <ul class="course-list">
+        <li><a href="courses/cs367.html">CS 367: Computer Systems and Programming</a></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <div class="container">
+      <div>
+        <a href="https://scholar.google.com/citations?user=yWJ9BqEAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+        <a href="https://www.linkedin.com/in/huzefarangwala/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/rangwala" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:rangwala@cs.gmu.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <div class="copyright">&copy; Huzefa Rangwala</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const navbarCollapse = document.getElementById('navbarNav');
+    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        if (navbarCollapse.classList.contains('show')) {
+          bootstrap.Collapse.getOrCreateInstance(navbarCollapse).hide();
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
